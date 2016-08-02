@@ -1,0 +1,20 @@
+\BOOKMARK [0][-]{chapter.1}{Theoretical Background on Thermal Radiation}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Airborne Thermal Hyperspectral Data Properties}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Instrument Technical Specifications}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{Image pre-processing}{chapter.2}% 4
+\BOOKMARK [0][-]{chapter.3}{Temperature and Emissivity Separation}{}% 5
+\BOOKMARK [1][-]{section.3.1}{Available approaches}{chapter.3}% 6
+\BOOKMARK [1][-]{section.3.2}{TES Algorithm Improvement}{chapter.3}% 7
+\BOOKMARK [1][-]{section.3.3}{Algorithm Performance}{chapter.3}% 8
+\BOOKMARK [1][-]{section.3.4}{Simulated Data}{chapter.3}% 9
+\BOOKMARK [1][-]{section.3.5}{Comparison with ASTER standard products}{chapter.3}% 10
+\BOOKMARK [1][-]{section.3.6}{Application to TASI Data}{chapter.3}% 11
+\BOOKMARK [0][-]{chapter.4}{Ground Measurements}{}% 12
+\BOOKMARK [1][-]{section.4.1}{Technical Specifications}{chapter.4}% 13
+\BOOKMARK [1][-]{section.4.2}{Instrument Calibration}{chapter.4}% 14
+\BOOKMARK [1][-]{section.4.3}{Temperature and Emissivity Separation}{chapter.4}% 15
+\BOOKMARK [1][-]{section.4.4}{Applications}{chapter.4}% 16
+\BOOKMARK [0][-]{chapter.5}{Application to UHI Detection}{}% 17
+\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 18
+\BOOKMARK [0][-]{chapter*.15}{References}{}% 19
+\BOOKMARK [1][-]{section*.16}{References}{chapter*.15}% 20

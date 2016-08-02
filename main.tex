@@ -1,0 +1,264 @@
+%\documentclass[twoside,12pt]{article}% dvoustranný tisk
+\documentclass[twoside,12pt]{book}% jednostranný tisk
+
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\PrerenderUnicode{ěščřžýáíéĚŠČŘŽÝÁÍÉďťňĎŤŇůúÚóÓ}
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{pdfpages}
+\usepackage{hyperref}
+\usepackage{amsthm}
+%\usepackage{subfig}
+\usepackage{bm}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{caption}
+\usepackage{mathtools} %symboly nad sipkami
+\usepackage{placeins} %\floatbarrier
+%\usepackage{color}
+%	\newcommand{\red}{\textcolor{red}}
+\usepackage{mathtools}
+\usepackage{rotating} % pro sidewaystable
+\usepackage{siunitx}
+\usepackage{multirow}
+\usepackage{epstopdf}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage{subcaption}
+	\renewcommand{\arraystretch}{1.4}
+	\usepackage{array}
+	\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}	% center normal
+	\newcolumntype{S}[1]{>{\small\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}	% center small
+	\newcolumntype{L}[1]{>{\small\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}} % small left
+	\newcolumntype{R}[1]{>{\small\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}} % small right
+	\newcolumntype{F}[1]{>{\footnotesize\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}} % footnotesize right
+	\newcolumntype{D}[1]{>{\footnotesize\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}} % footnotesize left
+	\newcolumntype{G}[1]{>{\footnotesize\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}	% center footnotesize
+\usepackage{booktabs} % package na tvorbu peknych tabulek 
+
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.png,.pdf,.eps}
+
+\usepackage{bold-extra}
+%\newtheoremstyle{scdef}{10pt}{10pt}{}{}{\bfseries}{.}{\newline}{}
+\newtheoremstyle{scdef}{10pt}{10pt}{}{}{\bfseries\scshape}{.}{1ex}{}
+
+%\theoremstyle{scdef}
+%\newtheorem{theorem}{Theorem}[chapter]
+%\newtheorem{dfn}[theorem]{Definition}
+%%\newtheorem{thm}{Věta}[section]
+%\newtheorem{lemma}[theorem]{Lemma}
+%\newtheorem{example}[theorem]{Example}
+%\newtheorem*{remark}{Remark}
+%
+%\theoremstyle{remark}
+%\newtheorem*{proof}{Proof}
+
+% nove prikazy
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\E}{\mathrm{E}}
+\newcommand{\D}{\mathrm{D}}
+\newcommand{\var}{\mathrm{var}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\logn}{\mathrm{ln}\, }
+\newcommand{\dd}{\,\mathrm{d}}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\RV}{\mathcal{R}} % regularly varying function
+\newcommand{\parrow}{\xrightarrow{P}} % konvergence podle psti
+\newcommand{\darrow}{\xrightarrow{d}} % konvergence podle distribuce
+\newcommand{\dapprox}{\overset{d}{\approx}} % priblizne rovno v distribuci
+\newcommand{\argmin}[1]{\underset{#1}{\mathrm{argmin}}}
+\newcommand{\median}[1]{\underset{#1}{\mathrm{median}}\,}
+\newcommand{\aux}{\mathrm{aux}}
+\renewcommand{\arctan}{\mathrm{arctg}\,}
+\renewcommand{\tan}{\mathrm{tg}\,}
+\renewcommand{\cot}{\mathr{cotg}\,}
+
+\setcounter{tocdepth}{1}%počet subsubsections v obsahu
+
+%%%%%%%%%%%%%%%%%%%%%%%%% POPISKY
+\usepackage[font=small,labelfont={sf,bf},labelsep=colon]{caption}	% popisky jako napr. a), b), etc.
+%\renewcommand{\caption}[1]{\\[1em]\caption{#1}}
+\newcommand{\subcap}[1]{\\[1em]\caption*{#1}}					% definice subcaption pro typ (a), (b), ...
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\floatstyle{boxed}
+\newfloat{program}{htp}{lop}
+\floatname{program}{Zdrojový kód}
+
+%%%%%%%%%%%%%%%%%%%%%%%%% SEZNAM ZKRATEK
+\usepackage[intoc]{nomencl}
+\renewcommand{\nomname}{Seznam zkratek a~symbolů\label{ch:zkratky}}
+%\renewcommand{\nompreamble}{\vspace{-6em}{(Český ekvivalent zkratky, popřípadě její vysvětlení je uvedeno v~závorkách)}\vspace{6em}}
+\renewcommand{\nomlabel}[1]{\hspace{0.5cm} #1 \hfil}
+\setlength{\nomitemsep}{1pt}
+\makenomenclature
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage{diplomka}
+\usepackage{VSKP}
+	\input{VSKP}
+
+%----------------------------------------------------------------------------------------
+%	BEGIN: CHAPTER STYLE
+%----------------------------------------------------------------------------------------
+\usepackage[explicit]{titlesec}
+%
+\titleformat{\chapter}[display]
+{\vspace*{-8em}\selectfont\bf\Large}
+{\hfill\fontfamily{lmr}\fontsize{80}{80}\selectfont{\thechapter}}
+{1.4ex}
+{\filleft\fontsize{40}{30}\fontfamily{cmss}\selectfont{#1}} % font: cmss
+[\vspace{1ex}{\titlerule[1pt]}]
+%----------------------------------------------------------------------------------------
+%	END: CHAPTER STYLE
+%---------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	BEGIN: HEADERS AND FOOTERS
+%----------------------------------------------------------------------------------------
+\usepackage{fancyhdr}
+\newcommand{\headersize}{\small}
+\fancypagestyle{mystyle}{%
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.3pt} %0.4pt
+\fancyhf[HLE]{\headersize \scshape \thechapter. \leftmark}
+\fancyhf[HRO]{\headersize \scshape \thesection. \rightmark}
+%\fancyhf[HRE]{\scshape \thechapter. \leftmark}
+%\fancyhf[HLO]{\scshape \thesection. \rightmark}
+\fancyhf[FRO,FLE]{\thepage}
+}
+\fancypagestyle{mydodatky}{%
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.3pt} %0.4pt
+\fancyhf[HLE]{\headersize \scshape \thechapter. \leftmark}
+\fancyhf[HRO]{\headersize \scshape \thechapter. \leftmark}
+\fancyhf[FRO,FLE]{\thepage}
+}
+\fancypagestyle{plain}{%
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\fancyhf[FRO,FLE]{\thepage}
+}
+\fancypagestyle{mybiblio}{%
+\fancyhf{}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\fancyhf[HLE]{\headersize \scshape \bibname}
+\fancyhf[HRO]{\headersize \scshape \bibname}
+\fancyhf[FRO,FLE]{\thepage}
+}
+\fancypagestyle{mylistabbrev}{%
+\fancyhf{}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\fancyhf[HLE]{\headersize \scshape Seznam zkratek}
+\fancyhf[HRO]{\headersize \scshape Seznam zkratek}
+\fancyhf[FRO,FLE]{\thepage}
+}
+\fancypagestyle{myzaver}{%
+\fancyhf{}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\fancyhf[HLE]{\headersize \scshape Závěr}
+\fancyhf[HRO]{\headersize \scshape Závěr}
+\fancyhf[FRO,FLE]{\thepage}
+}
+\fancypagestyle{mycontents}{%
+\fancyhf{}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\fancyhf[HLE]{\headersize \scshape \contentsname}
+\fancyhf[HRO]{\headersize \scshape \contentsname}
+\fancyhf[FRO,FLE]{\thepage}
+}
+\fancypagestyle{myuvod}{%
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.3pt} %0.4pt
+\fancyhf[HLE]{\headersize \scshape Introduction}
+\fancyhf[HRO]{\headersize \scshape Introduction}
+\fancyhf[FRO,FLE]{\thepage}
+}
+%
+\pagestyle{mystyle}
+\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+\renewcommand{\sectionmark}[1]{ \markright{#1}{} }
+%----------------------------------------------------------------------------------------
+%	END: HEADERS AND FOOTERS
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+%	BEGIN: DOCUMENT
+%----------------------------------------------------------------------------------------
+\begin{document}
+	\pagestyle{empty}	
+\titul 
+\newpage \hspace*{0.1cm} \thispagestyle{empty} \newpage
+\newpage
+\abstrakty
+\newpage \hspace*{0.1cm} \thispagestyle{empty} \newpage
+
+\renewcommand*{\contentsname}{Contents}
+\renewcommand*{\appendixname}{Dodatek}
+\renewcommand*{\refname}{Literatura}
+
+	\pagestyle{mycontents}
+\tableofcontents
+\cleardoublepage
+	\pagestyle{plain}
+\newpage \hspace*{0.1cm} \newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  nezávislá data
+	%\cleardoublepage
+	%\pagestyle{myuvod}
+%\input{1_Introduction}
+
+	\cleardoublepage
+	\pagestyle{mystyle}
+\input{2_Chapter_1_TheoreticalBackground}
+
+	\cleardoublepage
+	\pagestyle{mystyle}
+\input{3_Chapter_2_Data}
+
+	\cleardoublepage
+	\pagestyle{mystyle}
+\input{4_Chapter_3_TES}
+
+	\cleardoublepage
+	\pagestyle{mystyle}
+\input{5_Chapter_4_GroundMeasurements}
+
+	\cleardoublepage
+	\pagestyle{mystyle}
+\input{6_Chapter_5_UHI}
+
+%% zaver
+	\cleardoublepage
+	\pagestyle{myzaver}
+\input{7_Chapter_6_Conclusion}
+
+%% dodatky
+%	\cleardoublepage
+%	\pagestyle{mydodatky}
+%\input{apendix_programy}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% literatura
+	\cleardoublepage
+	\pagestyle{mybiblio}
+\input{8_References}
+	%\cleardoublepage
+	%\pagestyle{mylistabbrev}
+%\input{Seznam_zkratek}
+
+
+
+\end{document}

@@ -1,0 +1,495 @@
+%%
+%% Styl pro psani Vysokoskolskych kvalifikacnich praci
+%% VUT v BrnÏ
+%%
+%% Jakub Zlamal, zlamal@fme.vutbr.cz
+%%
+%%
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{VSKP}[2007/04/22 v1.2 VSKP VUT v Brně]
+
+
+\def\fakultazkr#1{\edef\fakultazkrtxt{#1}}%fakulta
+\def\fakulta#1{\edef\fakultatxt{#1}\edef\Fakultatxt{\uppercase{#1}}}%fakulta
+\def\enfakulta#1{\edef\enfakultatxt{#1}\edef\Enfakultatxt{\uppercase{#1}}}%fakulta
+\def\ustav#1{\edef\ustavtxt{#1}\edef\Ustavtxt{\uppercase{#1}}}%ustav
+\def\enustav#1{\edef\enustavtxt{#1}\edef\Enustavtxt{\uppercase{#1}}}%ustav
+\def\adresafakulta#1{\edef\adresafakultatxt{#1}\edef\Adresafakultatxt{\uppercase{#1}}}%fakulta
+\def\fakultalogo#1{\def\fakultalogotxt{#1}}
+\def\nabyvatel#1{\def\nabyvateltxt{#1}}
+
+\def\nic{}
+\def\nazev#1{
+    \def\nazevtxt{\let\break\nic\let\hfil\nic#1}
+    \def\Nazevtxt{\let\break\nic\let\hfil\nic\uppercase{#1}}
+    \def\nazevbrtxt{#1}\def\Nazevbrtxt{\uppercase{#1}}}% nazev
+\def\ennazev#1{
+    \def\ennazevtxt{\let\break\nic\let\hfil\nic#1}
+    \def\Ennazevtxt{\let\break\nic\let\hfil\nic\uppercase{#1}}
+    \def\ennazevbrtxt{#1}\def\Ennazevbrtxt{\uppercase{#1}}}% nazev
+\def\autor#1#2#3{\edef\autortxt{#1 #2#3}\edef\Autortxt{#1 \uppercase{#2}#3 }}% autor
+\def\autorzkr#1{\edef\autorzkrtxt{#1} \edef\Autorzkrtxt{\uppercase{#1}} }% autor zkracene
+\def\vedouci#1#2#3{\edef\vedoucitxt{#1 #2#3}\edef\Vedoucitxt{#1 \uppercase{#2}#3 }}% vedouci
+\def\ustav#1{\edef\ustavtxt{#1}\edef\Ustavtxt{\uppercase{#1}}}%
+\def\datumobhajoby#1{\edef\datumobhajobytxt{#1}}% datum obhajoby
+\def\adresa#1{\edef\adresatxt{#1}}% adresa
+\def\narozeni#1{\edef\narozenitxt{#1}}% narozeni
+\def\muzzena#1{\edef\muzzenatxt{#1}}% muû ûena
+\def\typprace#1{\edef\typpracetxt{#1}\edef\Typpracetxt{\uppercase{#1}}}% typprace %%%TADY
+\long\def\abstrakt#1{\edef\abstrakttxt{#1}}%
+\long\def\enabstrakt#1{\edef\enabstrakttxt{#1}}%
+\def\klicovaslova#1{\edef\klicovaslovatxt{#1}}%
+\def\enklicovaslova#1{\edef\enklicovaslovatxt{#1}}%
+\def\pocettisk#1{\edef\pocettisktxt{#1}}%
+\def\pocetelektr#1{\edef\pocetelektrtxt{#1}}%
+\def\pocetletutajeni#1{\edef\letautajenitxt{#1}}%
+\def\citacevedouci#1{\edef\citacevedoucitxt{#1}}% Vedouci dipl. prace do citace
+
+%\nazev{N·zev pr·ce}
+%\ennazev{Topic}
+%\typstudia{M}
+%\autor{Titul}{JmÈno P¯ÌjmenÌ}
+%\ustav{⁄stav fyzik·lnÌho inûen˝rstvÌ}
+%\datumobhajoby{1.5.2007}
+%\adresa{Lesnick· 5, 679 54 JiËÌn}
+%\narozeni{4.11.1987, Praha}
+%\muzzena{F}
+%\vedouci{Doc. RNDr.}{Miloö Nov·k}{, Ph.D.}
+%\abstrakt{Kr·tk˝ abstrakt v ËeötinÏ}
+%\enabstrakt{Abstract in english}
+%\klicovaslova{Atom, elektron, trysk·nÌ}
+%\enklicovaslova{Atom, elektron, juj}
+%\pocettisk{\ldots}
+%\pocetelektr{\ldots}
+%
+%\fakulta{Fakulta strojnÌho inûen˝rstvÌ}
+%\enfakulta{Faculty of mechanical engineering}
+%\fakultazkr{FSI}
+%\adresafakulta{Technick· 2896/2, 616 69 Brno}
+%\ustav{⁄stav fyzik·lnÌho inûen˝rstvÌ}
+%\enustav{Institute of physical engineering}
+%\nabyvatel{\ldots}
+
+% Prevod typu studia -> typ prace,
+% v ciselniku se lisi en nazev u M a N typu studia
+\def\typstudia#1{%
+    \def\tstudia{#1}
+    \def\vzortypu{N}
+    \ifx\tstudia\vzortypu
+        \edef\typpracetxt{diplomová práce}
+        \edef\entyppracetxt{master's thesis}
+    \else
+        \edef\typpracetxt{neznámý typ studia: \tstudia}
+        \edef\entyppracetxt{unknown studium type: \tstudia}
+    \fi
+    \def\vzortypu{B}
+    \ifx\tstudia\vzortypu
+        \edef\typpracetxt{bakalářská práce}
+        \edef\entyppracetxt{bachelor's thesis}
+    \fi
+    \def\vzortypu{DT}
+    \ifx\tstudia\vzortypu
+        \edef\typpracetxt{pojednání ke státní doktorské zkoušce}
+        \edef\entyppracetxt{treatise on doctoral thesis}
+    \fi
+    \def\vzortypu{D}
+    \ifx\tstudia\vzortypu
+        \edef\typpracetxt{disertační práce}
+        \edef\entyppracetxt{doctoral thesis}
+    \fi
+    \def\vzortypu{M}
+    \ifx\tstudia\vzortypu
+        \edef\typpracetxt{diplomová práce}
+        \edef\entyppracetxt{diploma thesis}
+    \fi
+    \edef\Typpracetxt{\uppercase{\typpracetxt}}
+    \edef\Entyppracetxt{\uppercase{\entyppracetxt}}
+}
+
+
+%
+%  vytvoreni titulni strany
+%
+\def\titul{%
+\setcounter{page}{1}
+\thispagestyle{empty}
+
+\long\def\obrstextem##1##2{%
+   \setbox1=\hbox{\includegraphics*[width=3cm,height=3cm,keepaspectratio]{##1}}
+   \dimen0=\pagewidth
+   \advance\dimen0 by -\oddsidemargin
+   \advance\dimen0 by -\wd1
+   \advance\dimen0 by -0.5em
+   \setbox2=\vbox to \ht1{\hsize=\dimen0%
+      ##2
+   \vss
+   }
+   \wd2=\dimen0
+   \noindent\hbox to \hsize{\box1\hskip0.5em\box2\hss}
+}
+
+{\flushleft
+
+\obrstextem{logo/VUTblue}{%
+\noindent{\Large \sf VYSOKÉ UČENÍ TECHNICKÉ V BRNĚ\hfil}\par
+\smallskip
+\noindent{\small \sf BRNO UNIVERSITY OF TECHNOLOGY}
+}
+\bgroup
+\vskip1cm
+\expandafter\obrstextem\expandafter{logo/FSIblue}{%
+   \noindent{\sf FAKULTA STROJNÍHO INŽENÝRSTVÍ}%\Fakultatxt}
+
+   \smallskip
+   \noindent{\sf \Ustavtxt}
+
+   \vskip0.3cm
+   \noindent{\small\sf \Enfakultatxt}
+
+   \noindent{\small\sf \Enustavtxt}
+}
+
+\vskip3cm
+{\advance\baselineskip by 6pt
+\noindent{\Large\sf \Nazevbrtxt }
+
+}
+
+\noindent{\small\sf \Ennazevbrtxt }
+
+\vfill
+\noindent{\sf \Typpracetxt}
+
+\noindent{\small\sf \Entyppracetxt}
+
+\bigskip
+\bigskip
+% troska rozhodovani jak vytisknout autora a suprevizora
+\setbox1=\hbox{\sf \Autortxt}
+\setbox2=\hbox{\sf \Vedoucitxt}
+\dimen0=\textwidth
+\advance\dimen0 by -8cm%  6+2cm
+\ifdim\wd1>\wd2
+   \dimen1=\wd1
+\else
+   \dimen1=\wd2
+\fi
+\ifdim\dimen0<\dimen1
+   % nevejde se mi tam jmeno autora nebo vedouciho protoze je moc dlouhe
+   \noindent{\sf AUTOR PRÁCE\hfill\hbox to \dimen1{\Autortxt\hss}}
+
+\noindent{\small\sf AUTHOR}
+
+\bigskip
+\noindent{\sf VEDOUCÍ PRÁCE\hfill\hbox to \dimen1{\Vedoucitxt\hss}}
+
+\noindent{\small\sf SUPERVISOR}
+\else
+   \noindent{\sf \hbox to 6cm{AUTOR PRÁCE\hss}\hskip2cm\Autortxt}
+
+   \noindent{\small\sf AUTHOR}
+
+   \bigskip
+   \noindent{\sf \hbox to 6cm{VEDOUCÍ PRÁCE\hss}\hskip2cm\Vedoucitxt}
+
+   \noindent{\small\sf SUPERVISOR}
+\fi
+
+\vskip3cm
+\noindent{\small\sf BRNO \the\year}
+}
+\egroup % End of flushleft
+\eject
+}
+%
+%   licencni smlouva
+%
+\def\licence{%
+\setcounter{page}{1}
+\bgroup\newpage
+\pagestyle{empty}
+\begin{center}
+   {\large \sc Licenční smlouva\\poskytovaní k~výkonu práva užít školní dílo}
+
+   uzavřená mezi smluvními stranami:
+\end{center}
+
+\def\pan##1##2##3##4{%
+   \edef\co{##1}\def\Pan{M} % M - male, F - female
+   \noindent{\bf 1. \ifx\co\Pan Pan\else Paní\fi}
+
+   \hskip3em \hbox to 6cm{Jméno a příjmení:\hss}\ignorespaces##2
+
+    \dimen0=\textwidth%
+    \advance\dimen0 by -3em%
+    \advance\dimen0 by -6cm%
+    \advance\dimen0 by -\parindent%
+    \hskip3em \hbox to 
+6cm{Bytem:\hss}\setbox1=\vbox{\hsize=\dimen0\noindent ##3}%
+    \setbox2=\hbox{A}%
+    \dimen0=\ht1%
+    \dimen1=\dp1%
+    \advance\dimen0 by -\ht2%
+    \advance\dimen1 by \dimen0%
+    \advance\dimen1 by -\ht2%
+    \advance\dimen1 by \baselineskip%
+    \dp1=\dimen1%
+    \ht1=\ht2%
+    \box1%
+
+    \hskip3em \hbox to 6cm{Narozen\ifx\co\Pan\else a\fi{} (datum a 
+místo):\hss}##4
+
+   \noindent (dále jen autor)
+}
+
+\def\vut##1{%
+   \noindent{\bf 2. Vysoké učení technické v Brně}
+
+   \hskip3em \fakultatxt
+
+   \hskip3em se sídlem \adresafakultatxt
+
+   \hskip3em jejímž jménem jedná na základě písemného pověření děkanem fakulty:
+
+   \hskip3em ##1
+
+   \noindent (dále jen nabyvatel)
+}
+
+\pan{\muzzenatxt}{\autortxt}{\adresatxt}{\narozenitxt}
+\begin{center}
+   a
+\end{center}
+\vut{\nabyvateltxt}
+
+\begin{center}
+   {\bf Čl. 1
+
+   Specifikace školního díla
+}
+\end{center}
+
+\def\Bx{\raise3pt\hbox{\framebox[6pt]{\hskip6pt}}}
+\def\Bxx{%
+\setbox0\hbox{\hskip-4.5pt\raise-3pt\hbox{\small$\times$}}
+\dp0=0pt%
+\wd0=0pt%
+\ht0=0pt%
+\raise3pt\hbox{\framebox[6pt]{\box0}}}
+
+\def\zaskrtnitypprace##1{\def\vzortypu{##1}
+\def\diplomova{N}
+\def\diplomovamag{M}
+\ifx\tstudia\vzortypu
+   $\Bxx$
+\else
+   \ifx\vzortypu\diplomovamag
+      \ifx\tstudia\diplomova
+         $\Bxx$
+      \else
+         $\Bx$
+      \fi
+   \else
+      $\Bx$
+   \fi
+\fi
+}
+
+\begin{enumerate}
+\item Předmětem této smlouvy je vysokoškolská kvalifikační práce (VŠKP):
+   \begin{itemize}
+      \item[\zaskrtnitypprace{D}]  disertační práce
+      \item[\zaskrtnitypprace{M}]  diplomová práce
+      \item[\zaskrtnitypprace{B}]  bakalářská práce
+      \item[\zaskrtnitypprace{}]  jiná práce, jejíž druh je specifikován jako \dotfill
+   \end{itemize}
+   (dále jen VŠKP nebo dílo)
+
+   \smallskip
+   \hskip-\leftmargin\begin{tabular}{lp{10cm}}
+      Název VŠKP:&\nazevtxt \\
+      Vedoucí/ školitel VŠKP:&\vedoucitxt\\
+      Ústav: &\ustavtxt\\
+      Datum obhajoby VŠKP:& \datumobhajobytxt
+   \end{tabular}
+
+   VŠKP odevzdal autor nabyvateli v\footnote{hodící se zaškrtněte}:
+   \begin{itemize}
+      \item[$\Bx$]  tištěné formě     ---  počet exemplářů \pocettisktxt
+      \item[$\Bx$]  elektronické formě   ---  počet exemplářů \pocetelektrtxt
+   \end{itemize}
+
+\item Autor prohlašuje, že vytvořil samostatnou vlastní tvůrčí činností dílo shora
+popsané a specifikované. Autor dále prohlašuje, že při zpracovávání díla se sám
+nedostal do rozporu s autorským zákonem a předpisy souvisejícími a že je dílo
+dílem původním.
+\item Dílo je chráněno jako dílo dle autorského zákona v~platném
+znění.
+
+\item Autor potvrzuje, že listinná a elektronická verze díla je identická.
+
+\end{enumerate}
+
+\goodbreak
+\begin{center}
+   {\bf Čl. 2
+
+   Udělení licenčního oprávnění
+}
+\end{center}
+\nobreak
+\begin{enumerate}
+\item Autor touto smlouvou poskytuje nabyvateli oprávnění (licenci) k výkonu práva
+uvedené dílo nevýdělečně užít, archivovat a zpřístupnit ke studijním, výukovým
+a výzkumným účelům včetně pořizování výpisů, opisů a rozmnoženin.
+
+\item Licence je poskytována celosvětově, pro celou dobu trvání autorských a majetkových práv k~dílu.
+
+\def\zaskrtniutajeni##1{\def\vzorlet{##1}
+\ifx\vzorlet\letautajenitxt
+   $\Bxx$
+\else
+   $\Bx$
+\fi
+}
+
+\item Autor souhlasí se zveřejněním díla v~databázi přístupné v~mezinárodní síti
+   \begin{itemize}
+      \item[\zaskrtniutajeni{0}] ihned po uzavření této smlouvy
+      \item[\zaskrtniutajeni{1}] 1 rok po uzavření této smlouvy
+      \item[\zaskrtniutajeni{3}] 3 roky po uzavření této smlouvy
+      \item[\zaskrtniutajeni{5}] 5 let po uzavření této smlouvy
+      \item[\zaskrtniutajeni{10}] 10 let po uzavření této smlouvy
+   \end{itemize}
+   (z důvodu utajení v něm obsažených informací)
+
+\item Nevýdělečné zveřejňování díla nabyvatelem v souladu s ustanovením \S 47b
+zákona č.~111/1998 Sb., v~platném znění, nevyžaduje licenci a nabyvatel je k~němu
+povinen a oprávněn ze zákona.
+\end{enumerate}
+
+
+\goodbreak
+\begin{center}
+   {\bf Čl. 3
+
+   Závěrečná ustanovení
+}
+\end{center}
+\begin{enumerate}
+\item Smlouva je sepsána ve třech vyhotoveních s~platností originálu, přičemž po
+jednom vyhotovení obdrží autor a nabyvatel, další vyhotovení je vloženo do
+VŠKP.
+
+\item Vztahy mezi smluvními stranami vzniklé a neupravené touto smlouvou se řídí
+autorským zákonem, občanským zákoníkem, vysokoškolským zákonem, zákonem o
+archivnictví, v platném znění a popř. dalšími právními předpisy.
+
+\item Licenční smlouva byla uzavřena na základě svobodné a pravé vůle smluvních
+stran, s~plným porozuměním jejímu textu i důsledkům, nikoliv v tísni a za
+nápadně nevýhodných podmínek.
+
+\item Licenční smlouva nabývá platnosti a účinnosti dnem jejího podpisu oběma
+smluvními stranami.
+\end{enumerate}
+
+\bigskip
+
+\noindent
+V Brně dne:
+
+\bigskip
+\bigskip
+\bigskip
+\noindent Nabyvatel\hskip8cm Autor
+\vfill\eject
+\egroup
+}
+
+%
+% abstrakty a klicova slova
+%
+\def\abstrakty{%
+   \newpage
+   \thispagestyle{empty}
+
+\noindent{\bf Abstrakt}
+
+\abstrakttxt
+\bigskip
+
+\noindent{\bf Summary}
+%\noindent{\bf Abstract}
+
+\enabstrakttxt
+
+\bigskip
+\bigskip
+%\goodbreak
+\vbox{
+\noindent{\bf Klíčová slova}
+
+\klicovaslovatxt
+
+\bigskip
+\noindent{\bf Keywords}
+
+\enklicovaslovatxt
+}
+\nobreak
+\vfill 
+% Nasleduje ukazkova citace diplomove prace
+%\def\prvnivelke##1##2{\uppercase{##1}##2}
+%\noindent \Autorzkrtxt {\it \ennazevtxt}. Brno: Brno University  of Technology, \enfakultatxt, \the\year. %
+%\ifx\pocetstran\undefined
+%   ??
+%\else
+%   \pocetstran{}
+%\fi s. Supervisor  RNDr. Pavel Popela, Ph.D. %\citacevedoucitxt
+%\vskip3cm
+%\eject
+}
+
+\long\def\prohlaseni#1{
+\bgroup
+\pagestyle{empty}
+\cleardoublepage
+\egroup
+\thispagestyle{empty}
+\hbox{}
+\vfill
+#1
+\bigskip
+\bigskip
+
+May 15, 2012 \hfill\autortxt\hskip3cm
+\vskip2cm
+\eject
+}
+
+\long\def\podekovani#1{
+\bgroup
+\pagestyle{empty}
+\cleardoublepage
+\egroup
+\thispagestyle{empty}
+\hbox{}
+\vfill
+#1
+\bigskip
+\bigskip
+
+\hfill\autortxt\hskip3cm
+\vskip2cm
+\eject
+}
+
+\def\obsah{\setcounter{page}{1}\tableofcontents\vfill\eject}
+\makeatletter
+\def\spocitejstranky{
+\protected@write\@auxout{}{\string\gdef\string\pocetstran{\thepage}}%
+}
+\makeatother
+
+\AtEndDocument{\spocitejstranky}
