@@ -14,10 +14,11 @@
 \contentsline {section}{\numberline {3.5}Comparison with ASTER standard products}{27}{section.3.5}
 \contentsline {section}{\numberline {3.6}Application to TASI Data}{30}{section.3.6}
 \contentsline {chapter}{\numberline {4}Ground Measurements}{31}{chapter.4}
-\contentsline {section}{\numberline {4.1}Technical Specifications}{31}{section.4.1}
-\contentsline {section}{\numberline {4.2}Instrument Calibration}{31}{section.4.2}
-\contentsline {section}{\numberline {4.3}Temperature and Emissivity Separation}{31}{section.4.3}
-\contentsline {section}{\numberline {4.4}Applications}{31}{section.4.4}
+\contentsline {section}{\numberline {4.1}Libraries}{31}{section.4.1}
+\contentsline {section}{\numberline {4.2}Technical Specifications}{31}{section.4.2}
+\contentsline {section}{\numberline {4.3}Instrument Calibration}{31}{section.4.3}
+\contentsline {section}{\numberline {4.4}Temperature and Emissivity Separation}{31}{section.4.4}
+\contentsline {section}{\numberline {4.5}Applications}{31}{section.4.5}
 \contentsline {chapter}{\numberline {5}Application to UHI Detection}{33}{chapter.5}
 \contentsline {chapter}{\numberline {6}Conclusion}{35}{chapter.6}
 \contentsline {chapter}{References}{37}{chapter*.15}

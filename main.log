@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.6)  22 MAR 2016 13:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.6)  3 AUG 2016 00:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -865,6 +865,24 @@ LaTeX Warning: Label `fig:QuartzByTASI' multiply defined.
 
 LaTeX Warning: Label `sub@fig:QuartzByTASI' multiply defined.
 
+
+LaTeX Warning: Label `fig:BBradiation' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:BBradiation' multiply defined.
+
+
+LaTeX Warning: Label `fig:QuartzEmissivity' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:QuartzEmissivity' multiply defined.
+
+
+LaTeX Warning: Label `fig:QuartzRadiance' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:QuartzRadiance' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -935,13 +953,13 @@ File: siunitx-abbreviations.cfg 2015/01/21 v2.6e siunitx: Abbreviated units
 )
 \c__siunitx_mathsf_int=\count182
 \c__siunitx_mathtt_int=\count183
- <logo/VUTblue.png, id=84, 161.60374pt x 161.60374pt>
+ <logo/VUTblue.png, id=88, 161.60374pt x 161.60374pt>
 File: logo/VUTblue.png Graphic file (type png)
  <use logo/VUTblue.png>
 Package pdftex.def Info: logo/VUTblue.png used on input line 201.
 (pdftex.def)             Requested size: 85.3586pt x 85.3586pt.
 
-<logo/FSIblue.png, id=87, 159.59625pt x 159.59625pt>
+<logo/FSIblue.png, id=91, 159.59625pt x 159.59625pt>
 File: logo/FSIblue.png Graphic file (type png)
  <use logo/FSIblue.png>
 Package pdftex.def Info: logo/FSIblue.png used on input line 201.
@@ -1000,7 +1018,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 26.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_01/PlancksLaw-eps-converted-to.pdf, id=177, 138.5175pt x 130.4875
+<pics/Chapter_01/PlancksLaw-eps-converted-to.pdf, id=182, 138.5175pt x 130.4875
 pt>
 File: pics/Chapter_01/PlancksLaw-eps-converted-to.pdf Graphic file (type pdf)
  <use pics/Chapter_01/PlancksLaw-eps-converted-to.pdf>
@@ -1024,7 +1042,7 @@ trum-eps-converted-to.pdf pics/Chapter_01/QuartzSpectrum.eps>
 (epstopdf)             \includegraphics on input line 34.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_01/QuartzSpectrum-eps-converted-to.pdf, id=178, 145.54375pt x 130
+<pics/Chapter_01/QuartzSpectrum-eps-converted-to.pdf, id=183, 145.54375pt x 130
 .4875pt>
 File: pics/Chapter_01/QuartzSpectrum-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1049,7 +1067,7 @@ ance-eps-converted-to.pdf pics/Chapter_01/QuartzRadiance.eps>
 (epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_01/QuartzRadiance-eps-converted-to.pdf, id=179, 138.5175pt x 130.
+<pics/Chapter_01/QuartzRadiance-eps-converted-to.pdf, id=184, 138.5175pt x 130.
 4875pt>
 File: pics/Chapter_01/QuartzRadiance-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1101,7 +1119,7 @@ seFunctions-eps-converted-to.pdf pics/Chapter_02/TASIResponseFunctions.eps>
 (epstopdf)             \includegraphics on input line 24.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_02/TASIResponseFunctions-eps-converted-to.pdf, id=208, 189.70876p
+<pics/Chapter_02/TASIResponseFunctions-eps-converted-to.pdf, id=214, 189.70876p
 t x 130.4875pt>
 File: pics/Chapter_02/TASIResponseFunctions-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1122,7 +1140,7 @@ SI-eps-converted-to.pdf pics/Chapter_02/QuartzByTASI.eps>
 (epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_02/QuartzByTASI-eps-converted-to.pdf, id=209, 157.58875pt x 130.4
+<pics/Chapter_02/QuartzByTASI-eps-converted-to.pdf, id=215, 157.58875pt x 130.4
 875pt>
 File: pics/Chapter_02/QuartzByTASI-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1145,7 +1163,7 @@ s-converted-to.pdf pics/Chapter_02/Fig_2_3.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_02/Fig_2_3-eps-converted-to.pdf, id=221, 378.41376pt x 624.3325pt
+<pics/Chapter_02/Fig_2_3-eps-converted-to.pdf, id=227, 378.41376pt x 624.3325pt
 >
 File: pics/Chapter_02/Fig_2_3-eps-converted-to.pdf Graphic file (type pdf)
  <use pics/Chapter_02/Fig_2_3-eps-converted-to.pdf>
@@ -1197,7 +1215,7 @@ s-converted-to.pdf pics/Chapter_02/Fig_3_2.eps>
 (epstopdf)             \includegraphics on input line 96.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_02/Fig_3_2-eps-converted-to.pdf, id=259, 161.60374pt x 315.1775pt
+<pics/Chapter_02/Fig_3_2-eps-converted-to.pdf, id=265, 161.60374pt x 315.1775pt
 >
 File: pics/Chapter_02/Fig_3_2-eps-converted-to.pdf Graphic file (type pdf)
  <use pics/Chapter_02/Fig_3_2-eps-converted-to.pdf>
@@ -1224,7 +1242,7 @@ nce-eps-converted-to.pdf pics/Chapter_02/Transmittance.eps>
 (epstopdf)             \includegraphics on input line 111.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_02/Transmittance-eps-converted-to.pdf, id=298, 141.52875pt x 130.
+<pics/Chapter_02/Transmittance-eps-converted-to.pdf, id=304, 141.52875pt x 130.
 4875pt>
 File: pics/Chapter_02/Transmittance-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1249,7 +1267,7 @@ eps-converted-to.pdf pics/Chapter_02/Upwelling.eps>
 (epstopdf)             \includegraphics on input line 119.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_02/Upwelling-eps-converted-to.pdf, id=299, 141.52875pt x 130.4875
+<pics/Chapter_02/Upwelling-eps-converted-to.pdf, id=305, 141.52875pt x 130.4875
 pt>
 File: pics/Chapter_02/Upwelling-eps-converted-to.pdf Graphic file (type pdf)
  <use pics/Chapter_02/Upwelling-eps-converted-to.pdf>
@@ -1273,7 +1291,7 @@ g-eps-converted-to.pdf pics/Chapter_02/Downwelling.eps>
 (epstopdf)             \includegraphics on input line 127.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_02/Downwelling-eps-converted-to.pdf, id=300, 134.5025pt x 130.487
+<pics/Chapter_02/Downwelling-eps-converted-to.pdf, id=306, 134.5025pt x 130.487
 5pt>
 File: pics/Chapter_02/Downwelling-eps-converted-to.pdf Graphic file (type pdf)
  <use pics/Chapter_02/Downwelling-eps-converted-to.pdf>
@@ -1302,7 +1320,7 @@ n-1-DN-eps-converted-to.pdf pics/Chapter_02/calibration-1-DN.eps>
 (epstopdf)             \includegraphics on input line 153.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_02/calibration-1-DN-eps-converted-to.pdf, id=322, 152.57pt x 130.
+<pics/Chapter_02/calibration-1-DN-eps-converted-to.pdf, id=328, 152.57pt x 130.
 4875pt>
 File: pics/Chapter_02/calibration-1-DN-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1327,7 +1345,7 @@ n-2-Lm-eps-converted-to.pdf pics/Chapter_02/calibration-2-Lm.eps>
 (epstopdf)             \includegraphics on input line 161.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_02/calibration-2-Lm-eps-converted-to.pdf, id=323, 145.54375pt x 1
+<pics/Chapter_02/calibration-2-Lm-eps-converted-to.pdf, id=329, 145.54375pt x 1
 30.4875pt>
 File: pics/Chapter_02/calibration-2-Lm-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1352,7 +1370,7 @@ n-3-Lll-eps-converted-to.pdf pics/Chapter_02/calibration-3-Lll.eps>
 (epstopdf)             \includegraphics on input line 169.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_02/calibration-3-Lll-eps-converted-to.pdf, id=324, 145.54375pt x 
+<pics/Chapter_02/calibration-3-Lll-eps-converted-to.pdf, id=330, 145.54375pt x 
 130.4875pt>
 File: pics/Chapter_02/calibration-3-Lll-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1374,7 +1392,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [19 <./pics/Chapter_02/calibration-1-DN-eps-converted-to.pdf> <./pics/Chapter_0
 2/calibration-2-Lm-eps-converted-to.pdf> <./pics/Chapter_02/calibration-3-Lll-e
 ps-converted-to.pdf>]
-<pics/Chapter_02/TASIcalibrated.png, id=342, 642.4pt x 830.10126pt>
+<pics/Chapter_02/TASIcalibrated.png, id=348, 642.4pt x 830.10126pt>
 File: pics/Chapter_02/TASIcalibrated.png Graphic file (type png)
 
 <use pics/Chapter_02/TASIcalibrated.png>
@@ -1382,7 +1400,7 @@ Package pdftex.def Info: pics/Chapter_02/TASIcalibrated.png used on input line
 194.
 (pdftex.def)             Requested size: 154.17915pt x 199.22836pt.
 
-<pics/Chapter_02/TASIgeoreferencedcut.png, id=343, 249.8133pt x 199.2243pt>
+<pics/Chapter_02/TASIgeoreferencedcut.png, id=349, 249.8133pt x 199.2243pt>
 File: pics/Chapter_02/TASIgeoreferencedcut.png Graphic file (type png)
 
 <use pics/Chapter_02/TASIgeoreferencedcut.png>
@@ -1414,16 +1432,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22] <pics/Chapter_03/EpsMinMMD.png, id=390, 931.48pt x 814.04124pt>
+[22] <pics/Chapter_03/EpsMinMMD.png, id=396, 931.48pt x 814.04124pt>
 File: pics/Chapter_03/EpsMinMMD.png Graphic file (type png)
 
 <use pics/Chapter_03/EpsMinMMD.png>
 Package pdftex.def Info: pics/Chapter_03/EpsMinMMD.png used on input line 42.
 (pdftex.def)             Requested size: 186.2927pt x 162.80536pt.
-
-
-LaTeX Warning: Reference `fig:relationship' on page 23 undefined on input line 
-51.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1432,7 +1446,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [23 <./pics/Chapter_03/EpsMinMMD.png>]
-<pics/Chapter_03/pivov2.pdf, id=407, 501.875pt x 487.8225pt>
+<pics/Chapter_03/pivov2.pdf, id=414, 501.875pt x 487.8225pt>
 File: pics/Chapter_03/pivov2.pdf Graphic file (type pdf)
 
 <use pics/Chapter_03/pivov2.pdf>
@@ -1443,7 +1457,7 @@ Overfull \hbox (13.98906pt too wide) in paragraph at lines 58--60
  [][] 
  []
 
-<pics/Chapter_03/pivov3.pdf, id=408, 501.875pt x 487.8225pt>
+<pics/Chapter_03/pivov3.pdf, id=415, 501.875pt x 487.8225pt>
 File: pics/Chapter_03/pivov3.pdf Graphic file (type pdf)
 
 <use pics/Chapter_03/pivov3.pdf>
@@ -1454,7 +1468,7 @@ Overfull \hbox (13.98906pt too wide) in paragraph at lines 66--68
  [][] 
  []
 
-<pics/Chapter_03/pivov4.pdf, id=409, 501.875pt x 487.8225pt>
+<pics/Chapter_03/pivov4.pdf, id=416, 501.875pt x 487.8225pt>
 File: pics/Chapter_03/pivov4.pdf Graphic file (type pdf)
 
 <use pics/Chapter_03/pivov4.pdf>
@@ -1485,14 +1499,6 @@ LaTeX Warning: Reference `fig:FunctionCode' on page 25 undefined on input line
 106.
 
 
-LaTeX Warning: Reference `fig:relationship' on page 25 undefined on input line 
-112.
-
-
-LaTeX Warning: Reference `fig:relationship' on page 25 undefined on input line 
-112.
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
@@ -1509,12 +1515,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[26]
-
-LaTeX Warning: Reference `table:StandardDeviations' on page 27 undefined on inp
-ut line 155.
-
-<pics/Chapter_03/pivov7.pdf, id=499, 469.93968pt x 266.82085pt>
+[26] <pics/Chapter_03/pivov7.pdf, id=508, 469.93968pt x 266.82085pt>
 File: pics/Chapter_03/pivov7.pdf Graphic file (type pdf)
 
 <use pics/Chapter_03/pivov7.pdf>
@@ -1526,10 +1527,6 @@ Overfull \hbox (50.64592pt too wide) in paragraph at lines 159--160
  []
 
 
-LaTeX Warning: Reference `table:ASTERScenes' on page 27 undefined on input line
- 166.
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
@@ -1537,26 +1534,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [27 <./pics/Chapter_03/pivov7.pdf>]
 
-LaTeX Warning: Reference `fig:CaspianSeaEmissivity' on page 28 undefined on inp
-ut line 187.
-
-
-LaTeX Warning: Reference `fig:CaspianSeaEmissivity' on page 28 undefined on inp
-ut line 187.
-
-
-LaTeX Warning: Reference `fig:Bajkal' on page 28 undefined on input line 189.
-
-
-LaTeX Warning: Reference `fig:Bajkal' on page 28 undefined on input line 189.
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[28] <pics/Chapter_03/pivov8.pdf, id=528, 433.62003pt x 228.13327pt>
+[28] <pics/Chapter_03/pivov8.pdf, id=543, 433.62003pt x 228.13327pt>
 File: pics/Chapter_03/pivov8.pdf Graphic file (type pdf)
 
 <use pics/Chapter_03/pivov8.pdf>
@@ -1809,7 +1792,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 264.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 264.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9B56E6406751BDAD58C2DA34A8ABA70F;1354.
+(rerunfilecheck)             Checksum: 7C33923B7F33E4556616A523EDC45C20;1410.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1824,10 +1807,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 264.
  ) 
 Here is how much of TeX's memory you used:
- 20730 strings out of 493089
- 379436 string characters out of 6134842
- 435729 words of memory out of 5000000
- 23713 multiletter control sequences out of 15000+600000
+ 20732 strings out of 493089
+ 379460 string characters out of 6134842
+ 438479 words of memory out of 5000000
+ 23714 multiletter control sequences out of 15000+600000
  29228 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,12n,49p,10392b,1084s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1856,10 +1839,10 @@ ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts
 type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
 ype1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
 c/cm-super/sfrm1200.pfb>
-Output written on main.pdf (44 pages, 3130163 bytes).
+Output written on main.pdf (44 pages, 3129799 bytes).
 PDF statistics:
- 779 PDF objects out of 1000 (max. 8388607)
- 649 compressed objects within 7 object streams
- 172 named destinations out of 1000 (max. 500000)
- 288 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 793 PDF objects out of 1000 (max. 8388607)
+ 663 compressed objects within 7 object streams
+ 173 named destinations out of 1000 (max. 500000)
+ 296 words of extra memory for PDF output out of 10000 (max. 10000000)
 
