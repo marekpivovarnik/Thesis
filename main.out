@@ -5,17 +5,13 @@
 \BOOKMARK [0][-]{chapter.3}{Temperature and Emissivity Separation}{}% 5
 \BOOKMARK [1][-]{section.3.1}{Available approaches}{chapter.3}% 6
 \BOOKMARK [1][-]{section.3.2}{TES Algorithm Improvement}{chapter.3}% 7
-\BOOKMARK [1][-]{section.3.3}{Algorithm Performance}{chapter.3}% 8
-\BOOKMARK [1][-]{section.3.4}{Simulated Data}{chapter.3}% 9
-\BOOKMARK [1][-]{section.3.5}{Comparison with ASTER standard products}{chapter.3}% 10
-\BOOKMARK [1][-]{section.3.6}{Application to TASI Data}{chapter.3}% 11
-\BOOKMARK [0][-]{chapter.4}{Ground Measurements}{}% 12
-\BOOKMARK [1][-]{section.4.1}{introduction}{chapter.4}% 13
-\BOOKMARK [1][-]{section.4.2}{Data Description}{chapter.4}% 14
-\BOOKMARK [1][-]{section.4.3}{Methods}{chapter.4}% 15
-\BOOKMARK [1][-]{section.4.4}{Data Properties}{chapter.4}% 16
-\BOOKMARK [1][-]{section.4.5}{Spectral Smoothing Algorithm}{chapter.4}% 17
-\BOOKMARK [0][-]{chapter.5}{Application to UHI Detection}{}% 18
-\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 19
-\BOOKMARK [0][-]{chapter*.15}{References}{}% 20
-\BOOKMARK [1][-]{section*.16}{References}{chapter*.15}% 21
+\BOOKMARK [0][-]{chapter.4}{Ground Measurements}{}% 8
+\BOOKMARK [1][-]{section.4.1}{introduction}{chapter.4}% 9
+\BOOKMARK [1][-]{section.4.2}{Data Description}{chapter.4}% 10
+\BOOKMARK [1][-]{section.4.3}{Methods}{chapter.4}% 11
+\BOOKMARK [1][-]{section.4.4}{Data Properties}{chapter.4}% 12
+\BOOKMARK [1][-]{section.4.5}{Spectral Smoothing Algorithm}{chapter.4}% 13
+\BOOKMARK [0][-]{chapter.5}{Application to UHI Detection}{}% 14
+\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 15
+\BOOKMARK [0][-]{chapter*.13}{References}{}% 16
+\BOOKMARK [1][-]{section*.14}{References}{chapter*.13}% 17
