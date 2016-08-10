@@ -5,9 +5,9 @@ Pre-processed thermal image data provide valuable information about the properti
 
 \section{Available approaches}
 
-Many approaches have been developed to overcome the problem of having an underdetermined system of RTEs \cite{li-satellite-derived-2013}. Methods used to overcome the problem of underdetermined system of RTEs are usually based on adding empirical or semiempricial constraints. 
+Many approaches have been developed to overcome the problem of having an underdetermined system of RTEs \cite{LT13}. Methods used to overcome the problem of underdetermined system of RTEs are usually based on adding empirical or semiempricial constraints. 
 
-Algorithms for temperature and emissivity estimation depend on sensor architecture and acquisition context. Some algorithms require knowledge of Normalized Difference Vegetation Index (NDVI) \cite{sobrino-towards-2000}, surface type \cite{snyder-classification-1998} or even emissivity \cite{jimenez-munoz-revisions-2009}. Others are based on multitemporal \cite{wan-new-2000} or multiangle \cite{soria-derived-2007} acquisition. There are only a small number of algorithms for simultaneous temperature and emissivity retrievals from a single scene without ancillary surface information, that are robust enough to be applicable to data acquired by multispectral or hyperspectral sensors. The most common are: grey body emissivity method \cite{barducci-temperature-1996}, linear emissivity constraint temperature emissivity separation method \cite{wang-temperature-2011-1}, spectral smoothing \cite{borel-error-2008} and the TES algorithm \cite{gillespie-temperature-1998}. Principles of last four mentioned methods are described in the following text. The most attention is paid to the TES algorithm, as it is the most popular and it is widely applied to many sensors.
+Algorithms for temperature and emissivity estimation depend on sensor architecture and acquisition context. Some algorithms require knowledge of Normalized Difference Vegetation Index (NDVI) \cite{sobrino-towards-2000}, surface type \cite{snyder-classification-1998} or even emissivity \cite{jimenez-munoz-revisions-2009}. Others are based on multitemporal \cite{wan-new-2000} or multiangle \cite{soria-derived-2007} acquisition. There are only a small number of algorithms for simultaneous temperature and emissivity retrievals from a single scene without ancillary surface information, that are robust enough to be applicable to data acquired by multispectral or hyperspectral sensors. The most common are: grey body emissivity method \cite{BP96}, linear emissivity constraint temperature emissivity separation method \cite{WW11}, spectral smoothing \cite{B07} and the TES algorithm \cite{GR98}. Principles of last four mentioned methods are described in the following text. The most attention is paid to the TES algorithm, as it is the most popular and it is widely applied to many sensors.
 
 \subsection*{Gray body emissivity method}
 
@@ -19,7 +19,7 @@ As Wang et al. \cite{WW11} describe, this method is based on idea of substitutin
 
 \subsection*{Spectral smoothing}
 
-Spectral smoothing algorithm, also known as ARTEMISS (Automatic Retrieval of Temperature and EMIssivity using Spectral Smoothness), was reported by Borel at \cite{B98} and \cite{B07}. Algorithm is based on the assumption that spectra of solids are much more smoother than spectra of gases. Thus by smoothing spectra one removes spectral features introduced by atmosphere and obtains spectral emissivity. Moreover, current implementation described in \cite{B07} includes modified ISAC algorithm called ARTISAC, which estimates atmospheric transmissivity for further choice correct atmospheric model. Atmospheric models contains so called TUD (atmospheric Transmissivity, Upwelling and Downwelling atmospheric radiance) and are stored in look-up tables (LUT). Then temperature is varied until the spectral emissivity is the smoothest possible, where the smoothness criterion is standard deviation of measured radiance minus simulated radiance. Spectral smoothness method can be described briefly by following steps:
+Spectral smoothing algorithm, also known as ARTEMISS (Automatic Retrieval of Temperature and EMIssivity using Spectral Smoothness), was reported by Borel at \cite{B98} and \cite{B08}. Algorithm is based on the assumption that spectra of solids are much more smoother than spectra of gases. Thus by smoothing spectra one removes spectral features introduced by atmosphere and obtains spectral emissivity. Moreover, current implementation described in \cite{B08} includes modified ISAC algorithm called ARTISAC, which estimates atmospheric transmissivity for further choice correct atmospheric model. Atmospheric models contains so called TUD (atmospheric Transmissivity, Upwelling and Downwelling atmospheric radiance) and are stored in look-up tables (LUT). Then temperature is varied until the spectral emissivity is the smoothest possible, where the smoothness criterion is standard deviation of measured radiance minus simulated radiance. Spectral smoothness method can be described briefly by following steps:
 \begin{enumerate}
 	\item estimation atmospheric transmissivity using ARTISAC algorithm
 	\item determination few closest atmosphere models from TUD-LUT according to the estimated atmospheric transmissivity
@@ -27,13 +27,13 @@ Spectral smoothing algorithm, also known as ARTEMISS (Automatic Retrieval of Tem
 	\item use chosen atmosphere model for the whole image and estimate temperature and emissivity by applying spectral smoothing procedure
 \end{enumerate}
 
-\subsection*{Temperature and emissivity separation algorithm}
+\section*{Temperature and emissivity separation algorithm (TES)}
 
-TES algorithm was originally developed for the Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) sensor \cite{gillespie-temperature-1998}. ASTER was launched in December 1999 onboard NASA's Terra platform. TES has since then found widespread use with other multispectral and hyperspectral sensors.
+TES algorithm was originally developed for the Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) sensor \cite{GR98}. ASTER was launched in December 1999 onboard NASA's Terra platform. TES has since then found widespread use with other multispectral and hyperspectral sensors.
 
-Several studies have discussed the implementation of TES with Airborne Hyperspectral Scanner (AHS) data \cite{sobrino-land-2006, jimenez-munoz-surface-2012}. Application of TES to data acquired by the TASI sensor is mentioned in a few studies as well \cite{wang-temperature-2011, pipia-simultaneous-2012}. Apart from the mentioned sensors, the TES algorithm has been modified for the Digital Airborne Imaging Spectrometer (DAIS) sensor \cite{sobrino-surface-2002}. Concerning spaceborne sensors, the TES algorithm has also been suggested for Spinning Enhanced Visible and Infrared Imager (SEVIRI) \cite{jimenez-munoz-temperature-2014}, Moderate Resolution Imaging Spectroradiometer (MODIS) \cite{hulley-generating-2011} and Multispectral Thermal Imager (MTI) \cite{mushkin-temperature/emissivity-2002} data processing. Moreover, the TES algorithm is being suggested for the future HyspIRI mission \cite{hulley-hyspiri-2011}.
+Several studies have discussed the implementation of TES with Airborne Hyperspectral Scanner (AHS) data \cite{SJ06, JS12}. Application of TES to data acquired by the TASI sensor is mentioned in a few studies as well \cite{WX11, PP12}. Apart from the mentioned sensors, the TES algorithm has been modified for the Digital Airborne Imaging Spectrometer (DAIS) sensor \cite{SJ02}. Concerning spaceborne sensors, the TES algorithm has also been suggested for Spinning Enhanced Visible and Infrared Imager (SEVIRI) \cite{JS14}, Moderate Resolution Imaging Spectroradiometer (MODIS) \cite{HH11} and Multispectral Thermal Imager (MTI) \cite{MB02} data processing. Moreover, the TES algorithm is being suggested for the future HyspIRI mission \cite{hulley-hyspiri-2011}.
 
-The TES algorithm is based on a semi-empirical relationship between spectral contrast (i.e. difference between the highest and lowest values in the emissivity spectrum) and the minimum emissivity. The algorithm consists of three modules, namely the Normalization Emissivity Module (NEM) \cite{gillespie-lithologic-1986}, the Ratio module and the Maximum-Minimum Difference (MMD) module \cite{matsunaga-temperature-emissivity-1994}. The inputs of the algorithm are land-leaving radiance $L_\mathrm{LL}$ and downwelling radiance $L^{\downarrow}_\mathrm{atm}$. Let us remind the reader that land-leaving radiance is obtained from (\ref{eq:RTE}) by compensating for atmospheric transmissivity $\tau$ and atmospheric upwelling radiance $L^{\uparrow}_\mathrm{atm}$:
+The TES algorithm is based on a semi-empirical relationship between spectral contrast (i.e. difference between the highest and lowest values in the emissivity spectrum) and the minimum emissivity. The algorithm consists of three modules, namely the Normalization Emissivity Module (NEM) \cite{G86}, the Ratio module and the Maximum-Minimum Difference (MMD) module \cite{M94}. The inputs of the algorithm are land-leaving radiance $L_\mathrm{LL}$ and downwelling radiance $L^{\downarrow}_\mathrm{atm}$. Let us remind the reader that land-leaving radiance is obtained from (\ref{eq:RTE}) by compensating for atmospheric transmissivity $\tau$ and atmospheric upwelling radiance $L^{\uparrow}_\mathrm{atm}$:
 \begin{equation}
 \label{eq:landleavingRadiance}
 L_\mathrm{LL} = \varepsilon B(T_\mathrm{s}) + (1 - \varepsilon) L^\downarrow_\mathrm{atm}.
@@ -46,7 +46,7 @@ The NEM module performs an iterative process for estimating temperature and emis
 \end{equation}
 Derivation of (\ref{eq:MMD}) is explained in following paragraph. Ratioing the $\beta$ spectrum back to an emissivity spectrum with knowledge of minimum emissivity results in a more precise estimation of the emissivity spectrum. The band with highest emissivity is then used for temperature estimation.
 
-The relationship between spectral contrast and minimum emissivity, shown in (\ref{eq:MMD}), is a regression based on 86 laboratory spectra of rocks, soils, vegetation, snow and water chosen from the ASTER spectral library \cite{baldridge-aster-2009}. This relationship is depicted in the Figure \ref{fig:EpsMinMMD}. It is important to note that (\ref{eq:MMD}) is tailored for the ASTER sensor. To apply  {TES to a} different sensor,  {the} regression of $\varepsilon_\mathrm{min}$ on MMD  {must be} refined by using sensor specific response functions. 
+The relationship between spectral contrast and minimum emissivity, shown in (\ref{eq:MMD}), is a regression based on 86 laboratory spectra of rocks, soils, vegetation, snow and water chosen from the ASTER spectral library \cite{BH09}. This relationship is depicted in the Figure \ref{fig:EpsMinMMD}. It is important to note that (\ref{eq:MMD}) is tailored for the ASTER sensor. To apply  {TES to a} different sensor,  {the} regression of $\varepsilon_\mathrm{min}$ on MMD  {must be} refined by using sensor specific response functions. 
 
 \begin{figure}[htb]
 	\centering
@@ -56,20 +56,18 @@ The relationship between spectral contrast and minimum emissivity, shown in (\re
 	\label{fig:EpsMinMMD}
 \end{figure}
 
-After ASTER was launched, \cite{gustafson-revisions-2006} and \cite{sabol-field-2009} suggested to replace the power regression shown in (\ref{eq:MMD}) with linear regression. The replacement is connected with modification of the threshold for separating materials with low spectral contrast. The main advantage is elimination of artefacts in retrievals. However, the drawback is loss of accuracy in cases of materials with low spectral contrast \cite{sabol-field-2009}. The TES algorithm used for generation ASTER standard products \cite{bjorn-personal-communication}, as well as its modifications for other sensors \cite{sobrino-land-2006, jimenez-munoz-surface-2012, wang-temperature-2011, sobrino-surface-2002, jimenez-munoz-temperature-2014, hulley-generating-2011, mushkin-temperature/emissivity-2002, hulley-hyspiri-2011}, is based on the power law regression. Thus, in this work the TES algorithm is considered to be that using the power regression.
+After ASTER was launched, \cite{GG06} and \cite{SG09} suggested to replace the power regression shown in (\ref{eq:MMD}) with linear regression. The replacement is connected with modification of the threshold for separating materials with low spectral contrast. The main advantage is elimination of artefacts in retrievals. However, the drawback is loss of accuracy in cases of materials with low spectral contrast \cite{SG09}. The TES algorithm used for generation ASTER standard products \cite{bjorn-personal-communication}, as well as its modifications for other sensors \cite{SJ06, JS12, WX11, SJ02, JS14, HH11, MB02, hulley-hyspiri-2011}, is based on the power law regression. Thus, in this work the TES algorithm is considered to be that using the power regression.
 
 \section{TES Algorithm Improvement}
 
-he algorithm described below brings a new approach for the TES algorithm by replacing the NEM module with a completely new module. The new module is based on the similarity between brightness temperature spectral features and emissivity spectral features. Brightness temperature is obtained from land-leaving radiance under the assumption of emissivity $\varepsilon=1$ for every wavelength. Although land-leaving radiance includes some portion of reflected downwelling radiance, it still retains the spectral features arising from the emissivity of the surface materials, which is $0.6$ or higher for natural materials \cite{gillespie-temperature-1998}. Since the magnitude of downwelling radiance is usually much lower than the surface radiance the features contained in the brightness temperature spectra may be distorted but will not be completely hidden. The new module approximates this relation between brightness temperature $T_\mathrm{b}$ and emissivity.
+he algorithm described below brings a new approach for the TES algorithm by replacing the NEM module with a completely new module. The new module is based on the similarity between brightness temperature spectral features and emissivity spectral features. Brightness temperature is obtained from land-leaving radiance under the assumption of emissivity $\varepsilon=1$ for every wavelength. Although land-leaving radiance includes some portion of reflected downwelling radiance, it still retains the spectral features arising from the emissivity of the surface materials, which is $0.6$ or higher for natural materials \cite{GR98}. Since the magnitude of downwelling radiance is usually much lower than the surface radiance the features contained in the brightness temperature spectra may be distorted but will not be completely hidden. The new module approximates this relation between brightness temperature $T_\mathrm{b}$ and emissivity.
 
-In order to demonstrate the relationship, three emissivity samples with different spectral contrasts were chosen from the ASTER spectral library, namely green grass, fine sandy loam and altered volcanic tuff. Emissivities are depicted in Fig. \ref{fig:emissivitySpectra-spectra} (solid lines) together with corresponding band-effective values for ASTER, AHS and TASI sensor (empty symbols). Band-effective values of emissivity for each sensor are distributed among three samples for reasons of clarity. These emissivities were applied to Plank's law at temperature $300\,\mathrm{K}$ and combined with downwelling radiance from standard mid-latitude summer atmosphere generated by MODerate resolution atmospheric TRANsmission (MODTRAN) \cite{berk-modtran-2006}. The resulting radiances, were transformed to band-effective quantities with respect to the ASTER, AHS and TASI response functions. Brightness temperatures for every band of each sensor were obtained by applying inverse Planck's law on sample land-leaving radiances under the assumption of $\varepsilon=1$. Fig. \ref{fig:emissivitySpectra-spectra} also includes brightness temperatures (full symbols) in order to demonstrate spectral similarity with emissivity. Fig. \ref{fig:relationship} plots emissivity against brightness temperature for chosen samples and for each of the sensors (empty symbols). These quantities clearly exhibit relationship with linear trend regardless of spectral contrast or sensor used. Also displayed in Fig. \ref{fig:relationship} are lines that approximate this relationship, derived in the manner described later in the next. The algorithm description below uses band-effective values of quantities linked to $i$-th band by subscript index $i$. 
-
-\begin{figure}[htb]
+\begin{figure}[thb]
 	\centering
 	\vspace{1em}
 	\begin{subfigure}[t]{.3\linewidth}
 		\centering
-		\includegraphics[scale=1]{pics/Chapter_03/pivov2.pdf}
+		\includegraphics[scale=1]{pics/Chapter_03/GreenGrass_Emiss_vs_BrightTemp.eps}
 		\vspace{-0.4cm}
 		%\caption{Atmospheric transmittance}
 		\caption{}
@@ -77,7 +75,7 @@ In order to demonstrate the relationship, three emissivity samples with differen
 	\hspace{1em}
 	\begin{subfigure}[t]{.3\linewidth}
 		\centering
-		\includegraphics[scale=1]{pics/Chapter_03/pivov3.pdf}
+		\includegraphics[scale=1]{pics/Chapter_03/FineSandyLoam_Emiss_vs_BrightTemp.eps}
 		\vspace{-0.4cm}
 		%\caption{Upwelling atmospheric radiance}
 		\caption{}
@@ -85,22 +83,24 @@ In order to demonstrate the relationship, three emissivity samples with differen
 	\hspace{1em}
 	\begin{subfigure}[t]{.3\linewidth}
 		\centering
-		\includegraphics[scale=1]{pics/Chapter_03/pivov4.pdf}
+		\includegraphics[scale=1]{pics/Chapter_03/AlteredVolcanicTuff_Emiss_vs_BrightTemp.eps}
 		\vspace{-0.4cm}
 		%\caption{Downwelling atmospheric radiance}
 		\caption{}
 	\end{subfigure}
 	\vspace{1.5 em}
-	\caption{Emissivity spectra (black solid line) of three samples chosen from ASTER spectral library \cite{baldridge-aster-2009}. Symbols represent band-effective values of emissivity (empty symbols) and brightness temperature (full symbols) for ASTER (orange triangles), AHS (blue squares), and TASI (green dots) sensor. }
+	\caption{Emissivity spectra (black solid line) of three samples chosen from ASTER spectral library \cite{BH09}. Symbols represent band-effective values of emissivity (empty symbols) and brightness temperature (full symbols) for ASTER (orange triangles), AHS (blue squares), and TASI (green dots) sensor. }
 	\label{fig:emissivitySpectra_spectra}
 \end{figure}
 
-\begin{figure}[htb]
+In order to demonstrate the relationship, three emissivity samples with different spectral contrasts were chosen from the ASTER spectral library, namely green grass, fine sandy loam and altered volcanic tuff. Emissivities are depicted in Fig. \ref{fig:emissivitySpectra_spectra} (solid lines) together with corresponding band-effective values for TASI sensor (empty symbols). These emissivities were applied to Plank's law at temperature $300\,\mathrm{K}$ and combined with downwelling radiance from standard mid-latitude summer atmosphere generated by MODerate resolution atmospheric TRANsmission (MODTRAN) \cite{BG06}. The resulting radiances, were transformed to band-effective quantities with respect to the ASTER, AHS and TASI response functions. Brightness temperatures for every band of each sensor were obtained by applying inverse Planck's law on sample land-leaving radiances under the assumption of $\varepsilon=1$. Fig. \ref{fig:emissivitySpectra_spectra} also includes brightness temperatures (full symbols) in order to demonstrate spectral similarity with emissivity. Fig. \ref{fig:relationship} plots emissivity against brightness temperature for chosen samples (empty symbols). These quantities clearly exhibit relationship with linear trend regardless of spectral contrast. Also displayed in Fig. \ref{fig:relationship} are lines that approximate this relationship, derived in the manner described later in the next. The algorithm description below uses band-effective values of quantities linked to $i$-th band by subscript index $i$. 
+
+\begin{figure}[thb]
 	\centering
 	\vspace{1em}
 	\begin{subfigure}[t]{.3\linewidth}
 		\centering
-		\includegraphics[scale=1]{pics/Chapter_03/pivov5.pdf}
+		\includegraphics[scale=1]{pics/Chapter_03/GreenGrass_Emiss2BrightTemp.eps}
 		\vspace{-0.4cm}
 		%\caption{Atmospheric transmittance}
 		\caption{}
@@ -108,7 +108,7 @@ In order to demonstrate the relationship, three emissivity samples with differen
 	\hspace{1em}
 	\begin{subfigure}[t]{.3\linewidth}
 		\centering
-		\includegraphics[scale=1]{pics/Chapter_03/pivov6.pdf}
+		\includegraphics[scale=1]{pics/Chapter_03/FineSandyLoam_Emiss2BrightTemp.eps}
 		\vspace{-0.4cm}
 		%\caption{Upwelling atmospheric radiance}
 		\caption{}
@@ -116,7 +116,7 @@ In order to demonstrate the relationship, three emissivity samples with differen
 	\hspace{1em}
 	\begin{subfigure}[t]{.3\linewidth}
 		\centering
-		\includegraphics[scale=1]{pics/Chapter_03/pivov7.pdf}
+		\includegraphics[scale=1]{pics/Chapter_03/AlteredVolcanicTuff_Emiss2BrightTemp.eps}
 		\vspace{-0.4cm}
 		%\caption{Downwelling atmospheric radiance}
 		\caption{}
@@ -172,8 +172,7 @@ Before passing emissivity to the Ratio and MMD modules, it is  {recomputed} acco
 \varepsilon_{ {i}} = \frac{L_{\mathrm{LL}_{ {i}}} - L^\downarrow_{ {i}}}{B_{ {i}}(T) - L^\downarrow_{ {i}}},
 \label{eq:emissivityComputation}
 \end{equation}
-where $T$ is the maximum temperature associated with optimal $\varepsilon_\mathrm{min}$.  {Equation (\ref{eq:emissivityComputation}) is derived from (\ref{eq:landleavingRadiance}) and it is important for relating temperature and emissivity. This recomputation keeps temperature and emissivity consistent with each other (i.e. the same temperature can be derived from any emissivity band).} The emissivity is then further processed with the Ratio and MMD modules, with minor changes to  {the} original version of the TES algorithm as it is described in \cite{gillespie-temperature-1998} and \cite{gillespie-temperature/emissivity-1999}. 
-These changes include: 1) there is no refinement of $\varepsilon_\mathrm{max}$ according to the emissivity spectral contrast, 2) the threshold $T_1$ for separation emissivities with small spectral contrast is not applied, and 3) the number of MMD iterations is set to one. Let us emphasize that before  
+where $T$ is the maximum temperature associated with optimal $\varepsilon_\mathrm{min}$.  {Equation (\ref{eq:emissivityComputation}) is derived from (\ref{eq:landleavingRadiance}) and it is important for relating temperature and emissivity. This recomputation keeps temperature and emissivity consistent with each other (i.e. the same temperature can be derived from any emissivity band).} The emissivity is then further processed with the Ratio and MMD modules, with minor changes to  {the} original version of the TES algorithm as it is described in \cite{GR98} and \cite{GR99}. These changes include: 1) there is no refinement of $\varepsilon_\mathrm{max}$ according to the emissivity spectral contrast, 2) the threshold $T_1$ for separation emissivities with small spectral contrast is not applied, and 3) the number of MMD iterations is set to one. Let us emphasize that before  
 reporting algorithm outputs, emissivity is  {recomputed} by (\ref{eq:emissivityComputation}) using the final value of temperature.
 
 

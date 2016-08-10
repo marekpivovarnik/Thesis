@@ -1,0 +1,35 @@
+\chapter{OSTES Validation}
+\label{chap:OSTESValid}
+
+\section{Imaging Systems}
+
+From the wide range of airborne sensors operating in the TIR region two are chosen as examples: Airborne Hyperspectral Scanner (AHS) operated by Spanish Institute of Aeronauics (INTA) \textcolor{red}{and developed by ArgonST (Fairfax, USA),} and Thermal Airborne Spectrographic Imager (TASI) developed by Itres Ltd. (Calgary, Canada). These sensors offer data of great importance in applications. Notable studies include areas of
+mineral mapping \cite{NK14}, 
+soil moisture estimation \cite{SF12}, 
+urban studies \cite{SO12},
+soil organic carbon estimation \cite{PC14} and
+crop water stress characterization \cite{PP12},
+among others.
+
+ {The above-mentioned airborne sensors were chosen together with the ASTER sensor to analyze the performance of the OSTES algorithm.
+%\subsubsection{ASTER}
+ASTER consists of 15 bands of which 5 are situated in TIR region with Noise Equivalent Temperature difference $\mathrm{(NE\Delta T)} \approx 0.3\,\textcolor{red}{\mathrm{K}}$. The spatial resolution of the TIR bands is $90\,\mathrm{m}$.}
+%\subsubsection{AHS}
+The AHS sensor has been fully operational from 2005 \cite{FM05}. Its sensor operates in 80 spectral bands where the last 10 bands cover atmospheric window from 8 to $13\,\mathrm{\mu m}$ \cite{sobrino_land_2006}. The AHS TIR bands have a  {Full Width at Half Maximum} $\mathrm{(FWHM)} \approx 0.5\,\mathrm{\mu m}$ with $\mathrm{NE\Delta T} \approx 0.5\,\textcolor{red}{\mathrm{K}}$.
+%\subsubsection{TASI}
+ {The third sensor we will consider is TASI sensor,} one of the very few commercially available hyperspectral TIR sensors. It contains 32 bands all of which are in the TIR region. Bands are situated in the 8 to $11.5\,\mathrm{\mu m}$ region and have a $\mathrm{FWHM} \approx 0.11\,\mathrm{\mu m}$ with $\mathrm{NE\Delta T} \approx 0.1\,\textcolor{red}{\mathrm{K}}$. The response functions of these sensors are depicted in Fig. \ref{fig:ResponseFunctions}.
+
+\begin{table}[!t]
+\renewcommand{\arraystretch}{1.5}
+\caption{Regression coefficients of $\varepsilon_\mathrm{min} = a + b\:\mathrm{MMD}^c$ and coefficients of determination $r^2$}
+\label{table:MMDcoef}
+\centering
+\begin{tabular}{lcccc}
+\hline
+Sensor & $a$ & $b$ & $c$ & $r^2$\\ \hline
+ASTER & $0.994$ & $-0.687$ & $0.737$ & $0.983$ \\
+AHS & $1.000$ & $-0.782$ & $0.817$ & $0.994$ \\
+TASI & $1.001$ & $-0.737$ & $0.760$ & $0.997$ \\
+\hline
+\end{tabular}
+\end{table}
