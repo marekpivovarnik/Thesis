@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.3.4)  10 AUG 2016 19:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.3.4)  11 AUG 2016 18:13
 entering extended mode
 **main.tex
 (C:\Users\Marek\Documents\GitHub\Thesis\main.tex
@@ -880,9 +880,6 @@ LaTeX Warning: Label `sub@fig:QuartzByTASI' multiply defined.
 
 LaTeX Warning: Label `eq:landleavingRadiance' multiply defined.
 
-
-LaTeX Warning: Label `SF12' multiply defined.
-
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 292.
 LaTeX Font Info:    ... okay on input line 292.
@@ -958,7 +955,7 @@ _barevne_CMYK_CZ.eps>
 (epstopdf)             \includegraphics on input line 295.
 Package epstopdf Info: Output file is already uptodate.
 
-<logo/VUT_symbol_barevne_CMYK_CZ-eps-converted-to.pdf, id=67, 167.62625pt x 166.6225pt>
+<logo/VUT_symbol_barevne_CMYK_CZ-eps-converted-to.pdf, id=87, 167.62625pt x 166.6225pt>
 File: logo/VUT_symbol_barevne_CMYK_CZ-eps-converted-to.pdf Graphic file (type pdf)
 
 <use logo/VUT_symbol_barevne_CMYK_CZ-eps-converted-to.pdf>
@@ -1018,7 +1015,7 @@ cksLaw.eps>
 (epstopdf)             \includegraphics on input line 26.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_01/PlancksLaw-eps-converted-to.pdf, id=167, 138.5175pt x 130.4875pt>
+<pics/Chapter_01/PlancksLaw-eps-converted-to.pdf, id=192, 138.5175pt x 130.4875pt>
 File: pics/Chapter_01/PlancksLaw-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pics/Chapter_01/PlancksLaw-eps-converted-to.pdf>
@@ -1039,7 +1036,7 @@ Package epstopdf Info: Source file: <pics/Chapter_01/QuartzSpectrum.eps>
 QuartzSpectrum.eps>
 (epstopdf)             \includegraphics on input line 34.
 Package epstopdf Info: Output file is already uptodate.
-<pics/Chapter_01/QuartzSpectrum-eps-converted-to.pdf, id=168, 145.54375pt x 130.4875pt>
+<pics/Chapter_01/QuartzSpectrum-eps-converted-to.pdf, id=193, 145.54375pt x 130.4875pt>
 File: pics/Chapter_01/QuartzSpectrum-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pics/Chapter_01/QuartzSpectrum-eps-converted-to.pdf>
@@ -1060,7 +1057,7 @@ Package epstopdf Info: Source file: <pics/Chapter_01/QuartzRadiance.eps>
 QuartzRadiance.eps>
 (epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
-<pics/Chapter_01/QuartzRadiance-eps-converted-to.pdf, id=169, 138.5175pt x 130.4875pt>
+<pics/Chapter_01/QuartzRadiance-eps-converted-to.pdf, id=194, 138.5175pt x 130.4875pt>
 File: pics/Chapter_01/QuartzRadiance-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pics/Chapter_01/QuartzRadiance-eps-converted-to.pdf>
@@ -1107,7 +1104,7 @@ Package epstopdf Info: Source file: <pics/Chapter_02/TASIResponseFunctions.eps>
 ter_02/TASIResponseFunctions.eps>
 (epstopdf)             \includegraphics on input line 24.
 Package epstopdf Info: Output file is already uptodate.
-<pics/Chapter_02/TASIResponseFunctions-eps-converted-to.pdf, id=197, 189.70876pt x 130.4875pt>
+<pics/Chapter_02/TASIResponseFunctions-eps-converted-to.pdf, id=222, 189.70876pt x 130.4875pt>
 File: pics/Chapter_02/TASIResponseFunctions-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pics/Chapter_02/TASIResponseFunctions-eps-converted-to.pdf>
@@ -1124,7 +1121,7 @@ artzByTASI.eps>
 (epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_02/QuartzByTASI-eps-converted-to.pdf, id=198, 157.58875pt x 130.4875pt>
+<pics/Chapter_02/QuartzByTASI-eps-converted-to.pdf, id=223, 157.58875pt x 130.4875pt>
 File: pics/Chapter_02/QuartzByTASI-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pics/Chapter_02/QuartzByTASI-eps-converted-to.pdf>
@@ -1144,7 +1141,7 @@ Package epstopdf Info: Source file: <pics/Chapter_02/Fig_2_3.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_02/Fig_2_3-eps-converted-to.pdf, id=209, 378.41376pt x 624.3325pt>
+<pics/Chapter_02/Fig_2_3-eps-converted-to.pdf, id=234, 378.41376pt x 624.3325pt>
 File: pics/Chapter_02/Fig_2_3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pics/Chapter_02/Fig_2_3-eps-converted-to.pdf>
@@ -1174,7 +1171,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [19 <C:/Users/Marek/Documents/GitHub/Thesis/pics/Chapter_02/Fig_2_3-eps-converted-to.pdf>]
 
-LaTeX Warning: Reference `' on page 20 undefined on input line 73.
+LaTeX Warning: Reference `HK96' on page 20 undefined on input line 73.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1193,7 +1190,7 @@ Package epstopdf Info: Source file: <pics/Chapter_02/Fig_3_2.eps>
 .eps>
 (epstopdf)             \includegraphics on input line 96.
 Package epstopdf Info: Output file is already uptodate.
- <pics/Chapter_02/Fig_3_2-eps-converted-to.pdf, id=248, 161.60374pt x 315.1775pt>
+ <pics/Chapter_02/Fig_3_2-eps-converted-to.pdf, id=273, 161.60374pt x 315.1775pt>
 File: pics/Chapter_02/Fig_3_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pics/Chapter_02/Fig_3_2-eps-converted-to.pdf>
@@ -1218,7 +1215,7 @@ ransmittance.eps>
 (epstopdf)             \includegraphics on input line 111.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_02/Transmittance-eps-converted-to.pdf, id=286, 141.52875pt x 130.4875pt>
+<pics/Chapter_02/Transmittance-eps-converted-to.pdf, id=311, 141.52875pt x 130.4875pt>
 File: pics/Chapter_02/Transmittance-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pics/Chapter_02/Transmittance-eps-converted-to.pdf>
@@ -1239,7 +1236,7 @@ Package epstopdf Info: Source file: <pics/Chapter_02/Upwelling.eps>
 ling.eps>
 (epstopdf)             \includegraphics on input line 119.
 Package epstopdf Info: Output file is already uptodate.
-<pics/Chapter_02/Upwelling-eps-converted-to.pdf, id=287, 141.52875pt x 130.4875pt>
+<pics/Chapter_02/Upwelling-eps-converted-to.pdf, id=312, 141.52875pt x 130.4875pt>
 File: pics/Chapter_02/Upwelling-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pics/Chapter_02/Upwelling-eps-converted-to.pdf>
@@ -1260,7 +1257,7 @@ Package epstopdf Info: Source file: <pics/Chapter_02/Downwelling.eps>
 nwelling.eps>
 (epstopdf)             \includegraphics on input line 127.
 Package epstopdf Info: Output file is already uptodate.
-<pics/Chapter_02/Downwelling-eps-converted-to.pdf, id=288, 134.5025pt x 130.4875pt>
+<pics/Chapter_02/Downwelling-eps-converted-to.pdf, id=313, 134.5025pt x 130.4875pt>
 File: pics/Chapter_02/Downwelling-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pics/Chapter_02/Downwelling-eps-converted-to.pdf>
@@ -1287,7 +1284,7 @@ Package epstopdf Info: Source file: <pics/Chapter_02/calibration-1-DN.eps>
 (epstopdf)             \includegraphics on input line 153.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_02/calibration-1-DN-eps-converted-to.pdf, id=309, 152.57pt x 130.4875pt>
+<pics/Chapter_02/calibration-1-DN-eps-converted-to.pdf, id=334, 152.57pt x 130.4875pt>
 File: pics/Chapter_02/calibration-1-DN-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pics/Chapter_02/calibration-1-DN-eps-converted-to.pdf>
@@ -1308,7 +1305,7 @@ Package epstopdf Info: Source file: <pics/Chapter_02/calibration-2-Lm.eps>
 2/calibration-2-Lm.eps>
 (epstopdf)             \includegraphics on input line 161.
 Package epstopdf Info: Output file is already uptodate.
-<pics/Chapter_02/calibration-2-Lm-eps-converted-to.pdf, id=310, 145.54375pt x 130.4875pt>
+<pics/Chapter_02/calibration-2-Lm-eps-converted-to.pdf, id=335, 145.54375pt x 130.4875pt>
 File: pics/Chapter_02/calibration-2-Lm-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pics/Chapter_02/calibration-2-Lm-eps-converted-to.pdf>
@@ -1329,7 +1326,7 @@ Package epstopdf Info: Source file: <pics/Chapter_02/calibration-3-Lll.eps>
 02/calibration-3-Lll.eps>
 (epstopdf)             \includegraphics on input line 169.
 Package epstopdf Info: Output file is already uptodate.
-<pics/Chapter_02/calibration-3-Lll-eps-converted-to.pdf, id=311, 145.54375pt x 130.4875pt>
+<pics/Chapter_02/calibration-3-Lll-eps-converted-to.pdf, id=336, 145.54375pt x 130.4875pt>
 File: pics/Chapter_02/calibration-3-Lll-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pics/Chapter_02/calibration-3-Lll-eps-converted-to.pdf>
@@ -1348,13 +1345,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [23 <C:/Users/Marek/Documents/GitHub/Thesis/pics/Chapter_02/calibration-1-DN-eps-converted-to.pdf> <C:/Users/Marek/Docum
 ents/GitHub/Thesis/pics/Chapter_02/calibration-2-Lm-eps-converted-to.pdf> <C:/Users/Marek/Documents/GitHub/Thesis/pics/C
-hapter_02/calibration-3-Lll-eps-converted-to.pdf>] <pics/Chapter_02/TASIcalibrated.png, id=327, 642.4pt x 830.10126pt>
+hapter_02/calibration-3-Lll-eps-converted-to.pdf>] <pics/Chapter_02/TASIcalibrated.png, id=352, 642.4pt x 830.10126pt>
 File: pics/Chapter_02/TASIcalibrated.png Graphic file (type png)
 
 <use pics/Chapter_02/TASIcalibrated.png>
 Package pdftex.def Info: pics/Chapter_02/TASIcalibrated.png used on input line 194.
 (pdftex.def)             Requested size: 154.17915pt x 199.22836pt.
- <pics/Chapter_02/TASIgeoreferencedcut.png, id=328, 249.8133pt x 199.2243pt>
+ <pics/Chapter_02/TASIgeoreferencedcut.png, id=353, 249.8133pt x 199.2243pt>
 File: pics/Chapter_02/TASIgeoreferencedcut.png Graphic file (type png)
 
 <use pics/Chapter_02/TASIgeoreferencedcut.png>
@@ -1375,29 +1372,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [24 <C:/Users/Marek/Documents/GitHub/Thesis/pics/Chapter_02/TASIcalibrated.png> <C:/Users/Marek/Documents/GitHub/Thesis/
 pics/Chapter_02/TASIgeoreferencedcut.png>] (C:\Users\Marek\Documents\GitHub\Thesis\4_Chapter_3_TES.tex
 Chapter 3.
-
-LaTeX Warning: Citation `sobrino-towards-2000' on page 25 undefined on input line 10.
-
-
-LaTeX Warning: Citation `snyder-classification-1998' on page 25 undefined on input line 10.
-
-
-LaTeX Warning: Citation `jimenez-munoz-revisions-2009' on page 25 undefined on input line 10.
-
-
-LaTeX Warning: Citation `wan-new-2000' on page 25 undefined on input line 10.
-
-
-LaTeX Warning: Citation `soria-derived-2007' on page 25 undefined on input line 10.
-
-
-LaTeX Warning: Citation `B07' on page 25 undefined on input line 10.
-
-
-Overfull \hbox (18.48027pt too wide) in paragraph at lines 10--11
-\OT1/cmr/m/n/12 Veg-e-ta-tion In-dex (NDVI) [[]], sur-face type [[]]
- []
-
 [25
 
 
@@ -1412,21 +1386,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[26]
-
-LaTeX Warning: Citation `hulley-hyspiri-2011' on page 27 undefined on input line 34.
-
-<pics/Chapter_03/EpsMinMMD.png, id=381, 931.48pt x 814.04124pt>
+[26] <pics/Chapter_03/EpsMinMMD.png, id=418, 931.48pt x 814.04124pt>
 File: pics/Chapter_03/EpsMinMMD.png Graphic file (type png)
  <use pics/Chapter_03/EpsMinMMD.png>
 Package pdftex.def Info: pics/Chapter_03/EpsMinMMD.png used on input line 53.
 (pdftex.def)             Requested size: 186.2927pt x 162.80536pt.
-
-
-LaTeX Warning: Citation `bjorn-personal-communication' on page 27 undefined on input line 59.
-
-
-LaTeX Warning: Citation `hulley-hyspiri-2011' on page 27 undefined on input line 59.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1445,7 +1409,7 @@ Package epstopdf Info: Source file: <pics/Chapter_03/GreenGrass_Emiss_vs_BrightT
 pics/Chapter_03/GreenGrass_Emiss_vs_BrightTemp.eps>
 (epstopdf)             \includegraphics on input line 70.
 Package epstopdf Info: Output file is already uptodate.
- <pics/Chapter_03/GreenGrass_Emiss_vs_BrightTemp-eps-converted-to.pdf, id=415, 144.54pt x 120.45pt>
+ <pics/Chapter_03/GreenGrass_Emiss_vs_BrightTemp-eps-converted-to.pdf, id=456, 144.54pt x 120.45pt>
 File: pics/Chapter_03/GreenGrass_Emiss_vs_BrightTemp-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pics/Chapter_03/GreenGrass_Emiss_vs_BrightTemp-eps-converted-to.pdf>
@@ -1466,7 +1430,7 @@ Package epstopdf Info: Source file: <pics/Chapter_03/FineSandyLoam_Emiss_vs_Brig
 df pics/Chapter_03/FineSandyLoam_Emiss_vs_BrightTemp.eps>
 (epstopdf)             \includegraphics on input line 78.
 Package epstopdf Info: Output file is already uptodate.
-<pics/Chapter_03/FineSandyLoam_Emiss_vs_BrightTemp-eps-converted-to.pdf, id=416, 144.54pt x 121.45375pt>
+<pics/Chapter_03/FineSandyLoam_Emiss_vs_BrightTemp-eps-converted-to.pdf, id=457, 144.54pt x 121.45375pt>
 File: pics/Chapter_03/FineSandyLoam_Emiss_vs_BrightTemp-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pics/Chapter_03/FineSandyLoam_Emiss_vs_BrightTemp-eps-converted-to.pdf>
@@ -1487,7 +1451,7 @@ Package epstopdf Info: Source file: <pics/Chapter_03/AlteredVolcanicTuff_Emiss_v
 d-to.pdf pics/Chapter_03/AlteredVolcanicTuff_Emiss_vs_BrightTemp.eps>
 (epstopdf)             \includegraphics on input line 86.
 Package epstopdf Info: Output file is already uptodate.
-<pics/Chapter_03/AlteredVolcanicTuff_Emiss_vs_BrightTemp-eps-converted-to.pdf, id=417, 144.54pt x 121.45375pt>
+<pics/Chapter_03/AlteredVolcanicTuff_Emiss_vs_BrightTemp-eps-converted-to.pdf, id=458, 144.54pt x 121.45375pt>
 File: pics/Chapter_03/AlteredVolcanicTuff_Emiss_vs_BrightTemp-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pics/Chapter_03/AlteredVolcanicTuff_Emiss_vs_BrightTemp-eps-converted-to.pdf>
@@ -1505,7 +1469,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[28 <C:/Users/Marek/Documents/GitHub/Thesis/pics/Chapter_03/EpsMinMMD.png>]
+[28 <C:/Users/Marek/Documents/GitHub/Thesis/pics/Chapter_03/EpsMinMMD.png> <C:/Users/Marek/Documents/GitHub/Thesis/pics/
+Chapter_03/GreenGrass_Emiss_vs_BrightTemp-eps-converted-to.pdf> <C:/Users/Marek/Documents/GitHub/Thesis/pics/Chapter_03/
+FineSandyLoam_Emiss_vs_BrightTemp-eps-converted-to.pdf> <C:/Users/Marek/Documents/GitHub/Thesis/pics/Chapter_03/AlteredV
+olcanicTuff_Emiss_vs_BrightTemp-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pics/Chapter_03/GreenGrass_Emiss2BrightTemp.eps>
 (epstopdf)                    date: 2016-08-10 15:06:25
 (epstopdf)                    size: 100926 bytes
@@ -1517,7 +1484,7 @@ s/Chapter_03/GreenGrass_Emiss2BrightTemp.eps>
 (epstopdf)             \includegraphics on input line 103.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_03/GreenGrass_Emiss2BrightTemp-eps-converted-to.pdf, id=432, 144.54pt x 121.45375pt>
+<pics/Chapter_03/GreenGrass_Emiss2BrightTemp-eps-converted-to.pdf, id=478, 144.54pt x 121.45375pt>
 File: pics/Chapter_03/GreenGrass_Emiss2BrightTemp-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pics/Chapter_03/GreenGrass_Emiss2BrightTemp-eps-converted-to.pdf>
@@ -1538,7 +1505,7 @@ Package epstopdf Info: Source file: <pics/Chapter_03/FineSandyLoam_Emiss2BrightT
 pics/Chapter_03/FineSandyLoam_Emiss2BrightTemp.eps>
 (epstopdf)             \includegraphics on input line 111.
 Package epstopdf Info: Output file is already uptodate.
-<pics/Chapter_03/FineSandyLoam_Emiss2BrightTemp-eps-converted-to.pdf, id=433, 144.54pt x 121.45375pt>
+<pics/Chapter_03/FineSandyLoam_Emiss2BrightTemp-eps-converted-to.pdf, id=479, 144.54pt x 121.45375pt>
 File: pics/Chapter_03/FineSandyLoam_Emiss2BrightTemp-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pics/Chapter_03/FineSandyLoam_Emiss2BrightTemp-eps-converted-to.pdf>
@@ -1559,7 +1526,7 @@ Package epstopdf Info: Source file: <pics/Chapter_03/AlteredVolcanicTuff_Emiss2B
 o.pdf pics/Chapter_03/AlteredVolcanicTuff_Emiss2BrightTemp.eps>
 (epstopdf)             \includegraphics on input line 119.
 Package epstopdf Info: Output file is already uptodate.
-<pics/Chapter_03/AlteredVolcanicTuff_Emiss2BrightTemp-eps-converted-to.pdf, id=434, 144.54pt x 121.45375pt>
+<pics/Chapter_03/AlteredVolcanicTuff_Emiss2BrightTemp-eps-converted-to.pdf, id=480, 144.54pt x 121.45375pt>
 File: pics/Chapter_03/AlteredVolcanicTuff_Emiss2BrightTemp-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pics/Chapter_03/AlteredVolcanicTuff_Emiss2BrightTemp-eps-converted-to.pdf>
@@ -1577,16 +1544,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29 <C:/Users/Marek/Documents/GitHub/Thesis/pics/Chapter_03/GreenGrass_Emiss_vs_BrightTemp-eps-converted-to.pdf> <C:/Use
-rs/Marek/Documents/GitHub/Thesis/pics/Chapter_03/FineSandyLoam_Emiss_vs_BrightTemp-eps-converted-to.pdf> <C:/Users/Marek
-/Documents/GitHub/Thesis/pics/Chapter_03/AlteredVolcanicTuff_Emiss_vs_BrightTemp-eps-converted-to.pdf> <C:/Users/Marek/D
-ocuments/GitHub/Thesis/pics/Chapter_03/GreenGrass_Emiss2BrightTemp-eps-converted-to.pdf> <C:/Users/Marek/Documents/GitHu
-b/Thesis/pics/Chapter_03/FineSandyLoam_Emiss2BrightTemp-eps-converted-to.pdf> <C:/Users/Marek/Documents/GitHub/Thesis/pi
-cs/Chapter_03/AlteredVolcanicTuff_Emiss2BrightTemp-eps-converted-to.pdf>]
-<pics/Chapter_03/pivov8.pdf, id=455, 189.508pt x 182.48175pt>
-File: pics/Chapter_03/pivov8.pdf Graphic file (type pdf)
- <use pics/Chapter_03/pivov8.pdf>
-Package pdftex.def Info: pics/Chapter_03/pivov8.pdf used on input line 161.
+[29 <C:/Users/Marek/Documents/GitHub/Thesis/pics/Chapter_03/GreenGrass_Emiss2BrightTemp-eps-converted-to.pdf> <C:/Users/
+Marek/Documents/GitHub/Thesis/pics/Chapter_03/FineSandyLoam_Emiss2BrightTemp-eps-converted-to.pdf> <C:/Users/Marek/Docum
+ents/GitHub/Thesis/pics/Chapter_03/AlteredVolcanicTuff_Emiss2BrightTemp-eps-converted-to.pdf>]
+<pics/Chapter_03/pseudo_code.pdf, id=497, 189.508pt x 182.48175pt>
+File: pics/Chapter_03/pseudo_code.pdf Graphic file (type pdf)
+ <use pics/Chapter_03/pseudo_code.pdf>
+Package pdftex.def Info: pics/Chapter_03/pseudo_code.pdf used on input line 161.
 (pdftex.def)             Requested size: 158.99377pt x 153.10262pt.
 
 
@@ -1595,7 +1559,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30 <C:/Users/Marek/Documents/GitHub/Thesis/pics/Chapter_03/pivov8.pdf>])
+[30 <C:/Users/Marek/Documents/GitHub/Thesis/pics/Chapter_03/pseudo_code.pdf>])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1611,48 +1575,69 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [32
 
-] (C:\Users\Marek\Documents\GitHub\Thesis\5_Chapter_4_GroundMeasurements.tex
+] (C:\Users\Marek\Documents\GitHub\Thesis\5_Chapter_4_OSTES_valid.tex
 Chapter 4.
 [33
 
 ]
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+LaTeX Warning: Reference `fig:SimualtedDataTemperatureErrorVsLowVsHighMMD' on page 34 undefined on input line 72.
 
-[34]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[35]
+[34] <pics/Chapter_04/pivov10.pdf, id=596, 469.93828pt x 266.82298pt>
+File: pics/Chapter_04/pivov10.pdf Graphic file (type pdf)
+ <use pics/Chapter_04/pivov10.pdf>
+Package pdftex.def Info: pics/Chapter_04/pivov10.pdf used on input line 80.
+(pdftex.def)             Requested size: 505.89pt x 287.25253pt.
+
+Overfull \hbox (50.64592pt too wide) in paragraph at lines 80--82
+ [][] 
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36]
+[35 <C:/Users/Marek/Documents/GitHub/Thesis/pics/Chapter_04/pivov10.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[37])
+[36] <pics/Chapter_04/pivov11.pdf, id=631, 433.62561pt x 227.91223pt>
+File: pics/Chapter_04/pivov11.pdf Graphic file (type pdf)
+ <use pics/Chapter_04/pivov11.pdf>
+Package pdftex.def Info: pics/Chapter_04/pivov11.pdf used on input line 118.
+(pdftex.def)             Requested size: 505.89pt x 265.912pt.
+
+Overfull \hbox (50.64592pt too wide) in paragraph at lines 118--121
+ [][] 
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38] (C:\Users\Marek\Documents\GitHub\Thesis\6_Chapter_5_UHI.tex
+[37 <C:/Users/Marek/Documents/GitHub/Thesis/pics/Chapter_04/pivov11.pdf>])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[38] (C:\Users\Marek\Documents\GitHub\Thesis\6_Chapter_5_GroundMeasurements.tex
 Chapter 5.
-) [39
+[39
 
 
 ]
@@ -1662,11 +1647,39 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[40
+[40]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[41]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[42])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[43]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[44
 
 ] (C:\Users\Marek\Documents\GitHub\Thesis\7_Chapter_6_Conclusion.tex
 Chapter 6.
-) [41
+) [45
 
 ]
 
@@ -1675,24 +1688,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[42
+[46
 
 ] (C:\Users\Marek\Documents\GitHub\Thesis\8_References.tex
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
-[]\OT1/cmr/m/n/12 BORBAS, E., SEE-MANN, S.W., KERN, A., MOY, L., LI, J.,
+Underfull \hbox (badness 2809) in paragraph at lines 59--60
+\OT1/cmr/m/n/12 proved ini-tial-iza-tion in-ver-sion method: a high res-o-lu-tion phys-i-cal method
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
-\OT1/cmr/m/n/12 GUM-LEY, L. and MEN-ZEL, W.P. \OT1/cmr/m/it/12 MODIS At-mo-spheric Pro-file
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
-\OT1/cmr/m/it/12 Re-trieval - ATBD \OT1/cmr/m/n/12 [on-line]. 2011. [cit. 2016-08-10]. Avail-able at:
- []
-
-[43
+[47
 
 ]
 
@@ -1701,20 +1704,57 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[44]
+[48]
+Underfull \hbox (badness 4120) in paragraph at lines 99--100
+[]\OT1/cmr/m/n/12 HULLEY, G. and HOOK, S.J. \OT1/cmr/m/it/12 HyspIRI Level-2 Ther-mal In-frared (TIR)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+\OT1/cmr/m/it/12 Land Sur-face Tem-per-a-ture and Emis-siv-ity Al-go-rithm The-o-ret-i-cal Ba-
+ []
+
+
+Underfull \hbox (badness 5189) in paragraph at lines 99--100
+\OT1/cmr/m/it/12 sis Doc-u-ment \OT1/cmr/m/n/12 [on-line]. Pasadena, Cal-i-for-nia: Jet Propul-sion Lab-o-ra-tory,
+ []
+
+
+Underfull \hbox (badness 6944) in paragraph at lines 99--100
+\OT1/cmr/m/n/12 Cal-i-for-nia In-sti-tute of Tech-nol-ogy, 2011. [cit. 2016-01-19]. Avail-able at:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+\OT1/cmr/m/n/12 https://hyspiri.jpl.nasa.gov/downloads/Algorithm[]Theoretical[]Basis/HyspIRI[]L2
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45]pdfTeX warning (ext4): destination with the same identifier (name{cite.SF12}) has been already used, duplicate ignor
-ed
-<to be read again> 
-                   \relax 
-l.139 \bibitem{SF12}
-                     SOBRINO, J.A., FRANCH, B., MATTAR, C., JIMÉNEZ-MUÑOZ,...
-Underfull \hbox (badness 2245) in paragraph at lines 145--146
+[49]
+Underfull \hbox (badness 3471) in paragraph at lines 107--108
+[]\OT1/cmr/m/n/12 JIM[]ENEZ-MU[]NOZ, J.C., CRISTO-BAL, J., SO-BRINO, J.A., SO-RIA, G.,
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[50]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[51]
+Underfull \hbox (badness 2245) in paragraph at lines 149--150
 \OT1/cmr/m/n/12 F. Sur-face emis-siv-ity re-trieval from Dig-i-tal Air-borne Imag-ing Spec-trom-e-ter
  []
 
@@ -1724,58 +1764,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[46]
-Underfull \hbox (badness 2608) in paragraph at lines 154--159
-[]\OT1/cmr/m/n/12 G. Hul-ley and S. Hook, ``HyspIRI Level-2 Ther-mal In-frared (TIR) Land
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--159
-\OT1/cmr/m/n/12 Sur-face Tem-per-a-ture and Emis-siv-ity Al-go-rithm The-o-ret-i-cal Ba-sis Doc-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--159
-\OT1/cmr/m/n/12 u-ment,'' Jet Propul-sion Lab-o-ra-tory, Cal-i-for-nia In-sti-tute of Tech-nol-ogy,
- []
-
-
-Underfull \hbox (badness 2772) in paragraph at lines 154--159
-\OT1/cmr/m/n/12 Pasadena, Cal-i-for-nia, Tech. Rep., May 2011. [On-line]. Avail-able: []$\OT1/cmtt/m/n/12 https :
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--159
-\OT1/cmtt/m/n/12 / / hyspiri . jpl . nasa . gov / downloads / Algorithm _ Theoretical _ Basis / HyspIRI _
- []
-
-
-Underfull \hbox (badness 2809) in paragraph at lines 168--169
-\OT1/cmr/m/n/12 proved ini-tial-iza-tion in-ver-sion method: a high res-o-lu-tion phys-i-cal method
- []
-
+[52]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[47]
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
-[]\OT1/cmr/m/n/12 ITRES. Spar-Cal [soft-ware]. [ac-cess 1.3.2016]. Avail-able at:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
-[]\OT1/cmr/m/n/12 ITRES. RCX [soft-ware]. [ac-cess 1.3.2016]. Avail-able at:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
-[]\OT1/cmr/m/n/12 ITRES. GCSS [soft-ware]. [ac-cess 1.3.2016]. Avail-able at:
- []
-
-)
+[53])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 370.
 
 
@@ -1784,13 +1780,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[48]
+[54]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 370.
  (C:\Users\Marek\Documents\GitHub\Thesis\main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 370.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 370.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6E33542344044598F2779D5E192EE243;1062.
+(rerunfilecheck)             Checksum: E325C0F0503A5479D439A1C97D2241D6;1403.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1805,13 +1801,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 370.
  ) 
 Here is how much of TeX's memory you used:
- 20029 strings out of 493921
- 367407 string characters out of 3147283
- 423284 words of memory out of 3000000
- 22764 multiletter control sequences out of 15000+200000
- 25658 words of font info for 84 fonts, out of 3000000 for 9000
+ 20120 strings out of 493921
+ 368000 string characters out of 3147283
+ 423128 words of memory out of 3000000
+ 22812 multiletter control sequences out of 15000+200000
+ 29494 words of font info for 99 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 39i,12n,49p,10417b,1084s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,12n,44p,10417b,1084s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm
 /lm-rm.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Fil
@@ -1828,11 +1824,10 @@ lic/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (48 pages, 3202954 bytes).
+/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main.pdf (54 pages, 3463594 bytes).
 PDF statistics:
- 745 PDF objects out of 1000 (max. 8388607)
- 173 named destinations out of 1000 (max. 500000)
- 249 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 929 PDF objects out of 1000 (max. 8388607)
+ 210 named destinations out of 1000 (max. 500000)
+ 299 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -9,14 +9,19 @@
 \contentsline {chapter}{\numberline {3}Temperature and Emissivity Separation}{25}{chapter.3}
 \contentsline {section}{\numberline {3.1}Available approaches}{25}{section.3.1}
 \contentsline {section}{\numberline {3.2}TES Algorithm Improvement}{28}{section.3.2}
-\contentsline {chapter}{\numberline {4}Ground Measurements}{33}{chapter.4}
-\contentsline {section}{\numberline {4.1}introduction}{33}{section.4.1}
-\contentsline {section}{\numberline {4.2}Data Description}{34}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Header}{34}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Spectral Emissivity}{36}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Methods}{36}{section.4.3}
-\contentsline {section}{\numberline {4.4}Data Properties}{37}{section.4.4}
-\contentsline {section}{\numberline {4.5}Spectral Smoothing Algorithm}{37}{section.4.5}
-\contentsline {chapter}{\numberline {5}Application to UHI Detection}{39}{chapter.5}
-\contentsline {chapter}{\numberline {6}Conclusion}{41}{chapter.6}
-\contentsline {chapter}{Bibliography}{43}{chapter*.13}
+\contentsline {chapter}{\numberline {4}OSTES Validation}{33}{chapter.4}
+\contentsline {section}{\numberline {4.1}Imaging Systems}{33}{section.4.1}
+\contentsline {section}{\numberline {4.2}Algorithm Performance}{33}{section.4.2}
+\contentsline {section}{\numberline {4.3}Simulated Data}{34}{section.4.3}
+\contentsline {section}{\numberline {4.4}Comparison with ASTER standard products}{35}{section.4.4}
+\contentsline {section}{\numberline {4.5}Application to TASI Data}{38}{section.4.5}
+\contentsline {chapter}{\numberline {5}Ground Measurements}{39}{chapter.5}
+\contentsline {section}{\numberline {5.1}introduction}{39}{section.5.1}
+\contentsline {section}{\numberline {5.2}Data Description}{40}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Header}{40}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Spectral Emissivity}{42}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Methods}{42}{section.5.3}
+\contentsline {section}{\numberline {5.4}Data Properties}{43}{section.5.4}
+\contentsline {section}{\numberline {5.5}Spectral Smoothing Algorithm}{43}{section.5.5}
+\contentsline {chapter}{\numberline {6}Conclusion}{45}{chapter.6}
+\contentsline {chapter}{Bibliography}{47}{chapter*.18}
