@@ -4,13 +4,13 @@
 \BOOKMARK [1][-]{section.2.2}{Image data pre-processing}{chapter.2}% 4
 \BOOKMARK [0][-]{chapter.3}{Temperature and Emissivity Separation}{}% 5
 \BOOKMARK [1][-]{section.3.1}{Available approaches}{chapter.3}% 6
-\BOOKMARK [1][-]{section.3.2}{TES Algorithm Improvement}{chapter.3}% 7
-\BOOKMARK [0][-]{chapter.4}{OSTES Validation}{}% 8
-\BOOKMARK [1][-]{section.4.1}{Imaging Systems}{chapter.4}% 9
-\BOOKMARK [1][-]{section.4.2}{Algorithm Performance}{chapter.4}% 10
-\BOOKMARK [1][-]{section.4.3}{Simulated Data}{chapter.4}% 11
-\BOOKMARK [1][-]{section.4.4}{Comparison with ASTER standard products}{chapter.4}% 12
-\BOOKMARK [1][-]{section.4.5}{Application to TASI Data}{chapter.4}% 13
+\BOOKMARK [1][-]{section.3.2}{Temperature and emissivity separation algorithm \(TES\)}{chapter.3}% 7
+\BOOKMARK [1][-]{section.3.3}{TES Algorithm Improvement}{chapter.3}% 8
+\BOOKMARK [0][-]{chapter.4}{OSTES Validation}{}% 9
+\BOOKMARK [1][-]{section.4.1}{Imaging Systems}{chapter.4}% 10
+\BOOKMARK [1][-]{section.4.2}{Simulated Data}{chapter.4}% 11
+\BOOKMARK [1][-]{section.4.3}{Comparison with ASTER standard products}{chapter.4}% 12
+\BOOKMARK [1][-]{section.4.4}{Application to TASI Data}{chapter.4}% 13
 \BOOKMARK [0][-]{chapter.5}{Ground Measurements}{}% 14
 \BOOKMARK [1][-]{section.5.1}{introduction}{chapter.5}% 15
 \BOOKMARK [1][-]{section.5.2}{Data Description}{chapter.5}% 16
@@ -18,4 +18,4 @@
 \BOOKMARK [1][-]{section.5.4}{Data Properties}{chapter.5}% 18
 \BOOKMARK [1][-]{section.5.5}{Spectral Smoothing Algorithm}{chapter.5}% 19
 \BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 20
-\BOOKMARK [0][-]{chapter*.18}{Bibliography}{}% 21
+\BOOKMARK [0][-]{chapter*.20}{Bibliography}{}% 21

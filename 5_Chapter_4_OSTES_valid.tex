@@ -1,6 +1,8 @@
 \chapter{OSTES Validation}
 \label{chap:OSTESValid}
 
+The OSTES algorithm was tested on synthetic data and on data acquired with the ASTER sensor. The results show that the OSTES algorithm improves temperature and emissivity retrievals in several ways. The most significant improvement occurs for surfaces with low spectral contrast, which is one of the major weaknesses of the original version of TES algorithm. The temperature and emissivity estimations from OSTES are more accurate in these cases. The investigation of OSTES with simulated data also shows that the algorithm is less sensitive to seasonal fluctuations in atmospheric and surface temperature.
+
 \section{Imaging Systems}
 
 From the wide range of airborne sensors operating in the TIR region two are chosen as examples: Airborne Hyperspectral Scanner (AHS) operated by Spanish Institute of Aeronauics (INTA) and developed by ArgonST (Fairfax, USA), and Thermal Airborne Spectrographic Imager (TASI) developed by Itres Ltd. (Calgary, Canada). These sensors offer data of great importance in applications. Notable studies include areas of
@@ -11,9 +13,36 @@ soil organic carbon estimation \cite{PC14} and
 crop water stress characterization \cite{PP12},
 among others.
 
- {The above-mentioned airborne sensors were chosen together with the ASTER sensor to analyze the performance of the OSTES algorithm.
+\begin{figure}[!t]
+	\centering
+	\vspace{1em}
+	\begin{subfigure}[t]{\linewidth}
+		\centering
+		\includegraphics[scale=1]{pics/Chapter_04/Response_functions_ASTER-eps-converted-to.pdf}
+		\caption{}
+		\vspace{0.5em}
+	\end{subfigure}
+	\hspace{1em}
+	\begin{subfigure}[t]{\linewidth}
+		\centering
+		\includegraphics[scale=1]{pics/Chapter_04/Response_functions_AHS.eps}
+		\caption{}
+		\vspace{0.5em}
+	\end{subfigure}
+	\hspace{1em}
+	\begin{subfigure}[t]{\linewidth}
+		\centering
+		\includegraphics[scale=1]{pics/Chapter_04/Response_functions_TASI.eps}
+		\caption{}
+	\end{subfigure}
+	\vspace{1 em}
+	\caption{Response functions for (a) ASTER, (b) AHS  and (c) TASI sensors. The ASTER Band Numbers are shown above the ASTER response functions. }
+	\label{fig:emissivitySpectra_spectra}
+\end{figure}
+
+The above-mentioned airborne sensors were chosen together with the ASTER sensor to analyze the performance of the OSTES algorithm.
 %\subsubsection{ASTER}
-ASTER consists of 15 bands of which 5 are situated in TIR region with Noise Equivalent Temperature difference $\mathrm{(NE\Delta T)} \approx 0.3\,\mathrm{K}$. The spatial resolution of the TIR bands is $90\,\mathrm{m}$.}
+ASTER consists of 15 bands of which 5 are situated in TIR region with Noise Equivalent Temperature difference $\mathrm{(NE\Delta T)} \approx 0.3\,\mathrm{K}$. The spatial resolution of the TIR bands is $90\,\mathrm{m}$.
 %\subsubsection{AHS}
 The AHS sensor has been fully operational from 2005 \cite{FM05}. Its sensor operates in 80 spectral bands where the last 10 bands cover atmospheric window from 8 to $13\,\mathrm{\mu m}$ \cite{SJ06}. The AHS TIR bands have a  {Full Width at Half Maximum} $\mathrm{(FWHM)} \approx 0.5\,\mathrm{\mu m}$ with $\mathrm{NE\Delta T} \approx 0.5\,\mathrm{K}$.
 %\subsubsection{TASI}
@@ -37,14 +66,41 @@ TASI & $1.001$ & $-0.737$ & $0.760$ & $0.997$ \\
 \normalsize
 \end{table}
 
-\section{Algorithm Performance}
-
-The OSTES algorithm was tested on synthetic data and on data acquired with the ASTER sensor. The results show that the OSTES algorithm improves temperature and emissivity retrievals in several ways. The most significant improvement occurs for surfaces with low spectral contrast, which is one of the major weaknesses of the original version of TES algorithm. The temperature and emissivity estimations from OSTES are more accurate in these cases. The investigation of OSTES with simulated data also shows that the algorithm is less sensitive to seasonal fluctuations in atmospheric and surface temperature.
-
 \section{Simulated Data}
 
 A data set of 6588 samples was artificially created to compare the performance of the TES and OSTES algorithms. Samples include 108 different natural surfaces chosen from ASTER spectral library \cite{BH09} at different temperatures coupled with 61 different atmospheric conditions taken from TIGR (TOVS Initial Guess Retrieval) database \cite{CS85, CC98}. 
 These samples were processed to land-leaving and downwelling radiance, as standard TES algorithm input, and they were transformed to band-effective quantities with respect to the ASTER, AHS and TASI response functions.
+
+\begin{figure}[!t]
+	\centering
+	\vspace{1em}
+	\begin{subfigure}[t]{.3\linewidth}
+		\centering
+		\includegraphics[scale=1]{pics/Chapter_04/Simulated_data_ASTER.eps}
+		
+		%\caption{Atmospheric transmittance}
+		\caption{}
+	\end{subfigure}
+	\hspace{1em}
+	\begin{subfigure}[t]{.3\linewidth}
+		\centering
+		\includegraphics[scale=1]{pics/Chapter_04/Simulated_data_AHS.eps}
+		\vspace{-0.4cm}
+		%\caption{Upwelling atmospheric radiance}
+		\caption{}
+	\end{subfigure}
+	\hspace{1em}
+	\begin{subfigure}[t]{.3\linewidth}
+		\centering
+		\includegraphics[scale=1]{pics/Chapter_04/Simulated_data_TASI.eps}
+		\vspace{-0.4cm}
+		%\caption{Downwelling atmospheric radiance}
+		\caption{}
+	\end{subfigure}
+	\vspace{1.5 em}
+	\caption{Emissivity spectra (black solid line) of three samples chosen from ASTER spectral library \cite{BH09}. Symbols represent band-effective values of emissivity (empty symbols) and brightness temperature (full symbols) for ASTER (orange triangles), AHS (blue squares), and TASI (green dots) sensor. }
+	\label{fig:ResponseFunctions}
+\end{figure}
 
 Simulated data for the ASTER sensor were processed with current implementation with revisions as described in \cite{GG06} and \cite{SG09}. We were, however, successful in getting our simulated data processed with the operational TES code. of TES, as it is used for generation of ASTER standard products AST\_05 and AST\_08 \cite{B15}. The version of the original TES algorithm in cases of AHS and TASI sensors was implemented in a manner similar to that described in \cite{JS12}. In addition, the implementation omits the $\varepsilon_\mathrm{max}$ refinement for emissivities with low spectral contrast. The OSTES was applied to all sensors as it is described in previous section.
 
@@ -77,7 +133,7 @@ Let us remind the reader that every sample is processed under several different 
 
 \begin{figure*}[!t]
 \centering
-\includegraphics[width=7in]{pics/Chapter_04/pivov10}
+\includegraphics[width=0.95\linewidth]{pics/Chapter_04/Caspian.pdf}
 \vspace{1.5 em}
 \caption{Emissivity of Caspian Sea in different seasons obtained from ASTER standard product AST\_05, OSTES retrieval, and emissivity recomputation according to the temperature from AST\_08 and land-leaving and downwelling radiance from AST\_09T. Emissivities were extracted from area of size $40 \times 40$ pixels over pure and cloudless waterbody. Error bars display standard deviation.}
 \label{fig:CaspianSeaEmissivity}
@@ -115,7 +171,7 @@ The difference in emissivity obtained by the two versions of TES is further illu
 
 \begin{figure*}[!t]
 \centering
-\includegraphics[width=7in]{pics/Chapter_04/pivov11}
+\includegraphics[width=0.78\linewidth]{pics/Chapter_04/Baikal.pdf}
 \vspace{1.5 em}
 \caption{
 ASTER band 10 emissivity images of Lake Baikal obtained from ASTER standard product AST\_05 (upper left) and OSTES emissivity retrieval (upper right). In both images the same contrast stretching is used. The white square represents the area from which emissivity histrograms were created (lower panel). Histograms show distributions of AST\_05 emissivity, OSTES emissivity and recomputed emissivity according to the temperature from AST\_08 and land-leaving and downwelling radiance from AST\_09T. Line depicted in histograms indicates the expected value of water emissivity retrieved from ASTER spectral library \cite{BH09}.}
