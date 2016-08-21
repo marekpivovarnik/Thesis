@@ -24,4 +24,4 @@
 \contentsline {section}{\numberline {5.4}Data Properties}{45}{section.5.4}
 \contentsline {section}{\numberline {5.5}Spectral Smoothing Algorithm}{45}{section.5.5}
 \contentsline {chapter}{\numberline {6}Conclusion}{47}{chapter.6}
-\contentsline {chapter}{Bibliography}{49}{chapter*.20}
+\contentsline {chapter}{Bibliography}{49}{chapter*.21}

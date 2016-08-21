@@ -183,3 +183,13 @@ The discrapancies in shape and magnitude of emissivity spectra can be caused by 
 The step discontinuities in emissivity values over homogeneous area can occur due to various thresholds deciding how to treat the sample during processing. The original TES algorithm starts in the NEM module assuming a maximum emissivity spectra $\varepsilon_\mathrm{max}=0.99$. The NEM module is then restarted with refined $\varepsilon_\mathrm{max}$ according to the emissivity retrieved from the first NEM pass. Also,	 temperature and emissivity from NEM are reported as the result of TES algorithm if the correction for downwelling radiance is not possible. The original version of TES processes samples according to the MMD of emissivity spectra obtained from NEM module either by incorporating (\ref{eq:MMD}) or by presetting emissivity to $\varepsilon = 0.983$. Some authors \cite{GG06}, \cite{SG09} have suggested that the value of the threshold used for classifying observations into groups with either low or high spectral contrast should be changed or completely removed. Observations with wrongly determined spectral contrast or observations with spectral contrast close to any threshold result in step discontinuities. On the contrary, the OSTES does not set any thresholds for materials with low spectral contrast and so it is expected to generate smoother results on homogeneous areas with low spectral contrast.
 
 \section{Application to TASI Data}
+
+\begin{figure*}[!t]
+\centering
+\vspace{0.8 em}
+\includegraphics[scale=0.88]{pics/Chapter_04/Brno.pdf}
+\vspace{2 em}
+\caption{
+Part of flight line over Brno city. Image data were acquired on 4.7.2015. The top image displays RGB composition for visualisation of the studied area. The middle image depicts temperature map obtained from OSTES algorithm applied on image data from TASI sensor. The bottom image is false color emissivity map obtained from OSTES algorithm (red - band 10, green - band 15, blue - band 20). On the top and middle images are shown spots on which were performed \textit{in-situ} emissivity measurements.}
+\label{fig:Bajkal}
+\end{figure*}
