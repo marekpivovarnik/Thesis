@@ -1,5 +1,5 @@
 %\documentclass[twoside,12pt]{article}% dvoustranný tisk
-\documentclass[twoside,12pt]{book}% jednostranný tisk
+\documentclass[oneside,12pt]{book}% jednostranný tisk
 
 \usepackage[english]{babel}
 \usepackage[utf8x]{inputenc}
@@ -26,6 +26,7 @@
 \usepackage{enumerate}
 \usepackage{tabularx}
 \usepackage{subcaption}
+\usepackage[page]{appendix}
 	\renewcommand{\arraystretch}{1.4}
 	\usepackage{array}
 	\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}	% center normal
@@ -293,15 +294,15 @@
 
 \pagestyle{empty}	
 \titul2
-\newpage \hspace*{0.1cm} \thispagestyle{empty} \newpage
-\newpage
+\newpage \hspace*{0.1cm} \thispagestyle{empty} %\newpage
+%\newpage
 \abstrakty
-\newpage \hspace*{0.1cm} \thispagestyle{empty} \newpage
+\newpage \hspace*{0.1cm} \thispagestyle{empty} %\newpage
 \prohlaseni{I declare that I have written the doctoral thesis \emph{New Approaches in Airborne Thermal Image Processing for Landscape Assessment} on my own according to advice of my supervisor doc. Mgr. Ing. František Zemek, Ph.D., and~using the sources listed in~references.}
-\newpage \hspace*{0.1cm} \thispagestyle{empty} \newpage
+\newpage \hspace*{0.1cm} \thispagestyle{empty} %\newpage
 \podekovani{Rád bych poděkoval doc. RNDr. Jaroslavu Michálkovi, CSc., za jeho vedení mé{\linebreak}dizertační práce, veškerou ochotu a~trpělivost, kterou mi věnoval, a~v~neposlední řadě za množství cenných rad nejen v~odborných oblastech či k~samotné dizertační práci. \linebreak Mé poděkování patří také mým nejbližším za jejich podporu během celého studia.
 }
-\newpage \hspace*{0.1cm} \thispagestyle{empty} \newpage
+\newpage \hspace*{0.1cm} \thispagestyle{empty} %\newpage
 
 	%\pagestyle{empty}	
 %\titul 
@@ -318,7 +319,7 @@
 \tableofcontents
 \cleardoublepage
 	\pagestyle{plain}
-\newpage \hspace*{0.1cm} \newpage
+\newpage \hspace*{0.1cm} %\newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%  nezávislá data
@@ -351,10 +352,10 @@
 	\pagestyle{myzaver}
 \input{7_Chapter_6_Conclusion}
 
+\cleardoublepage
 %% dodatky
-%	\cleardoublepage
-%	\pagestyle{mydodatky}
-%\input{apendix_programy}
+\pagestyle{mydodatky}
+\input{9_Appendix_1_Library}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% literatura

@@ -1,27 +1,27 @@
 \select@language {english}
-\contentsline {chapter}{\numberline {1}Theoretical Background on Thermal Radiation}{13}{chapter.1}
-\contentsline {chapter}{\numberline {2}Airborne Thermal Hyperspectral Data Properties}{17}{chapter.2}
-\contentsline {section}{\numberline {2.1}Instrument Technical Specifications}{17}{section.2.1}
-\contentsline {section}{\numberline {2.2}Image data pre-processing}{18}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Radiometric Calibration}{18}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Atmospheric Corrections}{21}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Geometric Pre-processing}{23}{subsection.2.2.3}
-\contentsline {chapter}{\numberline {3}Temperature and Emissivity Separation}{25}{chapter.3}
-\contentsline {section}{\numberline {3.1}Available approaches}{25}{section.3.1}
-\contentsline {section}{\numberline {3.2}Temperature and emissivity separation algorithm (TES)}{27}{section.3.2}
-\contentsline {section}{\numberline {3.3}TES Algorithm Improvement}{28}{section.3.3}
-\contentsline {chapter}{\numberline {4}OSTES Validation}{33}{chapter.4}
-\contentsline {section}{\numberline {4.1}Imaging Systems}{33}{section.4.1}
-\contentsline {section}{\numberline {4.2}Simulated Data}{33}{section.4.2}
-\contentsline {section}{\numberline {4.3}Comparison with ASTER standard products}{37}{section.4.3}
-\contentsline {section}{\numberline {4.4}Application to TASI Data}{38}{section.4.4}
-\contentsline {chapter}{\numberline {5}Ground Measurements}{41}{chapter.5}
-\contentsline {section}{\numberline {5.1}introduction}{41}{section.5.1}
-\contentsline {section}{\numberline {5.2}Data Description}{42}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Header}{42}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Spectral Emissivity}{44}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Methods}{44}{section.5.3}
-\contentsline {section}{\numberline {5.4}Data Properties}{45}{section.5.4}
-\contentsline {section}{\numberline {5.5}Spectral Smoothing Algorithm}{45}{section.5.5}
-\contentsline {chapter}{\numberline {6}Conclusion}{47}{chapter.6}
-\contentsline {chapter}{Bibliography}{49}{chapter*.21}
+\contentsline {chapter}{\numberline {1}Theoretical Background on Thermal Radiation}{11}{chapter.1}
+\contentsline {chapter}{\numberline {2}Airborne Thermal Hyperspectral Data Properties}{14}{chapter.2}
+\contentsline {section}{\numberline {2.1}Instrument Technical Specifications}{14}{section.2.1}
+\contentsline {section}{\numberline {2.2}Image data pre-processing}{15}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Radiometric Calibration}{15}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Atmospheric Corrections}{18}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Geometric Pre-processing}{20}{subsection.2.2.3}
+\contentsline {chapter}{\numberline {3}Temperature and Emissivity Separation}{22}{chapter.3}
+\contentsline {section}{\numberline {3.1}Available approaches}{22}{section.3.1}
+\contentsline {section}{\numberline {3.2}Temperature and emissivity separation algorithm (TES)}{24}{section.3.2}
+\contentsline {section}{\numberline {3.3}TES Algorithm Improvement}{25}{section.3.3}
+\contentsline {chapter}{\numberline {4}OSTES Validation}{29}{chapter.4}
+\contentsline {section}{\numberline {4.1}Imaging Systems}{29}{section.4.1}
+\contentsline {section}{\numberline {4.2}Simulated Data}{29}{section.4.2}
+\contentsline {section}{\numberline {4.3}Comparison with ASTER standard products}{33}{section.4.3}
+\contentsline {section}{\numberline {4.4}Application to TASI Data}{35}{section.4.4}
+\contentsline {chapter}{\numberline {5}Ground Measurements}{39}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{39}{section.5.1}
+\contentsline {section}{\numberline {5.2}Methods}{41}{section.5.2}
+\contentsline {section}{\numberline {5.3}Data Properties}{42}{section.5.3}
+\contentsline {section}{\numberline {5.4}Spectral Smoothing Algorithm}{43}{section.5.4}
+\contentsline {chapter}{\numberline {6}Conclusion}{44}{chapter.6}
+\contentsline {chapter}{\numberline {A}Spectral Emissivity Library of Spoil Substrates}{46}{Dodatek.1.A}
+\contentsline {subsection}{\numberline {A.0.1}Header}{46}{subsection.1.A.0.1}
+\contentsline {subsection}{\numberline {A.0.2}Spectral Emissivity}{47}{subsection.1.A.0.2}
+\contentsline {chapter}{Bibliography}{50}{chapter*.27}

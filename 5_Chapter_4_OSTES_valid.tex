@@ -77,24 +77,18 @@ These samples were processed to land-leaving and downwelling radiance, as standa
 	\begin{subfigure}[t]{.3\linewidth}
 		\centering
 		\includegraphics[scale=1]{pics/Chapter_04/Simulated_data_ASTER.eps}
-		
-		%\caption{Atmospheric transmittance}
 		\caption{}
 	\end{subfigure}
 	\hspace{1em}
 	\begin{subfigure}[t]{.3\linewidth}
 		\centering
 		\includegraphics[scale=1]{pics/Chapter_04/Simulated_data_AHS.eps}
-		\vspace{-0.4cm}
-		%\caption{Upwelling atmospheric radiance}
 		\caption{}
 	\end{subfigure}
 	\hspace{1em}
 	\begin{subfigure}[t]{.3\linewidth}
 		\centering
 		\includegraphics[scale=1]{pics/Chapter_04/Simulated_data_TASI.eps}
-		\vspace{-0.4cm}
-		%\caption{Downwelling atmospheric radiance}
 		\caption{}
 	\end{subfigure}
 	\vspace{1.5 em}
@@ -184,6 +178,12 @@ The step discontinuities in emissivity values over homogeneous area can occur du
 
 \section{Application to TASI Data}
 
+The study was performed using data acquired over the city of Brno, Czech Republic (49°12′N 16°37′E). The data examined come subset of one flight line crossing the city from south-west to north-east. The acquisition was performed on 4th July 2015 at 14:03 (UTC). The FLIS operated by Global Change Research Institute CAS (Brno, Czech Republic) \cite{HF14} was used for this acquisition. FLIS consists of Compact Airborne Spectrographic Imager (CASI), Shortwave infrared Airborne Spectrographic Imager (SASI) and Thermal Airborne Spectrographic Imager (TASI). All sensors are developed by Itres Ltd. (Calgary, Canada). In-situ emissivity measurements of urban materials were performed with FT-IR Spectrometer Models 102 developed by D\&P Instruments (Simsbury, USA). Emissivity spectra of water and deciduous trees were extracted from ASTER spectral library \cite{BH09}.
+
+Data acquired by CASI, SASI and TASI sensor were radiometrically and atmospherically corrected and georeferenced to UTM coordinate system. Radiometric corrections were performed according to laboratory and in-flight sensor calibrations. Atmospheric corrections of TASI sensor are based on results of MODTRAN \cite{BG06}. Atmospheric temperature and water vapor profiles, as inputs to MODTRAN, were obtained from MODIS product MOD07\_L2.
+
+The comparison of  the TES and the OSTES algorithms performance was tested against six \textit{in-situ} measurements of different urban surfaces. Results are shown in Fig. \ref{fig:BrnoEmissivityComparison} below, where error bars display standard deviation. The OSTES performs slightly better than TES in cases of deciduous trees and Svratka river. However, none of these two spectra agrees with the shape and magnitude of expected emissivity spectra. These discrepancies can be caused by various sources of errors but the main error source has been attributed to imperfect atmospheric corrections. Emissivities of sample 5 (Asphalt Parking Lots) retrieved by the TES and OSTES significantly differs from \textit{in-situ} measurement. This shift in magnitude is introduced by insufficient compensation of downwelling radiance. This sample is surrounded by buildings, which increase the amount of downwelling radiance. This additional radiance is not included in temperature and atmospheric profiles obtained from MOD07\_L2. The rest of the emissivity retrievals are considered to follow \textit{in-situ} measurements well. Let us emphasize the reader that OSTES offers only moderate improvements in emissivity retrievals. These are not possible to observe in this study due to the magnitude of error introduced by imperfect atmospheric corrections. We conclude that improvement of atmospheric corrections are crucial for further analysis.
+
 \begin{figure*}[!t]
 \centering
 \vspace{0.8 em}
@@ -192,4 +192,12 @@ The step discontinuities in emissivity values over homogeneous area can occur du
 \caption{
 Part of flight line over Brno city. Image data were acquired on 4.7.2015. The top image displays RGB composition for visualisation of the studied area. The middle image depicts temperature map obtained from OSTES algorithm applied on image data from TASI sensor. The bottom image is false color emissivity map obtained from OSTES algorithm (red - band 10, green - band 15, blue - band 20). On the top and middle images are shown spots on which were performed \textit{in-situ} emissivity measurements.}
 \label{fig:Bajkal}
+\end{figure*}
+
+\begin{figure*}[!t]
+\centering
+\includegraphics[width=0.95\linewidth]{pics/Chapter_04/Brno-Emissivity-Comparison.pdf}
+\vspace{1.5 em}
+\caption{Emissivity of Caspian Sea in different seasons obtained from ASTER standard product AST\_05, OSTES retrieval, and emissivity recomputation according to the temperature from AST\_08 and land-leaving and downwelling radiance from AST\_09T. Emissivities were extracted from area of size $40 \times 40$ pixels over pure and cloudless waterbody. Error bars display standard deviation.}
+\label{fig:BrnoEmissivityComparison}
 \end{figure*}

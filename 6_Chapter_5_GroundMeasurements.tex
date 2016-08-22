@@ -1,6 +1,6 @@
 \chapter{Ground Measurements}
 
-\section{introduction}
+\section{Introduction}
 
 Post-mining sites represent areas of large-scale and intensive disturbance. They have serious impact on the surrounding landscape in many countries of the world. Original ecosystems are destroyed, and the restoration of ecosystem functions and services is necessary \cite{BH01}. Afforestation is widely used reclamation method. Many studies demonstrate that post-mining sites have a large potential for carbon sequestration if afforestation has been applied \cite{VF13, FL13, SL05, UL06}. This can contribute to mitigate the increase in atmospheric $\mathrm{CO_2}$ concentrations.
 
@@ -10,55 +10,48 @@ Thermal remote sensing can provide beneficial tools for monitoring of post-minin
 
 LST is coupled with LSE and thus one quantity cannot be derived without knowledge of the second. These quantities cannot be explicitly derived from radiance measurement. The reason is that by observing radiance in N bands one gets N unknown emissivities plus one unknown temperature. Such a system of equations is underdetermined (i.e., more unknown than known variables). Several algorithms have been suggested to solve this problem \cite{LT13}. These algorithms either require knowledge of LSE in advance, or an estimate LSE as a part of their output. A library of spectral emissivities can be utilized for: 1) determination of LST, 2) material classification, and 3) LSE validation of airborne and satellite thermal remote sensing data.
 
-This work describes a spectral library of spoil substrate emissivities from brown coal mining sites in the Czech Republic near towns of Sokolov, Chodov, Bílina and Ustí nad Labem (Figure 1). The spectral library contains emissivities, soil pH in water and in KCl, soil conductivity, content of water soluble Na and K, Al and Fe in KCl, loss on ignition and content of polyphenols. In addition to all measured physical and chemical parameters, sample’s latitude and longitude are listed. The dataset consists of 24 spoil substrate samples, which were homogenized by mixing and sieving before any sample analysis. The toxicity test and measurement of chemical properties are discussed at length in \cite{FK05}. Data collection for emissivity retrievals was performed outdoors in Petri dishes using a Fourier transform infrared (FTIR) spectrometer Model 102 (D\&P Instruments, United States). The emissivity of each sample was estimated by a spectral smoothing algorithm \cite{HJ98}.
+This work describes a spectral library of spoil substrate emissivities from brown coal mining sites in the Czech Republic near towns of Sokolov, Chodov, Bílina and Ustí nad Labem (Fig. \ref{fig:SpoilSubstratesMap}). The spectral library contains emissivities, soil pH in water and in KCl, soil conductivity, content of water soluble Na and K, Al and Fe in KCl, loss on ignition and content of polyphenols. In addition to all measured physical and chemical parameters, sample’s latitude and longitude are listed. The dataset consists of 24 spoil substrate samples, which were homogenized by mixing and sieving before any sample analysis. The toxicity test and measurement of chemical properties are discussed at length in \cite{FK05}. Data collection for emissivity retrievals was performed outdoors in Petri dishes using a Fourier transform infrared (FTIR) spectrometer Model 102 (D\&P Instruments, United States). The emissivity of each sample was estimated by a spectral smoothing algorithm \cite{HJ98}.
+
+\begin{figure*}[!t]
+\centering
+\includegraphics[width=0.95\linewidth]{pics/Chapter_05/map.pdf}
+\vspace{1.5 em}
+\caption{Locations of brown coal mining sites from which spoil substrate samples were extracted.}
+\label{fig:SpoilSubstratesMap}
+\end{figure*}
 
 Datasets containing LSE are rare in comparison with datasets containing LST measurements. The most well-known spectral libraries containing emissivities are the ASTER Spectral Library \cite{BH09}, Johns Hopkins University Spectral Library \cite{SW91}, Arizona State University Spectral Library \cite{CB00}, United States Geological Survey Spectral Library \cite{CS16} and the Spectral Library of Urban Materials (SLUM) \cite{KS14}. However, these spectral libraries do not include neither geographical coordinates of samples nor representatives of spoil substrates. One example of a spectral library of emissivities from calibration/validation sites containing coordinates for each sample is described in \cite{SM09}. The dataset described in this paper is exceptional in its nature and location. 
 
-The data presented in this paper were used in a study focused on mapping of spoil substrates for site re-cultivation \cite{Z14} as well as in a study discussing spoil substrates toxicity \cite{FK05}. The mining site was also mapped with the Airborne Hyperspectral Scanner (AHS) in visible, near infrared, shortwave infrared and longwave infrared regions for mineral classification purposes \cite{NK14}. Examples of emissivity spectra retrieved from AHS and their corresponding samples spectra extracted from the library are depicted in Figure 2. Samples spectra from the library were spectrally resampled with respect to AHS response functions using weighted averages \cite{LT13}. Comparison of retrieved spectra in case of samples 11 and 19 shows good agreement in shape. Sample 12 exhibit deviations mainly between bands 3 and 4 (9.24 and 9.68 µm). This can be explained by the fact that AHS pixel has 5x5 m pixel size and these pixels were not pure thus had more complex mineral composition than the collected samples. Discrepancies in magnitude can be addressed to imperfect atmospheric corrections or to different soil state during overflight.
+The data presented in this paper were used in a study focused on mapping of spoil substrates for site re-cultivation \cite{Z14} as well as in a study discussing spoil substrates toxicity \cite{FK05}. The mining site was also mapped with the Airborne Hyperspectral Scanner (AHS) in visible, near infrared, shortwave infrared and longwave infrared regions for mineral classification purposes \cite{NK14}. Examples of emissivity spectra retrieved from AHS and their corresponding samples spectra extracted from the library are depicted in Fig. \ref{fig:AHSvsFTIRcomparison}. Samples spectra from the library were spectrally resampled with respect to AHS response functions using weighted averages \cite{LT13}. Comparison of retrieved spectra in case of samples 11 and 19 shows good agreement in shape. Sample 12 exhibit deviations mainly between bands 3 and 4 (9.24 and 9.68 µm). This can be explained by the fact that AHS pixel has 5x5 m pixel size and these pixels were not pure thus had more complex mineral composition than the collected samples. Discrepancies in magnitude can be addressed to imperfect atmospheric corrections or to different soil state during overflight.
+
+\begin{figure}[!t]
+	\centering
+	\vspace{1em}
+	\begin{subfigure}[t]{.3\linewidth}
+		\centering
+		\includegraphics[scale=1]{pics/Chapter_05/Sample_no_11.eps}
+		\caption{}
+	\end{subfigure}
+	\hspace{1em}
+	\begin{subfigure}[t]{.3\linewidth}
+		\centering
+		\includegraphics[scale=1]{pics/Chapter_05/Sample_no_12.eps}
+		\caption{}
+	\end{subfigure}
+	\hspace{1em}
+	\begin{subfigure}[t]{.3\linewidth}
+		\centering
+		\includegraphics[scale=1]{pics/Chapter_05/Sample_no_19.eps}
+		\caption{}
+	\end{subfigure}
+	\vspace{1.5 em}
+	\caption{Examples of corresponding emissivity spectra retrieved from AHS and from spectral library of spoil substrates’. Emissivity spectra from the library were measured by FTIR and they were resampled with respect to AHS response functions. }
+	\label{fig:AHSvsFTIRcomparison}
+\end{figure}
 
 Any activity involving remote sensing over these mining sites can benefit from publicly releasing the spectral library of spoil substrates emissivity. Apart from remote sensing application, data in spectral library can be further analyzed for identifying relationships between a sample’s spectral emissivity and its chemical properties.
 
-\section{Data Description}
-
-The spectral library consists of 24 ASCII files. Each file describes one spoil substrate. Individual files are named according to the sample number. Files consist of a file header and spectral emissivities. Both file parts are described in the subsections below.
-
-\subsection{Header}
-
-The format of header is similar to format of ASTER Spectral Library header \cite{BH09}. Each file contains 26 lines of header, which includes available sample information. The header is divided into four sections separated by empty lines. First part contains 9 lines discussing sample classification, particle size and sample origin. Sample origin is expressed by latitude and longitude on the reference ellipsoid WGS84. This information is summarized in the following fields:
-
-\begin{enumerate}
-	\item	Name
-	\item Type
-	\item Class
-	\item Particle size
-	\item Sample No
-	\item Owner
-	\item Origin
-	\item Latitude
-	\item Longitude
-\end{enumerate}
-
-A second section contains information about sample toxicity and chemical properties. The unit of each quantity is indicated in square brackets after quantity name. This header section contains following fields:
-
-\begin{enumerate}
-	\item toxicity
-	\item pH in H20
-	\item pH in KCl
-	\item conductivity
-	\item water soluble Na
-	\item water soluble K
-	\item Al in KCl
-	\item Fe in KCl
-	\item loss on ignition
-	\item polyphenol content
-\end{enumerate}
-
-A third section contains reference to \cite{FK05}, which discusses toxicity measurement and chemical analysis. Finally, the fourth header section contains the names of two columns, in which the following spectral emissivity data are aligned. Metadata in each header line contains an attribute name followed by a colon (ASCII Character 3A) and tab (ASCII Character 09) and then the corresponding value.
-
-\subsection{Spectral Emissivity}
-
-After the header part, the file continues on lines 27 – 213 with spectral emissivity data aligned in two columns. As header file indicates, the first column contains wavelength in micrometers and the second column contains corresponding emissivity value. Values in each row are separated by tab. The emissivity of each sample is provided in wavelengths interval from 8 µm to 14 µm. Sampling in this interval is non-linear.
-
+TODO: Data are describe in appendix A and library itself is part supplementary file of article...
 
 \section{Methods}
 
@@ -75,7 +68,32 @@ Some of the spoil substrate emissivity spectra are greater than one at certain w
 
 \section{Data Properties}
 
-All samples are claylike sediments which imply that spectral features of clay can be found in every emissivity spectra. Figure 3 depicts three examples of spoil samples taken from the spectral library. Sample 02 (Figure 3a) is clay consisting mostly of kaolinite with significant peaks at 8.90, 9.50, and 10.00 µm. Sample 06 (Figure 3b) is coal combined with sand and clay. The emissivity spectrum of this sample contains kaolinite features mixed with a quartz feature at 8.50, 8.90, 9.30 and 10.00 µm. The sample 33 (Figure 3c) is bentonite rich for montmorillonite. Montmorillonite has typical dip in spectral emissivity at 9.43 µm. The spectral emissivity library of spoil substrates includes also image providing a preview of all samples in library similar to images shown in Figure 3.
+All samples are claylike sediments which imply that spectral features of clay can be found in every emissivity spectra. Fig. \ref{fig:SpectraPreview} depicts three examples of spoil samples taken from the spectral library. Sample 02 (Fig. \ref{fig:SpectraPreview}a) is clay consisting mostly of kaolinite with significant peaks at 8.90, 9.50, and 10.00 µm. Sample 06 (Fig. \ref{fig:SpectraPreview}b) is coal combined with sand and clay. The emissivity spectrum of this sample contains kaolinite features mixed with a quartz feature at 8.50, 8.90, 9.30 and 10.00 µm. The sample 33 (Fig. \ref{fig:SpectraPreview}c) is bentonite rich for montmorillonite. Montmorillonite has typical dip in spectral emissivity at 9.43 µm. The spectral emissivity library of spoil substrates includes also image providing a preview of all samples in library similar to images shown in Figure 3.
+
+\begin{figure}[!t]
+	\centering
+	\vspace{1em}
+	\begin{subfigure}[t]{.3\linewidth}
+		\centering
+		\includegraphics[scale=1]{pics/Chapter_05/Sample_no_02.eps}
+		\caption{}
+	\end{subfigure}
+	\hspace{1em}
+	\begin{subfigure}[t]{.3\linewidth}
+		\centering
+		\includegraphics[scale=1]{pics/Chapter_05/Sample_no_06.eps}
+		\caption{}
+	\end{subfigure}
+	\hspace{1em}
+	\begin{subfigure}[t]{.3\linewidth}
+		\centering
+		\includegraphics[scale=1]{pics/Chapter_05/Sample_no_33.eps}
+		\caption{}
+	\end{subfigure}
+	\vspace{1.5 em}
+	\caption{Spectra of three samples taken from the spectral emissivity library of spoil substrates: (a) sample 02 representing clay rich for kaolinite; (b) sample 06 representing coal combined with sand and clay; (c) sample 33 representing bentonite. }
+	\label{fig:SpectraPreview}
+\end{figure}
 
 Thermal remote sensing can be used for classification of spoil substrates and for determination of their physical and chemical properties. The spectral library presented in this paper can ease and enhance all these activities. Obtained information together with LST are valuable for selection and monitoring of restoration process on post-mining sites.
 
