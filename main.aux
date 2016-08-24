@@ -63,6 +63,7 @@
 \newlabel{fig:ProcessingChain}{{\caption@xref {fig:ProcessingChain}{ on input line 51}}{18}{Image data pre-processing}{figure.caption.5}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces Processing chain applied to image data acquired by TASI sensor.\relax }}{18}{figure.caption.5}}
 \newlabel{fig:ProcessingChain}{{2.2}{18}{Processing chain applied to image data acquired by TASI sensor.\relax }{figure.caption.5}{}}
+\citation{HK96}
 \citation{software:SparCal}
 \citation{software:RCX}
 \citation{BG06}
@@ -135,6 +136,7 @@
 \citation{MB02}
 \citation{HH11-2}
 \@writefile{toc}{\contentsline {section}{\numberline {3.2}Temperature and emissivity separation algorithm (TES)}{26}{section.3.2}}
+\newlabel{sec:TES}{{3.2}{26}{Temperature and emissivity separation algorithm (TES)}{section.3.2}{}}
 \newlabel{eq:landleavingRadiance}{{3.1}{26}{Temperature and emissivity separation algorithm (TES)}{equation.3.2.1}{}}
 \newlabel{eq:MMD}{{3.2}{26}{Temperature and emissivity separation algorithm (TES)}{equation.3.2.2}{}}
 \citation{GR98}
@@ -172,29 +174,26 @@
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \newlabel{chap:OSTESValid}{{4}{31}{OSTES Validation}{chapter.4}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Imaging Systems}{31}{section.4.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Simulated Data}{31}{section.4.2}}
-\citation{BH09}
-\citation{BH09}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Response functions for ASTER, AHS and TASI sensors. The ASTER Band Numbers are shown above the ASTER response functions.\relax }}{32}{figure.caption.14}}
-\newlabel{fig:ResponseFunctions}{{4.1}{32}{Response functions for ASTER, AHS and TASI sensors. The ASTER Band Numbers are shown above the ASTER response functions.\relax }{figure.caption.14}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Regression coefficients of $\varepsilon _\mathrm  {min} = a + b\tmspace  +\medmuskip {.2222em}\mathrm  {MMD}^c$ and coefficients of determination $r^2$\relax }}{32}{table.caption.15}}
-\newlabel{table:MMDcoef}{{4.1}{32}{Regression coefficients of $\varepsilon _\mathrm {min} = a + b\:\mathrm {MMD}^c$ and coefficients of determination $r^2$\relax }{table.caption.15}{}}
-\citation{GG06}
-\citation{SG09}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Synthetic Data}{31}{section.4.1}}
 \citation{B15}
 \citation{JS12}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Emissivity spectra (black solid line) of three samples chosen from ASTER spectral library \cite  {BH09}. Symbols represent band-effective values of emissivity (empty symbols) and brightness temperature (full symbols) for ASTER (orange triangles), AHS (blue squares), and TASI (green dots) sensor. \relax }}{33}{figure.caption.16}}
-\newlabel{fig:ResponseFunctions}{{4.2}{33}{Emissivity spectra (black solid line) of three samples chosen from ASTER spectral library \cite {BH09}. Symbols represent band-effective values of emissivity (empty symbols) and brightness temperature (full symbols) for ASTER (orange triangles), AHS (blue squares), and TASI (green dots) sensor. \relax }{figure.caption.16}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Standard deviations of temperature errors obtained by applying OSTES and TES algorithm on simulated data as seen by ASTER, AHS and TASI grouped according to the sample Maximum-Minimum emissivity Difference (MMD). \relax }}{33}{table.caption.17}}
-\newlabel{table:StandardDeviations}{{4.2}{33}{Standard deviations of temperature errors obtained by applying OSTES and TES algorithm on simulated data as seen by ASTER, AHS and TASI grouped according to the sample Maximum-Minimum emissivity Difference (MMD). \relax }{table.caption.17}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Emissivity of Caspian Sea in different seasons obtained from ASTER standard product AST\_05, OSTES retrieval, and emissivity recomputation according to the temperature from AST\_08 and land-leaving and downwelling radiance from AST\_09T. Emissivities were extracted from area of size $40 \times 40$ pixels over pure and cloudless waterbody. Error bars display standard deviation.\relax }}{34}{figure.caption.18}}
-\newlabel{fig:CaspianSeaEmissivity}{{4.3}{34}{Emissivity of Caspian Sea in different seasons obtained from ASTER standard product AST\_05, OSTES retrieval, and emissivity recomputation according to the temperature from AST\_08 and land-leaving and downwelling radiance from AST\_09T. Emissivities were extracted from area of size $40 \times 40$ pixels over pure and cloudless waterbody. Error bars display standard deviation.\relax }{figure.caption.18}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}Comparison with ASTER standard products}{34}{section.4.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Response functions for ASTER, AHS and TASI sensors. The ASTER Band Numbers are shown above the ASTER response functions.\relax }}{32}{figure.caption.14}}
+\newlabel{fig:ResponseFunctions}{{4.1}{32}{Response functions for ASTER, AHS and TASI sensors. The ASTER Band Numbers are shown above the ASTER response functions.\relax }{figure.caption.14}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Regression coefficients of $\varepsilon _\mathrm  {min} = a + b\tmspace  +\medmuskip {.2222em}\mathrm  {MMD}^c$ and coefficients of determination $r^2$.\relax }}{33}{table.caption.15}}
+\newlabel{table:MMDcoef}{{4.1}{33}{Regression coefficients of $\varepsilon _\mathrm {min} = a + b\:\mathrm {MMD}^c$ and coefficients of determination $r^2$.\relax }{table.caption.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Box plots representing temperature error produced by OSTES and TES algorithm for ASTER, AHS and TASI sensor. Results are divided in two groups based on the Maximum-Minimum emissivity Difference (MMD) in order to demonstrate the improvement of the OSTES algorithm. Whiskers represent minimum and maximum of temperature error.\relax }}{33}{figure.caption.16}}
+\newlabel{fig:SimualtedDataTemperatureErrorVsLowVsHighMMD}{{4.2}{33}{Box plots representing temperature error produced by OSTES and TES algorithm for ASTER, AHS and TASI sensor. Results are divided in two groups based on the Maximum-Minimum emissivity Difference (MMD) in order to demonstrate the improvement of the OSTES algorithm. Whiskers represent minimum and maximum of temperature error.\relax }{figure.caption.16}{}}
+\citation{TP05-2}
+\citation{T05}
+\citation{TP05}
+\citation{TP01}
+\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Standard deviations of temperature errors obtained by applying OSTES and TES algorithm on simulated data as seen by ASTER, AHS and TASI grouped according to the sample Maximum-Minimum emissivity Difference (MMD). \relax }}{34}{table.caption.17}}
+\newlabel{table:StandardDeviations}{{4.2}{34}{Standard deviations of temperature errors obtained by applying OSTES and TES algorithm on simulated data as seen by ASTER, AHS and TASI grouped according to the sample Maximum-Minimum emissivity Difference (MMD). \relax }{table.caption.17}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Real Data}{34}{section.4.2}}
 \citation{BH09}
 \citation{GA11}
-\@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces ASTER scenes used for algorithm testing\relax }}{35}{table.caption.19}}
-\newlabel{table:ASTERScenes}{{4.3}{35}{ASTER scenes used for algorithm testing\relax }{table.caption.19}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces ASTER scenes used for algorithm testing\relax }}{35}{table.caption.18}}
+\newlabel{table:ASTERScenes}{{4.3}{35}{ASTER scenes used for algorithm testing\relax }{table.caption.18}{}}
 \citation{BH09}
 \citation{BH09}
 \citation{TP01}
@@ -206,16 +205,17 @@
 \citation{GA11}
 \citation{GG06}
 \citation{SG09}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Emissivity of Caspian Sea in different seasons obtained from ASTER standard product AST\_05, OSTES retrieval, and emissivity recomputation according to the temperature from AST\_08 and land-leaving and downwelling radiance from AST\_09T. Emissivities were extracted from area of size $40 \times 40$ pixels over pure and cloudless waterbody. Error bars display standard deviation.\relax }}{36}{figure.caption.19}}
+\newlabel{fig:CaspianSeaEmissivity}{{4.3}{36}{Emissivity of Caspian Sea in different seasons obtained from ASTER standard product AST\_05, OSTES retrieval, and emissivity recomputation according to the temperature from AST\_08 and land-leaving and downwelling radiance from AST\_09T. Emissivities were extracted from area of size $40 \times 40$ pixels over pure and cloudless waterbody. Error bars display standard deviation.\relax }{figure.caption.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces  ASTER band 10 emissivity images of Lake Baikal obtained from ASTER standard product AST\_05 (upper left) and OSTES emissivity retrieval (upper right). In both images the same contrast stretching is used. The white square represents the area from which emissivity histrograms were created (lower panel). Histograms show distributions of AST\_05 emissivity, OSTES emissivity and recomputed emissivity according to the temperature from AST\_08 and land-leaving and downwelling radiance from AST\_09T. Line depicted in histograms indicates the expected value of water emissivity retrieved from ASTER spectral library \cite  {BH09}.\relax }}{37}{figure.caption.20}}
+\newlabel{fig:Bajkal}{{4.4}{37}{ASTER band 10 emissivity images of Lake Baikal obtained from ASTER standard product AST\_05 (upper left) and OSTES emissivity retrieval (upper right). In both images the same contrast stretching is used. The white square represents the area from which emissivity histrograms were created (lower panel). Histograms show distributions of AST\_05 emissivity, OSTES emissivity and recomputed emissivity according to the temperature from AST\_08 and land-leaving and downwelling radiance from AST\_09T. Line depicted in histograms indicates the expected value of water emissivity retrieved from ASTER spectral library \cite {BH09}.\relax }{figure.caption.20}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces  Part of flight line over the city of Brno. Image data were acquired on 4.7.2015 at 14:03 (UTC). The top image displays RGB composition of the studied area. The middle image depicts temperature map obtained from OSTES algorithm applied on image data from TASI sensor. The bottom image is false color emissivity map obtained from OSTES algorithm (red - band 10, green - band 15, blue - band 20). On the top and middle images are shown locations and labels \textit  {in-situ} measurements.\relax }}{38}{figure.caption.21}}
+\newlabel{fig:Brno}{{4.5}{38}{Part of flight line over the city of Brno. Image data were acquired on 4.7.2015 at 14:03 (UTC). The top image displays RGB composition of the studied area. The middle image depicts temperature map obtained from OSTES algorithm applied on image data from TASI sensor. The bottom image is false color emissivity map obtained from OSTES algorithm (red - band 10, green - band 15, blue - band 20). On the top and middle images are shown locations and labels \textit {in-situ} measurements.\relax }{figure.caption.21}{}}
 \citation{HF14}
+\citation{HJ98}
 \citation{BH09}
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}Application to TASI Data}{36}{section.4.4}}
-\citation{BG06}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces  ASTER band 10 emissivity images of Lake Baikal obtained from ASTER standard product AST\_05 (upper left) and OSTES emissivity retrieval (upper right). In both images the same contrast stretching is used. The white square represents the area from which emissivity histrograms were created (lower panel). Histograms show distributions of AST\_05 emissivity, OSTES emissivity and recomputed emissivity according to the temperature from AST\_08 and land-leaving and downwelling radiance from AST\_09T. Line depicted in histograms indicates the expected value of water emissivity retrieved from ASTER spectral library \cite  {BH09}.\relax }}{38}{figure.caption.20}}
-\newlabel{fig:Bajkal}{{4.4}{38}{ASTER band 10 emissivity images of Lake Baikal obtained from ASTER standard product AST\_05 (upper left) and OSTES emissivity retrieval (upper right). In both images the same contrast stretching is used. The white square represents the area from which emissivity histrograms were created (lower panel). Histograms show distributions of AST\_05 emissivity, OSTES emissivity and recomputed emissivity according to the temperature from AST\_08 and land-leaving and downwelling radiance from AST\_09T. Line depicted in histograms indicates the expected value of water emissivity retrieved from ASTER spectral library \cite {BH09}.\relax }{figure.caption.20}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces  Part of flight line over Brno city. Image data were acquired on 4.7.2015. The top image displays RGB composition for visualisation of the studied area. The middle image depicts temperature map obtained from OSTES algorithm applied on image data from TASI sensor. The bottom image is false color emissivity map obtained from OSTES algorithm (red - band 10, green - band 15, blue - band 20). On the top and middle images are shown spots on which were performed \textit  {in-situ} emissivity measurements.\relax }}{39}{figure.caption.21}}
-\newlabel{fig:Bajkal}{{4.5}{39}{Part of flight line over Brno city. Image data were acquired on 4.7.2015. The top image displays RGB composition for visualisation of the studied area. The middle image depicts temperature map obtained from OSTES algorithm applied on image data from TASI sensor. The bottom image is false color emissivity map obtained from OSTES algorithm (red - band 10, green - band 15, blue - band 20). On the top and middle images are shown spots on which were performed \textit {in-situ} emissivity measurements.\relax }{figure.caption.21}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Emissivity of Caspian Sea in different seasons obtained from ASTER standard product AST\_05, OSTES retrieval, and emissivity recomputation according to the temperature from AST\_08 and land-leaving and downwelling radiance from AST\_09T. Emissivities were extracted from area of size $40 \times 40$ pixels over pure and cloudless waterbody. Error bars display standard deviation.\relax }}{40}{figure.caption.22}}
-\newlabel{fig:BrnoEmissivityComparison}{{4.6}{40}{Emissivity of Caspian Sea in different seasons obtained from ASTER standard product AST\_05, OSTES retrieval, and emissivity recomputation according to the temperature from AST\_08 and land-leaving and downwelling radiance from AST\_09T. Emissivities were extracted from area of size $40 \times 40$ pixels over pure and cloudless waterbody. Error bars display standard deviation.\relax }{figure.caption.22}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Comparison of TES and OSTES emissivity retrievals with emissivities obtained from \textit  {in-situ} measurements.\relax }}{40}{figure.caption.22}}
+\newlabel{fig:BrnoEmissivityComparison}{{4.6}{40}{Comparison of TES and OSTES emissivity retrievals with emissivities obtained from \textit {in-situ} measurements.\relax }{figure.caption.22}{}}
 \citation{BH01}
 \citation{VF13}
 \citation{FL13}
@@ -257,26 +257,26 @@
 \@writefile{toc}{\contentsline {chapter}{\numberline {6}Conclusion}{46}{chapter.6}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\citation{BH09}
-\@writefile{toc}{\contentsline {chapter}{\numberline {A}Spectral Emissivity Library of Spoil Substrates}{48}{Dodatek.1.A}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {A}Dependencies Between City Structure and Thermal Behaviour in Brno}{48}{Dodatek.1.A}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{app:Library}{{A}{48}{Spectral Emissivity Library of Spoil Substrates}{Dodatek.1.A}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {A.1}Header}{48}{section.1.A.1}}
-\citation{FK05}
-\@writefile{toc}{\contentsline {section}{\numberline {A.2}Spectral Emissivity}{49}{section.1.A.2}}
+\newlabel{app:Visualisation}{{A}{48}{Dependencies Between City Structure and Thermal Behaviour in Brno}{Dodatek.1.A}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces TODO.\relax }}{50}{figure.caption.26}}
-\newlabel{fig:SpoilSubstratesPreviewPt1}{{A.1}{50}{TODO.\relax }{figure.caption.26}{}}
+\newlabel{fig:Transect1}{{A.1}{50}{TODO.\relax }{figure.caption.26}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {A.2}{\ignorespaces TODO.\relax }}{51}{figure.caption.27}}
-\newlabel{fig:SpoilSubstratesPreviewPt1}{{A.2}{51}{TODO.\relax }{figure.caption.27}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {B}Dependencies Between City Structure and Thermal Behaviour in Brno}{52}{Dodatek.1.B}}
+\newlabel{fig:Transect2}{{A.2}{51}{TODO.\relax }{figure.caption.27}{}}
+\citation{BH09}
+\@writefile{toc}{\contentsline {chapter}{\numberline {B}Spectral Emissivity Library of Spoil Substrates}{52}{Dodatek.1.B}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{app:Visualisation}{{B}{52}{Dependencies Between City Structure and Thermal Behaviour in Brno}{Dodatek.1.B}{}}
+\newlabel{app:Library}{{B}{52}{Spectral Emissivity Library of Spoil Substrates}{Dodatek.1.B}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {B.1}Header}{52}{section.1.B.1}}
+\citation{FK05}
+\@writefile{toc}{\contentsline {section}{\numberline {B.2}Spectral Emissivity}{53}{section.1.B.2}}
 \@writefile{lof}{\contentsline {figure}{\numberline {B.1}{\ignorespaces TODO.\relax }}{54}{figure.caption.28}}
-\newlabel{fig:Transect1}{{B.1}{54}{TODO.\relax }{figure.caption.28}{}}
+\newlabel{fig:SpoilSubstratesPreviewPt1}{{B.1}{54}{TODO.\relax }{figure.caption.28}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {B.2}{\ignorespaces TODO.\relax }}{55}{figure.caption.29}}
-\newlabel{fig:Transect2}{{B.2}{55}{TODO.\relax }{figure.caption.29}{}}
+\newlabel{fig:SpoilSubstratesPreviewPt1}{{B.2}{55}{TODO.\relax }{figure.caption.29}{}}
 \bibcite{B15}{1}
 \bibcite{BH09}{2}
 \bibcite{BP96}{3}

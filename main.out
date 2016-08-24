@@ -8,18 +8,16 @@
 \BOOKMARK [1][-]{section.3.2}{Temperature and emissivity separation algorithm \(TES\)}{chapter.3}% 8
 \BOOKMARK [1][-]{section.3.3}{TES Algorithm Improvement}{chapter.3}% 9
 \BOOKMARK [0][-]{chapter.4}{OSTES Validation}{}% 10
-\BOOKMARK [1][-]{section.4.1}{Imaging Systems}{chapter.4}% 11
-\BOOKMARK [1][-]{section.4.2}{Simulated Data}{chapter.4}% 12
-\BOOKMARK [1][-]{section.4.3}{Comparison with ASTER standard products}{chapter.4}% 13
-\BOOKMARK [1][-]{section.4.4}{Application to TASI Data}{chapter.4}% 14
-\BOOKMARK [0][-]{chapter.5}{Ground Measurements}{}% 15
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 16
-\BOOKMARK [1][-]{section.5.2}{Methods}{chapter.5}% 17
-\BOOKMARK [1][-]{section.5.3}{Data Properties}{chapter.5}% 18
-\BOOKMARK [1][-]{section.5.4}{Spectral Smoothing Algorithm}{chapter.5}% 19
-\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 20
-\BOOKMARK [0][-]{Dodatek.1.A}{Spectral Emissivity Library of Spoil Substrates}{}% 21
-\BOOKMARK [1][-]{section.1.A.1}{Header}{Dodatek.1.A}% 22
-\BOOKMARK [1][-]{section.1.A.2}{Spectral Emissivity}{Dodatek.1.A}% 23
-\BOOKMARK [0][-]{Dodatek.1.B}{Dependencies Between City Structure and Thermal Behaviour in Brno}{}% 24
-\BOOKMARK [0][-]{chapter*.30}{Bibliography}{}% 25
+\BOOKMARK [1][-]{section.4.1}{Synthetic Data}{chapter.4}% 11
+\BOOKMARK [1][-]{section.4.2}{Real Data}{chapter.4}% 12
+\BOOKMARK [0][-]{chapter.5}{Ground Measurements}{}% 13
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 14
+\BOOKMARK [1][-]{section.5.2}{Methods}{chapter.5}% 15
+\BOOKMARK [1][-]{section.5.3}{Data Properties}{chapter.5}% 16
+\BOOKMARK [1][-]{section.5.4}{Spectral Smoothing Algorithm}{chapter.5}% 17
+\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 18
+\BOOKMARK [0][-]{Dodatek.1.A}{Dependencies Between City Structure and Thermal Behaviour in Brno}{}% 19
+\BOOKMARK [0][-]{Dodatek.1.B}{Spectral Emissivity Library of Spoil Substrates}{}% 20
+\BOOKMARK [1][-]{section.1.B.1}{Header}{Dodatek.1.B}% 21
+\BOOKMARK [1][-]{section.1.B.2}{Spectral Emissivity}{Dodatek.1.B}% 22
+\BOOKMARK [0][-]{chapter*.30}{Bibliography}{}% 23

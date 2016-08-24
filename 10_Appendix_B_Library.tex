@@ -1,33 +1,59 @@
-\chapter{Dependencies Between City Structure and Thermal Behaviour in Brno}
-\label{app:Visualisation}
+\chapter{Spectral Emissivity Library of Spoil Substrates}
+\label{app:Library}
 
-Results of visualisation are presented in Fig. \ref{fig:Transect1} and Fig. \ref{fig:Transect2}. Both figures have the following structure. A distance along the transect in meters forms a common X axis. A true-colour composition from CASI data is shown in the topmost panel, the transect is drawn with a yellow line. Surface temperatures of a summer day and a summer night are shown in the second panel. Surface temperature of a winter night is shown in the third panel. A depiction of city structure is contained in the fourth panel. Terrain level is shown in brown, while buildings are distinguished from high vegetation with grey and green colours, respectively. NDVI is shown in fifth panel and absorbed energy is shown in the last panel.
+The spectral library consists of 24 ASCII files. Each file describes one spoil substrate. Individual files are named according to the sample number. Files consist of a file header and spectral emissivities. Both file parts are described in the subsections below.
 
-Several common observations can be made in both figures. NDVI as a measure of “greenness” follows a classification of high vegetation and also allows distinguishing between streets and a surface covered by grass. Local minima in absorbed energy follow shaded regions at the edges of buildings. Temperature over areas covered by vegetation tends to be more stable and lower in average, while the temperature of streets and parking lots is significantly higher during summer day.
+\section{Header}
 
-We would like to point out several interesting features in individual transects. We will use an X axis to label the details.
+The format of header is similar to format of ASTER Spectral Library header \cite{BH09}. Each file contains 26 lines of header, which includes available sample information. The header is divided into four sections separated by empty lines. First part contains 9 lines discussing sample classification, particle size and sample origin. Sample origin is expressed by latitude and longitude on the reference ellipsoid WGS84. This information is summarized in the following fields:
 
-In Figure 1 between 80 and 90, the stabilising role of vegetation can be seen – the temperature profile has a low variability as well as a lower average despite a higher amount of absorbed energy. In Figure 1 at 305 and 390, two different roof surfaces can be observed – the rightmost one is dark, has a high absorptivity, while the leftmost one has a high reflectivity and reflects a cold sky in both summer and winter night. The region from 400 to 550 contains green areas which surrounds Špilberk castle. Summer day temperature is significantly lower in this region compared to other built up areas. The only notable temperature extreme is visible between 460 and 470 where the transect crosses a path walk.
+\begin{enumerate}
+	\item	Name
+	\item Type
+	\item Class
+	\item Particle size
+	\item Sample No
+	\item Owner
+	\item Origin
+	\item Latitude
+	\item Longitude
+\end{enumerate}
 
-Figure 2 shows interesting features as well. Roofs with high reflectivity can be observed at 160 – 170 and 530 – 540. The coldest places during a summer day are the river between 260 and 280 (which is on the other hand the warmest place in winter) and hard shadows next to high buildings, e.g. at 545. There is a notable shaded hillside between 40 and 50 causing temperature decrease in both summer day and night. There is an interesting dip in the summer night temperature profile between 360 and 370, which is presumably caused by a parked car in the parking lot. A dip in the summer temperature around 445 is caused by a roof window included in the transect.
+A second section contains information about sample toxicity and chemical properties. The unit of each quantity is indicated in square brackets after quantity name. This header section contains following fields:
 
+\begin{enumerate}
+	\item toxicity
+	\item pH in H20
+	\item pH in KCl
+	\item conductivity
+	\item water soluble Na
+	\item water soluble K
+	\item Al in KCl
+	\item Fe in KCl
+	\item loss on ignition
+	\item polyphenol content
+\end{enumerate}
 
-\newpage
+A third section contains reference to \cite{FK05}, which discusses toxicity measurement and chemical analysis. Finally, the fourth header section contains the names of two columns, in which the following spectral emissivity data are aligned. Metadata in each header line contains an attribute name followed by a colon (ASCII Character 3A) and tab (ASCII Character 09) and then the corresponding value.
+
+\section{Spectral Emissivity}
+
+After the header part, the file continues on lines 27 – 213 with spectral emissivity data aligned in two columns. As header file indicates, the first column contains wavelength in micrometers and the second column contains corresponding emissivity value. Values in each row are separated by tab. The emissivity of each sample is provided in wavelengths interval from 8 µm to 14 µm. Sampling in this interval is non-linear.
+
 \begin{figure*}[!t]
 \centering
-\includegraphics[width=\linewidth]{pics/Appendix_B/Transect_1.pdf}
+\includegraphics[width=0.95\linewidth]{pics/Chapter_05/spectral_library_pt1.eps}
 \vspace{1.5 em}
 \caption{TODO.}
-\label{fig:Transect1}
+\label{fig:SpoilSubstratesPreviewPt1}
 \end{figure*}
 
-\newpage
 \begin{figure*}[!t]
 \centering
-\includegraphics[width=\linewidth]{pics/Appendix_B/Transect_2.pdf}
+\includegraphics[width=0.95\linewidth]{pics/Chapter_05/spectral_library_pt2.eps}
 \vspace{1.5 em}
 \caption{TODO.}
-\label{fig:Transect2}
+\label{fig:SpoilSubstratesPreviewPt1}
 \end{figure*}
 
 \end{appendices}
