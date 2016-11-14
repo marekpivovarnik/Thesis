@@ -190,109 +190,14 @@
 %	END: HEADERS AND FOOTERS
 %----------------------------------------------------------------------------------------
 
-% +++++++++++++++++++++++++++++++++++++++++++++++
-% VLASTNI TITULKA
-\def\titul2{%
-\setcounter{page}{1}
-\thispagestyle{empty}
-
-{\flushleft
-\vspace*{-2.0cm}
-\hspace*{-13mm}\includegraphics[scale=1.1]{logo/VUT_symbol_barevne_CMYK_CZ.eps}
-\vskip0cm
-{\advance\baselineskip by 6pt
-\noindent{\LARGE \sf VYSOKÉ UČENÍ TECHNICKÉ V BRNĚ\hfil}\par
-}
-\smallskip
-\noindent{\small \sf BRNO UNIVERSITY OF TECHNOLOGY}
-%
-%\bgroup
-\vskip0.6cm
-{\advance\baselineskip by 6pt
-\noindent{\Large \sf FAKULTA STROJNÍHO INŽENÝRSTVÍ\hfil}\par
-}
-\smallskip
-\noindent{\small \sf \Enfakultatxt}
-%
-%\bgroup
-\vskip0.6cm
-{\advance\baselineskip by 6pt
-\noindent{\Large \sf \Ustavtxt\hfil}\par
-}
-\smallskip
-\noindent{\small\sf \Enustavtxt}
-
-
-%\vskip2.5cm
-%{\advance\baselineskip by 6pt
-%\noindent{\Large\sf \Nazevbrtxt }
-%}
-%\noindent{\small\sf \Ennazevbrtxt }
-
-\vskip2.5cm
-\noindent{\Large\sf \uppercase{New Approaches in Airborne Thermal Image }}
-\vskip6pt
-\noindent{\Large\sf \uppercase{Processing for Landscape Assessment}}
-
-\smallskip
-\noindent{\small \sf \uppercase{Nov\'{e} p\v{r}\'{i}stupy zpracov\'{a}n\'{i} leteck\'{y}ch obrazov\'{y}ch term\'{a}ln\'{i}ch dat}}
-%\vskip1pt
-\noindent{\small \sf \uppercase{k~hodnocen\'{i} krajiny}}
-
-\vfill
-\noindent{\sf DIZERTAČNÍ PRÁCE}%\Typpracetxt
-
-\noindent{\small\sf \Entyppracetxt}
-
-\bigskip
-\bigskip
-% troska rozhodovani jak vytisknout autora a suprevizora
-\setbox1=\hbox{\sf \Autortxt}
-\setbox2=\hbox{\sf \Vedoucitxt}
-\dimen0=\textwidth
-\advance\dimen0 by -8cm%  6+2cm
-\ifdim\wd1>\wd2
-   \dimen1=\wd1
-\else
-   \dimen1=\wd2
-\fi
-\ifdim\dimen0<\dimen1
-   % nevejde se mi tam jmeno autora nebo vedouciho protoze je moc dlouhe
-   \noindent{\sf AUTOR PRÁCE\hfill\hbox to \dimen1{\Autortxt\hss}}
-
-\noindent{\small\sf AUTHOR}
-
-\bigskip
-\noindent{\sf VEDOUCÍ PRÁCE\hfill\hbox to \dimen1{\Vedoucitxt\hss}}
-
-\noindent{\small\sf SUPERVISOR}
-\else
-   \noindent{\sf \hbox to 6cm{AUTOR PRÁCE\hss}\hskip2cm\Autortxt}
-
-   \noindent{\small\sf AUTHOR}
-
-   \bigskip
-   \noindent{\sf \hbox to 6cm{VEDOUCÍ PRÁCE\hss}\hskip2cm\Vedoucitxt}
-
-   \noindent{\small\sf SUPERVISOR}
-\fi
-
-\vskip3cm
-\noindent{\small\sf BRNO \the\year}
-}
-%\egroup % End of flushleft
-\eject
-}
-% +++++++++++++++++++++++++++++++++++++++++++++++
-
-
 %----------------------------------------------------------------------------------------
 %	BEGIN: DOCUMENT
 %----------------------------------------------------------------------------------------
 \begin{document}
 
-\pagestyle{empty}	
-\titul2
+%\pagestyle{empty}	
+\includepdf[pages=-, offset=75 -75]{00_Title_Page.pdf}
+%\titul2
 \newpage \hspace*{0.1cm} \thispagestyle{empty} %\newpage
 %\newpage
 \abstrakty
@@ -342,9 +247,9 @@
 	\pagestyle{mystyle}
 \input{05_Chapter_4_OSTES_valid}
 
-	\cleardoublepage
-	\pagestyle{mystyle}
-\input{06_Chapter_5_GroundMeasurements}
+%	\cleardoublepage
+%	\pagestyle{mystyle}
+%\input{06_Chapter_5_GroundMeasurements}
 
 %% zaver
 	\cleardoublepage
@@ -355,9 +260,9 @@
 %% dodatky
 \pagestyle{mydodatky}
 
-\input{09_Appendix_A_UHI}
-
 \input{10_Appendix_B_Library}
+
+\input{09_Appendix_A_UHI}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% literatura

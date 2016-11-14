@@ -4,24 +4,24 @@
 \contentsline {chapter}{\numberline {2}Airborne Thermal Hyperspectral Data Properties}{16}{chapter.2}
 \contentsline {section}{\numberline {2.1}Instrument Technical Specifications}{16}{section.2.1}
 \contentsline {section}{\numberline {2.2}Image data pre-processing}{17}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Radiometric Calibration}{17}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Atmospheric Corrections}{20}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Geometric Pre-processing}{22}{subsection.2.2.3}
 \contentsline {chapter}{\numberline {3}Temperature and Emissivity Separation}{24}{chapter.3}
 \contentsline {section}{\numberline {3.1}Available approaches}{24}{section.3.1}
 \contentsline {section}{\numberline {3.2}Temperature and emissivity separation algorithm (TES)}{26}{section.3.2}
 \contentsline {section}{\numberline {3.3}TES Algorithm Improvement}{27}{section.3.3}
 \contentsline {chapter}{\numberline {4}OSTES Validation}{31}{chapter.4}
 \contentsline {section}{\numberline {4.1}Synthetic Data}{31}{section.4.1}
-\contentsline {section}{\numberline {4.2}Real Data}{34}{section.4.2}
-\contentsline {chapter}{\numberline {5}Ground Measurements}{41}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{41}{section.5.1}
-\contentsline {section}{\numberline {5.2}Methods}{43}{section.5.2}
-\contentsline {section}{\numberline {5.3}Data Properties}{44}{section.5.3}
-\contentsline {section}{\numberline {5.4}Spectral Smoothing Algorithm}{45}{section.5.4}
-\contentsline {chapter}{\numberline {6}Conclusion}{46}{chapter.6}
-\contentsline {chapter}{\numberline {A}Dependencies Between City Structure and Thermal Behaviour in Brno}{48}{Dodatek.1.A}
-\contentsline {chapter}{\numberline {B}Spectral Emissivity Library of Spoil Substrates}{52}{Dodatek.1.B}
-\contentsline {section}{\numberline {B.1}Header}{52}{section.1.B.1}
-\contentsline {section}{\numberline {B.2}Spectral Emissivity}{53}{section.1.B.2}
-\contentsline {chapter}{Bibliography}{56}{chapter*.30}
+\contentsline {section}{\numberline {4.2}Comparison with ASTER standard products}{34}{section.4.2}
+\contentsline {section}{\numberline {4.3}Application to TASI Image Data}{38}{section.4.3}
+\contentsline {chapter}{\numberline {5}Conclusion}{43}{chapter.5}
+\contentsline {chapter}{\numberline {A}Spectral Emissivity Library of Spoil Substrates}{46}{Dodatek.1.A}
+\contentsline {section}{\numberline {A.1}Introduction}{46}{section.1.A.1}
+\contentsline {section}{\numberline {A.2}Methods}{48}{section.1.A.2}
+\contentsline {section}{\numberline {A.3}Data Properties}{50}{section.1.A.3}
+\contentsline {section}{\numberline {A.4}Data Description}{50}{section.1.A.4}
+\contentsline {subsection}{\numberline {A.4.1}Header}{50}{subsection.1.A.4.1}
+\contentsline {subsection}{\numberline {A.4.2}Spectral Emissivity}{52}{subsection.1.A.4.2}
+\contentsline {chapter}{\numberline {B}Dependencies Between City Structure and Thermal Behaviour in Brno}{55}{Dodatek.1.B}
+\contentsline {section}{\numberline {B.1}Methods}{55}{section.1.B.1}
+\contentsline {section}{\numberline {B.2}Results}{56}{section.1.B.2}
+\contentsline {section}{\numberline {B.3}Conclusion}{56}{section.1.B.3}
+\contentsline {chapter}{Bibliography}{59}{chapter*.31}

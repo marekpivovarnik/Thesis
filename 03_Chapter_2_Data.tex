@@ -1,8 +1,7 @@
 \chapter{Airborne Thermal Hyperspectral Data Properties}
 \label{chap:Data}
 
-This chapter provides insights into technical parameters of Thermal Airborne Spectrographic Imager (TASI) and processing chain of image data acquired by this sensor. Knowledge of the instrument parameters and processing chain gives important overview of the image data properties and their components. The result of the processing chain described in this chapter is georeferenced image data containing land-leaving radiance. Such an image data form input for further processing. 
-Let us note that this chapter omits naming physical quantities dependent on wavelength as ``spectral'' for the sake of clarity. However, all quantities remain wavelength dependent.
+This chapter provides insights into technical parameters of Thermal Airborne Spectrographic Imager (TASI) and processing chain of image data acquired by this sensor. Knowledge of the instrument parameters and processing chain gives important overview of the image data properties and their components. The result of the processing chain described in this chapter is georeferenced image data containing land-leaving radiance. Such an image data form an input for further processing. Let us note that this chapter omits naming physical quantities dependent on wavelength as ``spectral'' for the sake of clarity. However, all quantities remain wavelength dependent.
 
 \section{Instrument Technical Specifications}
 
@@ -57,7 +56,7 @@ It is important to emphasize, that currently does not exist any definitive stand
 
 % show how are data modified by using different corrections -> three plots
 
-\subsection{Radiometric Calibration}
+\subsection*{Radiometric Calibration}
 
 Thermal radiation incident upon the sensor array originates from many additive components (e.g. observed scene, instrument enclosure, intervening atmosphere and others). Incident thermal radiation produces electrical signal, which is proportional to radiant intensity. Electrical signal is then amplified and converted into voltage and subsequently into DN values. Radiometric calibration consists of separating signal from viewed scene and converting it into physical units of radiance. Atmosphere influence is not accounted in this process and thus after radiometric calibration one gets radiance at-sensor level.
 
@@ -81,7 +80,7 @@ Again, it is important to emphasize that all quantities and both calibration coe
 
 In case of TASI sensor are used commercial softwares delivered by Itres company (Calgary, Canada). SparCal software \cite{software:SparCal} is used to determine all parameters necessary for radiometric calibrations from laboratory measurements. RCX software \cite{software:RCX} is used for additional  estimation of calibration parameters and for processing raw image data. Both softwares are tailored for the TASI sensor. The resulting image data are made of radiance at-sensor level $L_\mathrm{m}$.
 
-\subsection{Atmospheric Corrections}
+\subsection*{Atmospheric Corrections}
 
 Radiometric calibrations deliver image data containing radiation from the surface, attenuated by atmosphere, plus radiation from the atmosphere along the line of sight. Thus the measured radiance at-sensor level ($L_\mathrm{m}$) consists mainly of radiance emitted from the land surface, downwelling atmospheric radiance reflected by the surface ($L^\downarrow_\mathrm{atm}$) and the atmospheric upwelling radiance ($L^\uparrow_\mathrm{atm}$). The sum of all these components is expressed by a radiative transfer equation (RTE) as follows:
 \begin{equation} 
@@ -99,9 +98,9 @@ where $B(T_\mathrm{s})$ is radiance of the surface at temperature $T_\mathrm{s}$
 	\label{fig:FigRTE}
 \end{figure}
 
-The goal of the atmospheric corrections is to determine atmospheric transmittance, downwelling and upwelling atmospheric radiance and compensate for them. The quantification of these quantities are usually based on radiative transfer models of the atmosphere. For this purpose is usually used MODerate resolution atmospheric TRANsmission (MODTRAN) model \cite{BG06}. MODTRAN simulates atmospheric parameters such as atmospheric transmittance, downwelling and upwelling atmospheric radiance based on input parameters such as vertical profiles of water vapour content and temperature, CO$_2$ concentration, the choice of model atmosphere (if measured profiles are not available) and many others. In general, input parameters can be obtained in two ways: 1) by in-situ measurements; 2) by satellite-based products.
+The goal of the atmospheric corrections is to determine atmospheric transmittance, downwelling and upwelling atmospheric radiance and compensate for them. The quantification of these quantities are usually based on radiative transfer models of the atmosphere. For this purpose is usually used MODerate resolution atmospheric TRANsmission (MODTRAN) model \cite{BG06}. MODTRAN simulates atmospheric parameters such as atmospheric transmittance, downwelling and upwelling atmospheric radiance based on input parameters such as vertical profiles of water vapour content and temperature, CO$_2$ concentration, the choice of model atmosphere (if measured profiles are not available) and many others. In general, input parameters can be obtained in two ways: 1) by \textit{in-situ} measurements; 2) by satellite-based products.
 
-The most common in-situ measurement is radio sounding. Radiosonde is launched during the overflight and it is used to measure vertical temperature and water vapour profile of the atmosphere. Other in-situ instruments can be used as well, for example sun-photometer for obtaining water vapor content or different radiometers for measuring sky or surface radiance. Other source of water vapour and temperature profile is satellite-based products acquired close to the time of aircraft overflight. The most common is MOD07\_L2 product \cite{B11} generated by Moderate Resolution Imaging Spectroradiometer (MODIS) instrument. Illustration of the transmittance, downwelling and upwelling atmospheric radiance generated by MODTRAN using MOD07\_L2 products as input are depicted in Figure \ref{fig:AtmParams}.
+The most common \textit{in-situ} measurement is radio sounding. Radiosonde is launched during the overflight and it is used to measure vertical temperature and water vapour profile of the atmosphere. Other \textit{in-situ} instruments can be used as well, for example sun-photometer for obtaining water vapor content or different radiometers for measuring sky or surface radiance. Other source of water vapour and temperature profile is satellite-based products acquired close to the time of aircraft overflight. The most common is MOD07\_L2 product \cite{B11} generated by Moderate Resolution Imaging Spectroradiometer (MODIS) instrument. Illustration of the transmittance, downwelling and upwelling atmospheric radiance generated by MODTRAN using MOD07\_L2 products as input are depicted in Figure \ref{fig:AtmParams}.
 
 \begin{figure}[htb]
 	\centering
@@ -143,7 +142,7 @@ L_\mathrm{LL} = \varepsilon B(T_\mathrm{s}) + (1 - \varepsilon) L^\downarrow_\ma
 \end{equation}
 The downwelling atmospheric radiance is not possible to separate without knowledge of emissivity. Hence, image data after atmospheric corrections are made of land-leaving radiance $L_\mathrm{LL}$. Compensation for downwelling atmospheric radiance is part of the temperature and emissivity separation described in Chapter \ref{chap:TES}.
 
-Atmospheric corrections for TASI sensor, as part of processing chain, are not performed by commercial products. However, there exists commercial tools that allows complex solution for atmospheric corrections. An example of such a tool is ATCOR \cite{RS02} which is based on look-up tables generated by MODTRAN and takes into account terrain topography and sensor parameters. It offers basic temperature and emissivity separation algorithms as well. Apart of mentioned solution, atmospheric corrections rely on extracting data from in-situ measurements or satellite products, running radiative transfer models and applying derived atmospheric parameter on image data. Alternatively, algorithms for atmospheric parameters estimation from image data can be implemented. In both cases, atmospheric corrections involve creating in-house tools.
+Atmospheric corrections for TASI sensor, as part of processing chain, are not performed by commercial products. However, there exists commercial tools that allows complex solution for atmospheric corrections. An example of such a tool is ATCOR \cite{RS02} which is based on look-up tables generated by MODTRAN and takes into account terrain topography and sensor parameters. It offers basic temperature and emissivity separation algorithms as well. Apart of mentioned solution, atmospheric corrections rely on extracting data from \textit{in-situ} measurements or satellite products, running radiative transfer models and applying derived atmospheric parameter on image data. Alternatively, algorithms for atmospheric parameters estimation from image data can be implemented. In both cases, atmospheric corrections involve creating in-house tools.
 
 \begin{figure}[htb]
 	\centering
@@ -176,7 +175,7 @@ Atmospheric corrections for TASI sensor, as part of processing chain, are not pe
 	\label{fig:RadAtmCorOfQuartz}
 \end{figure}
 
-\subsection{Geometric Pre-processing}
+\subsection*{Geometric Pre-processing}
 
 Acquired image data are distorted during its acquisition and geometric pre-processing is accounting for all factors causing these distortions. During geometric pre-processing are taken into account aircraft motion, terrain variations and geometric sensor model in order to register image data into reference frame.
 
