@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.6)  13 NOV 2016 18:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.6)  17 NOV 2016 01:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1548,12 +1548,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [26]
 Package epstopdf Info: Source file: <pics/Chapter_03/GreenGrass_Emiss_vs_Bright
 Temp.eps>
-(epstopdf)                    date: 2016-08-24 01:00:40
-(epstopdf)                    size: 330177 bytes
+(epstopdf)                    date: 2016-11-17 01:05:15
+(epstopdf)                    size: 325310 bytes
 (epstopdf)             Output file: <pics/Chapter_03/GreenGrass_Emiss_vs_Bright
 Temp-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-08-24 01:01:40
-(epstopdf)                    size: 72485 bytes
+(epstopdf)                    date: 2016-11-17 01:05:48
+(epstopdf)                    size: 71386 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/Chapter_03/GreenGrass
 _Emiss_vs_BrightTemp-eps-converted-to.pdf pics/Chapter_03/GreenGrass_Emiss_vs_B
 rightTemp.eps>
@@ -1576,12 +1576,12 @@ Overfull \hbox (7.96503pt too wide) in paragraph at lines 69--70
 
 Package epstopdf Info: Source file: <pics/Chapter_03/FineSandyLoam_Emiss_vs_Bri
 ghtTemp.eps>
-(epstopdf)                    date: 2016-08-24 00:59:29
-(epstopdf)                    size: 313202 bytes
+(epstopdf)                    date: 2016-11-17 01:02:30
+(epstopdf)                    size: 318115 bytes
 (epstopdf)             Output file: <pics/Chapter_03/FineSandyLoam_Emiss_vs_Bri
 ghtTemp-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-08-24 01:01:40
-(epstopdf)                    size: 66023 bytes
+(epstopdf)                    date: 2016-11-17 01:05:49
+(epstopdf)                    size: 67608 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/Chapter_03/FineSandyL
 oam_Emiss_vs_BrightTemp-eps-converted-to.pdf pics/Chapter_03/FineSandyLoam_Emis
 s_vs_BrightTemp.eps>
@@ -1638,6 +1638,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [27 <./pics/Chapter_03/EpsMinMMD.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[28 <./pics/Chapter_03/GreenGrass_Emiss_vs_BrightTemp-eps-converted-to.pdf> <./
+pics/Chapter_03/FineSandyLoam_Emiss_vs_BrightTemp-eps-converted-to.pdf> <./pics
+/Chapter_03/AlteredVolcanicTuff_Emiss_vs_BrightTemp-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pics/Chapter_03/GreenGrass_Emiss2BrightTem
 p.eps>
 (epstopdf)                    date: 2016-08-24 01:00:11
@@ -1649,20 +1658,20 @@ p-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=pics/Chapter_03/GreenGrass
 _Emiss2BrightTemp-eps-converted-to.pdf pics/Chapter_03/GreenGrass_Emiss2BrightT
 emp.eps>
-(epstopdf)             \includegraphics on input line 119.
+(epstopdf)             \includegraphics on input line 121.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_03/GreenGrass_Emiss2BrightTemp-eps-converted-to.pdf, id=514, 144.
+<pics/Chapter_03/GreenGrass_Emiss2BrightTemp-eps-converted-to.pdf, id=527, 144.
 54pt x 119.44624pt>
 File: pics/Chapter_03/GreenGrass_Emiss2BrightTemp-eps-converted-to.pdf Graphic 
 file (type pdf)
 
 <use pics/Chapter_03/GreenGrass_Emiss2BrightTemp-eps-converted-to.pdf>
 Package pdftex.def Info: pics/Chapter_03/GreenGrass_Emiss2BrightTemp-eps-conver
-ted-to.pdf used on input line 119.
+ted-to.pdf used on input line 121.
 (pdftex.def)             Requested size: 144.53963pt x 119.44594pt.
 
-Overfull \hbox (7.96503pt too wide) in paragraph at lines 119--120
+Overfull \hbox (7.96503pt too wide) in paragraph at lines 121--122
  [][] 
  []
 
@@ -1677,20 +1686,20 @@ Temp-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=pics/Chapter_03/FineSandyL
 oam_Emiss2BrightTemp-eps-converted-to.pdf pics/Chapter_03/FineSandyLoam_Emiss2B
 rightTemp.eps>
-(epstopdf)             \includegraphics on input line 125.
+(epstopdf)             \includegraphics on input line 127.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_03/FineSandyLoam_Emiss2BrightTemp-eps-converted-to.pdf, id=515, 1
+<pics/Chapter_03/FineSandyLoam_Emiss2BrightTemp-eps-converted-to.pdf, id=528, 1
 44.54pt x 119.44624pt>
 File: pics/Chapter_03/FineSandyLoam_Emiss2BrightTemp-eps-converted-to.pdf Graph
 ic file (type pdf)
 
 <use pics/Chapter_03/FineSandyLoam_Emiss2BrightTemp-eps-converted-to.pdf>
 Package pdftex.def Info: pics/Chapter_03/FineSandyLoam_Emiss2BrightTemp-eps-con
-verted-to.pdf used on input line 125.
+verted-to.pdf used on input line 127.
 (pdftex.def)             Requested size: 144.53963pt x 119.44594pt.
 
-Overfull \hbox (7.96503pt too wide) in paragraph at lines 125--126
+Overfull \hbox (7.96503pt too wide) in paragraph at lines 127--128
  [][] 
  []
 
@@ -1705,37 +1714,28 @@ BrightTemp-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=pics/Chapter_03/AlteredVol
 canicTuff_Emiss2BrightTemp-eps-converted-to.pdf pics/Chapter_03/AlteredVolcanic
 Tuff_Emiss2BrightTemp.eps>
-(epstopdf)             \includegraphics on input line 131.
+(epstopdf)             \includegraphics on input line 133.
 Package epstopdf Info: Output file is already uptodate.
 
 <pics/Chapter_03/AlteredVolcanicTuff_Emiss2BrightTemp-eps-converted-to.pdf, id=
-516, 144.54pt x 119.44624pt>
+529, 144.54pt x 119.44624pt>
 File: pics/Chapter_03/AlteredVolcanicTuff_Emiss2BrightTemp-eps-converted-to.pdf
  Graphic file (type pdf)
 
 <use pics/Chapter_03/AlteredVolcanicTuff_Emiss2BrightTemp-eps-converted-to.pdf>
 Package pdftex.def Info: pics/Chapter_03/AlteredVolcanicTuff_Emiss2BrightTemp-e
-ps-converted-to.pdf used on input line 131.
+ps-converted-to.pdf used on input line 133.
 (pdftex.def)             Requested size: 144.53963pt x 119.44594pt.
 
-Overfull \hbox (7.96503pt too wide) in paragraph at lines 131--132
+Overfull \hbox (7.96503pt too wide) in paragraph at lines 133--134
  [][] 
  []
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[28 <./pics/Chapter_03/GreenGrass_Emiss_vs_BrightTemp-eps-converted-to.pdf> <./
-pics/Chapter_03/FineSandyLoam_Emiss_vs_BrightTemp-eps-converted-to.pdf> <./pics
-/Chapter_03/AlteredVolcanicTuff_Emiss_vs_BrightTemp-eps-converted-to.pdf>]
 <pics/Chapter_03/pseudo_code.pdf, id=533, 189.508pt x 182.48175pt>
 File: pics/Chapter_03/pseudo_code.pdf Graphic file (type pdf)
 
 <use pics/Chapter_03/pseudo_code.pdf>
-Package pdftex.def Info: pics/Chapter_03/pseudo_code.pdf used on input line 149
+Package pdftex.def Info: pics/Chapter_03/pseudo_code.pdf used on input line 151
 .
 (pdftex.def)             Requested size: 189.50752pt x 182.4813pt.
 
@@ -2483,7 +2483,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 278.
 Here is how much of TeX's memory you used:
  21031 strings out of 493089
  386277 string characters out of 6134842
- 446433 words of memory out of 5000000
+ 445434 words of memory out of 5000000
  23918 multiletter control sequences out of 15000+600000
  29874 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2515,7 +2515,7 @@ public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
 blic/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-su
 per/sfrm1200.pfb>
-Output written on main.pdf (66 pages, 17780459 bytes).
+Output written on main.pdf (66 pages, 17781328 bytes).
 PDF statistics:
  7222 PDF objects out of 7423 (max. 8388607)
  4993 compressed objects within 50 object streams
