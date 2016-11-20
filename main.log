@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.6)  17 NOV 2016 01:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.6)  20 NOV 2016 22:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -868,18 +868,6 @@ ss on input line 186.
 LaTeX Warning: Label `fig:ProcessingChain' multiply defined.
 
 
-LaTeX Warning: Label `fig:ResponseFunctions' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:ResponseFunctions' multiply defined.
-
-
-LaTeX Warning: Label `fig:QuartzByTASI' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:QuartzByTASI' multiply defined.
-
-
 LaTeX Warning: Label `eq:landleavingRadiance' multiply defined.
 
 
@@ -992,24 +980,48 @@ Package pdftex.def Info: 00_Title_Page.pdf, page1 used on input line 199.
 (pdftex.def)             Requested size: 562.12665pt x 795.00201pt.
  [1
 
- <./00_Title_Page.pdf>] [2] [3{/usr/local/texlive/2015/texmf-var/fonts/map/pdft
-ex/updmap/pdftex.map}] [4] [5
+ <./00_Title_Page.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
 
-] [6] [7
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--223
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--223
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--223
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--223
+
+ []
+
+[2{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[3
+
+] [4
 
 ]
 
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
-ss on input line 222.
+ss on input line 250.
 
 
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
-ss on input line 222.
+ss on input line 250.
 
-[8]
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <40> not available
-(Font)              size <24.88> substituted on input line 223.
+(Font)              size <24.88> substituted on input line 251.
 
 (./main.toc)
 \tf@toc=\write5
@@ -1018,30 +1030,24 @@ LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <40> not available
 
 
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
-ss on input line 224.
+ss on input line 252.
 
-[9
-
-]
-
-Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
-ss on input line 225.
-
-[10
+[5
 
 ]
 
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
-ss on input line 231.
+ss on input line 253.
 
 
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
-ss on input line 231.
+ss on input line 259.
+
+
+Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
+ss on input line 259.
 
 (./01_Introduction.tex
-
-LaTeX Warning: Citation `J13' on page 11 undefined on input line 4.
-
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
@@ -1051,13 +1057,11 @@ LaTeX Font Info:    Try loading font information for TS1+cmr on input line 6.
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 
-LaTeX Warning: Citation `PM05' on page 11 undefined on input line 12.
-
-
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
-ss on input line 17.
+ss on input line 15.
 
-[11
+[6
+
 
 
 ])
@@ -1067,14 +1071,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12]
+[7]
 
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
-ss on input line 235.
+ss on input line 263.
 
 
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
-ss on input line 235.
+ss on input line 263.
 
 (./02_Chapter_1_TheoreticalBackground.tex
 Chapter 1.
@@ -1084,9 +1088,9 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
-ss on input line 18.
+ss on input line 19.
 
-[13
+[8
 
 
 ]
@@ -1099,18 +1103,18 @@ o.pdf>
 (epstopdf)                    size: 42752 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/Chapter_01/PlancksLaw
 -eps-converted-to.pdf pics/Chapter_01/PlancksLaw.eps>
-(epstopdf)             \includegraphics on input line 26.
+(epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_01/PlancksLaw-eps-converted-to.pdf, id=233, 138.5175pt x 130.4875
+<pics/Chapter_01/PlancksLaw-eps-converted-to.pdf, id=230, 138.5175pt x 130.4875
 pt>
 File: pics/Chapter_01/PlancksLaw-eps-converted-to.pdf Graphic file (type pdf)
  <use pics/Chapter_01/PlancksLaw-eps-converted-to.pdf>
 Package pdftex.def Info: pics/Chapter_01/PlancksLaw-eps-converted-to.pdf used o
-n input line 26.
+n input line 27.
 (pdftex.def)             Requested size: 138.51715pt x 130.48717pt.
 
-Overfull \hbox (1.94255pt too wide) in paragraph at lines 26--28
+Overfull \hbox (1.94255pt too wide) in paragraph at lines 27--29
  [][] 
  []
 
@@ -1123,19 +1127,19 @@ ed-to.pdf>
 (epstopdf)                    size: 47653 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/Chapter_01/QuartzSpec
 trum-eps-converted-to.pdf pics/Chapter_01/QuartzSpectrum.eps>
-(epstopdf)             \includegraphics on input line 34.
+(epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_01/QuartzSpectrum-eps-converted-to.pdf, id=234, 145.54375pt x 130
+<pics/Chapter_01/QuartzSpectrum-eps-converted-to.pdf, id=231, 145.54375pt x 130
 .4875pt>
 File: pics/Chapter_01/QuartzSpectrum-eps-converted-to.pdf Graphic file (type pd
 f)
  <use pics/Chapter_01/QuartzSpectrum-eps-converted-to.pdf>
 Package pdftex.def Info: pics/Chapter_01/QuartzSpectrum-eps-converted-to.pdf us
-ed on input line 34.
+ed on input line 35.
 (pdftex.def)             Requested size: 145.54338pt x 130.48717pt.
 
-Overfull \hbox (8.96878pt too wide) in paragraph at lines 34--36
+Overfull \hbox (8.96878pt too wide) in paragraph at lines 35--37
  [][] 
  []
 
@@ -1148,19 +1152,19 @@ ed-to.pdf>
 (epstopdf)                    size: 60783 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/Chapter_01/QuartzRadi
 ance-eps-converted-to.pdf pics/Chapter_01/QuartzRadiance.eps>
-(epstopdf)             \includegraphics on input line 42.
+(epstopdf)             \includegraphics on input line 43.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_01/QuartzRadiance-eps-converted-to.pdf, id=235, 138.5175pt x 130.
+<pics/Chapter_01/QuartzRadiance-eps-converted-to.pdf, id=232, 138.5175pt x 130.
 4875pt>
 File: pics/Chapter_01/QuartzRadiance-eps-converted-to.pdf Graphic file (type pd
 f)
  <use pics/Chapter_01/QuartzRadiance-eps-converted-to.pdf>
 Package pdftex.def Info: pics/Chapter_01/QuartzRadiance-eps-converted-to.pdf us
-ed on input line 42.
+ed on input line 43.
 (pdftex.def)             Requested size: 138.51715pt x 130.48717pt.
 
-Overfull \hbox (1.94255pt too wide) in paragraph at lines 42--44
+Overfull \hbox (1.94255pt too wide) in paragraph at lines 43--45
  [][] 
  []
 
@@ -1170,23 +1174,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14 <./pics/Chapter_01/PlancksLaw-eps-converted-to.pdf> <./pics/Chapter_01/Quar
-tzSpectrum-eps-converted-to.pdf> <./pics/Chapter_01/QuartzRadiance-eps-converte
-d-to.pdf>])
+[9 <./pics/Chapter_01/PlancksLaw-eps-converted-to.pdf> <./pics/Chapter_01/Quart
+zSpectrum-eps-converted-to.pdf> <./pics/Chapter_01/QuartzRadiance-eps-converted
+-to.pdf>])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15]
+[10]
 
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
-ss on input line 239.
+ss on input line 267.
 
 
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
-ss on input line 239.
+ss on input line 267.
 
 (./03_Chapter_2_Data.tex
 Chapter 2.
@@ -1203,7 +1207,7 @@ seFunctions-eps-converted-to.pdf pics/Chapter_02/TASIResponseFunctions.eps>
 (epstopdf)             \includegraphics on input line 23.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_02/TASIResponseFunctions-eps-converted-to.pdf, id=259, 189.70876p
+<pics/Chapter_02/TASIResponseFunctions-eps-converted-to.pdf, id=256, 189.70876p
 t x 130.4875pt>
 File: pics/Chapter_02/TASIResponseFunctions-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1224,7 +1228,7 @@ SI-eps-converted-to.pdf pics/Chapter_02/QuartzByTASI.eps>
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_02/QuartzByTASI-eps-converted-to.pdf, id=260, 157.58875pt x 130.4
+<pics/Chapter_02/QuartzByTASI-eps-converted-to.pdf, id=257, 157.58875pt x 130.4
 875pt>
 File: pics/Chapter_02/QuartzByTASI-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1237,7 +1241,7 @@ Package pdftex.def Info: pics/Chapter_02/QuartzByTASI-eps-converted-to.pdf used
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
 ss on input line 41.
 
-[16
+[11
 
 
 ]
@@ -1253,7 +1257,7 @@ s-converted-to.pdf pics/Chapter_02/Fig_2_3.eps>
 (epstopdf)             \includegraphics on input line 49.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_02/Fig_2_3-eps-converted-to.pdf, id=272, 378.41376pt x 624.3325pt
+<pics/Chapter_02/Fig_2_3-eps-converted-to.pdf, id=269, 378.41376pt x 624.3325pt
 >
 File: pics/Chapter_02/Fig_2_3-eps-converted-to.pdf Graphic file (type pdf)
  <use pics/Chapter_02/Fig_2_3-eps-converted-to.pdf>
@@ -1267,10 +1271,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17 <./pics/Chapter_02/TASIResponseFunctions-eps-converted-to.pdf> <./pics/Chap
+[12 <./pics/Chapter_02/TASIResponseFunctions-eps-converted-to.pdf> <./pics/Chap
 ter_02/QuartzByTASI-eps-converted-to.pdf>]
 
-LaTeX Warning: Text page 18 contains only floats.
+LaTeX Warning: Text page 13 contains only floats.
 
 
 Overfull \vbox (3.01431pt too high) has occurred while \output is active []
@@ -1282,14 +1286,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18 <./pics/Chapter_02/Fig_2_3-eps-converted-to.pdf>]
+[13 <./pics/Chapter_02/Fig_2_3-eps-converted-to.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[19]
+[14]
 Package epstopdf Info: Source file: <pics/Chapter_02/Fig_3_2.eps>
 (epstopdf)                    date: 2016-02-23 18:41:01
 (epstopdf)                    size: 337188 bytes
@@ -1302,7 +1306,7 @@ s-converted-to.pdf pics/Chapter_02/Fig_3_2.eps>
 (epstopdf)             \includegraphics on input line 95.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_02/Fig_3_2-eps-converted-to.pdf, id=311, 161.60374pt x 315.1775pt
+<pics/Chapter_02/Fig_3_2-eps-converted-to.pdf, id=310, 161.60374pt x 315.1775pt
 >
 File: pics/Chapter_02/Fig_3_2-eps-converted-to.pdf Graphic file (type pdf)
  <use pics/Chapter_02/Fig_3_2-eps-converted-to.pdf>
@@ -1316,7 +1320,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20 <./pics/Chapter_02/Fig_3_2-eps-converted-to.pdf>]
+[15 <./pics/Chapter_02/Fig_3_2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pics/Chapter_02/Transmittance.eps>
 (epstopdf)                    date: 2016-03-17 12:08:18
 (epstopdf)                    size: 192898 bytes
@@ -1326,19 +1330,19 @@ d-to.pdf>
 (epstopdf)                    size: 31997 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/Chapter_02/Transmitta
 nce-eps-converted-to.pdf pics/Chapter_02/Transmittance.eps>
-(epstopdf)             \includegraphics on input line 110.
+(epstopdf)             \includegraphics on input line 111.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_02/Transmittance-eps-converted-to.pdf, id=350, 141.52875pt x 130.
+<pics/Chapter_02/Transmittance-eps-converted-to.pdf, id=349, 141.52875pt x 130.
 4875pt>
 File: pics/Chapter_02/Transmittance-eps-converted-to.pdf Graphic file (type pdf
 )
  <use pics/Chapter_02/Transmittance-eps-converted-to.pdf>
 Package pdftex.def Info: pics/Chapter_02/Transmittance-eps-converted-to.pdf use
-d on input line 110.
+d on input line 111.
 (pdftex.def)             Requested size: 141.5284pt x 130.48717pt.
 
-Overfull \hbox (4.9538pt too wide) in paragraph at lines 110--113
+Overfull \hbox (4.9538pt too wide) in paragraph at lines 111--114
  [][] 
  []
 
@@ -1351,18 +1355,18 @@ Package epstopdf Info: Source file: <pics/Chapter_02/Upwelling.eps>
 (epstopdf)                    size: 36212 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/Chapter_02/Upwelling-
 eps-converted-to.pdf pics/Chapter_02/Upwelling.eps>
-(epstopdf)             \includegraphics on input line 118.
+(epstopdf)             \includegraphics on input line 119.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_02/Upwelling-eps-converted-to.pdf, id=351, 141.52875pt x 130.4875
+<pics/Chapter_02/Upwelling-eps-converted-to.pdf, id=350, 141.52875pt x 130.4875
 pt>
 File: pics/Chapter_02/Upwelling-eps-converted-to.pdf Graphic file (type pdf)
  <use pics/Chapter_02/Upwelling-eps-converted-to.pdf>
 Package pdftex.def Info: pics/Chapter_02/Upwelling-eps-converted-to.pdf used on
- input line 118.
+ input line 119.
 (pdftex.def)             Requested size: 141.5284pt x 130.48717pt.
 
-Overfull \hbox (4.9538pt too wide) in paragraph at lines 118--121
+Overfull \hbox (4.9538pt too wide) in paragraph at lines 119--122
  [][] 
  []
 
@@ -1375,15 +1379,15 @@ to.pdf>
 (epstopdf)                    size: 33610 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/Chapter_02/Downwellin
 g-eps-converted-to.pdf pics/Chapter_02/Downwelling.eps>
-(epstopdf)             \includegraphics on input line 126.
+(epstopdf)             \includegraphics on input line 127.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_02/Downwelling-eps-converted-to.pdf, id=352, 134.5025pt x 130.487
+<pics/Chapter_02/Downwelling-eps-converted-to.pdf, id=351, 134.5025pt x 130.487
 5pt>
 File: pics/Chapter_02/Downwelling-eps-converted-to.pdf Graphic file (type pdf)
  <use pics/Chapter_02/Downwelling-eps-converted-to.pdf>
 Package pdftex.def Info: pics/Chapter_02/Downwelling-eps-converted-to.pdf used 
-on input line 126.
+on input line 127.
 (pdftex.def)             Requested size: 134.50215pt x 130.48717pt.
 
 
@@ -1392,7 +1396,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21 <./pics/Chapter_02/Transmittance-eps-converted-to.pdf> <./pics/Chapter_02/U
+[16 <./pics/Chapter_02/Transmittance-eps-converted-to.pdf> <./pics/Chapter_02/U
 pwelling-eps-converted-to.pdf> <./pics/Chapter_02/Downwelling-eps-converted-to.
 pdf>]
 Package epstopdf Info: Source file: <pics/Chapter_02/calibration-1-DN.eps>
@@ -1404,7 +1408,7 @@ rted-to.pdf>
 (epstopdf)                    size: 24882 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/Chapter_02/calibratio
 n-1-DN-eps-converted-to.pdf pics/Chapter_02/calibration-1-DN.eps>
-(epstopdf)             \includegraphics on input line 152.
+(epstopdf)             \includegraphics on input line 153.
 Package epstopdf Info: Output file is already uptodate.
 
 <pics/Chapter_02/calibration-1-DN-eps-converted-to.pdf, id=373, 152.57pt x 130.
@@ -1413,10 +1417,10 @@ File: pics/Chapter_02/calibration-1-DN-eps-converted-to.pdf Graphic file (type
 pdf)
  <use pics/Chapter_02/calibration-1-DN-eps-converted-to.pdf>
 Package pdftex.def Info: pics/Chapter_02/calibration-1-DN-eps-converted-to.pdf 
-used on input line 152.
+used on input line 153.
 (pdftex.def)             Requested size: 152.56963pt x 130.48717pt.
 
-Overfull \hbox (15.99503pt too wide) in paragraph at lines 152--155
+Overfull \hbox (15.99503pt too wide) in paragraph at lines 153--156
  [][] 
  []
 
@@ -1429,7 +1433,7 @@ rted-to.pdf>
 (epstopdf)                    size: 37472 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/Chapter_02/calibratio
 n-2-Lm-eps-converted-to.pdf pics/Chapter_02/calibration-2-Lm.eps>
-(epstopdf)             \includegraphics on input line 160.
+(epstopdf)             \includegraphics on input line 161.
 Package epstopdf Info: Output file is already uptodate.
 
 <pics/Chapter_02/calibration-2-Lm-eps-converted-to.pdf, id=374, 145.54375pt x 1
@@ -1438,10 +1442,10 @@ File: pics/Chapter_02/calibration-2-Lm-eps-converted-to.pdf Graphic file (type
 pdf)
  <use pics/Chapter_02/calibration-2-Lm-eps-converted-to.pdf>
 Package pdftex.def Info: pics/Chapter_02/calibration-2-Lm-eps-converted-to.pdf 
-used on input line 160.
+used on input line 161.
 (pdftex.def)             Requested size: 145.54338pt x 130.48717pt.
 
-Overfull \hbox (8.96878pt too wide) in paragraph at lines 160--163
+Overfull \hbox (8.96878pt too wide) in paragraph at lines 161--164
  [][] 
  []
 
@@ -1454,7 +1458,7 @@ erted-to.pdf>
 (epstopdf)                    size: 38585 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/Chapter_02/calibratio
 n-3-Lll-eps-converted-to.pdf pics/Chapter_02/calibration-3-Lll.eps>
-(epstopdf)             \includegraphics on input line 168.
+(epstopdf)             \includegraphics on input line 169.
 Package epstopdf Info: Output file is already uptodate.
 
 <pics/Chapter_02/calibration-3-Lll-eps-converted-to.pdf, id=375, 145.54375pt x 
@@ -1463,10 +1467,10 @@ File: pics/Chapter_02/calibration-3-Lll-eps-converted-to.pdf Graphic file (type
  pdf)
  <use pics/Chapter_02/calibration-3-Lll-eps-converted-to.pdf>
 Package pdftex.def Info: pics/Chapter_02/calibration-3-Lll-eps-converted-to.pdf
- used on input line 168.
+ used on input line 169.
 (pdftex.def)             Requested size: 145.54338pt x 130.48717pt.
 
-Overfull \hbox (8.96878pt too wide) in paragraph at lines 168--171
+Overfull \hbox (8.96878pt too wide) in paragraph at lines 169--172
  [][] 
  []
 
@@ -1476,26 +1480,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22 <./pics/Chapter_02/calibration-1-DN-eps-converted-to.pdf> <./pics/Chapter_0
+[17 <./pics/Chapter_02/calibration-1-DN-eps-converted-to.pdf> <./pics/Chapter_0
 2/calibration-2-Lm-eps-converted-to.pdf> <./pics/Chapter_02/calibration-3-Lll-e
 ps-converted-to.pdf>]
-<pics/Chapter_02/TASIcalibrated.png, id=390, 642.4pt x 830.10126pt>
+<pics/Chapter_02/TASIcalibrated.png, id=389, 642.4pt x 830.10126pt>
 File: pics/Chapter_02/TASIcalibrated.png Graphic file (type png)
 
 <use pics/Chapter_02/TASIcalibrated.png>
 Package pdftex.def Info: pics/Chapter_02/TASIcalibrated.png used on input line 
-193.
+194.
 (pdftex.def)             Requested size: 154.17915pt x 199.22836pt.
 
-<pics/Chapter_02/TASIgeoreferencedcut.png, id=391, 249.8133pt x 199.2243pt>
+<pics/Chapter_02/TASIgeoreferencedcut.png, id=390, 249.8133pt x 199.2243pt>
 File: pics/Chapter_02/TASIgeoreferencedcut.png Graphic file (type png)
 
 <use pics/Chapter_02/TASIgeoreferencedcut.png>
 Package pdftex.def Info: pics/Chapter_02/TASIgeoreferencedcut.png used on input
- line 200.
+ line 201.
 (pdftex.def)             Requested size: 249.81267pt x 199.22382pt.
 
-Overfull \hbox (13.08382pt too wide) in paragraph at lines 200--201
+Overfull \hbox (13.08382pt too wide) in paragraph at lines 201--202
  [][] 
  []
 
@@ -1506,15 +1510,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23 <./pics/Chapter_02/TASIcalibrated.png> <./pics/Chapter_02/TASIgeoreferenced
+[18 <./pics/Chapter_02/TASIcalibrated.png> <./pics/Chapter_02/TASIgeoreferenced
 cut.png>]
 
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
-ss on input line 243.
+ss on input line 271.
 
 
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
-ss on input line 243.
+ss on input line 271.
 
 (./04_Chapter_3_TES.tex
 Chapter 3.
@@ -1522,7 +1526,7 @@ Chapter 3.
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
 ss on input line 15.
 
-[24
+[19
 
 
 ]
@@ -1532,7 +1536,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[25] <pics/Chapter_03/EpsMinMMD.png, id=452, 931.48pt x 814.04124pt>
+[20] <pics/Chapter_03/EpsMinMMD.png, id=452, 931.48pt x 814.04124pt>
 File: pics/Chapter_03/EpsMinMMD.png Graphic file (type png)
 
 <use pics/Chapter_03/EpsMinMMD.png>
@@ -1545,7 +1549,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[26]
+[21]
 Package epstopdf Info: Source file: <pics/Chapter_03/GreenGrass_Emiss_vs_Bright
 Temp.eps>
 (epstopdf)                    date: 2016-11-17 01:05:15
@@ -1560,7 +1564,7 @@ rightTemp.eps>
 (epstopdf)             \includegraphics on input line 69.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_03/GreenGrass_Emiss_vs_BrightTemp-eps-converted-to.pdf, id=492, 1
+<pics/Chapter_03/GreenGrass_Emiss_vs_BrightTemp-eps-converted-to.pdf, id=493, 1
 44.54pt x 119.44624pt>
 File: pics/Chapter_03/GreenGrass_Emiss_vs_BrightTemp-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -1588,7 +1592,7 @@ s_vs_BrightTemp.eps>
 (epstopdf)             \includegraphics on input line 75.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_03/FineSandyLoam_Emiss_vs_BrightTemp-eps-converted-to.pdf, id=493
+<pics/Chapter_03/FineSandyLoam_Emiss_vs_BrightTemp-eps-converted-to.pdf, id=494
 , 144.54pt x 119.44624pt>
 File: pics/Chapter_03/FineSandyLoam_Emiss_vs_BrightTemp-eps-converted-to.pdf Gr
 aphic file (type pdf)
@@ -1617,7 +1621,7 @@ nicTuff_Emiss_vs_BrightTemp.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <pics/Chapter_03/AlteredVolcanicTuff_Emiss_vs_BrightTemp-eps-converted-to.pdf, 
-id=494, 144.54pt x 119.44624pt>
+id=495, 144.54pt x 119.44624pt>
 File: pics/Chapter_03/AlteredVolcanicTuff_Emiss_vs_BrightTemp-eps-converted-to.
 pdf Graphic file (type pdf)
 
@@ -1637,14 +1641,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[27 <./pics/Chapter_03/EpsMinMMD.png>]
+[22 <./pics/Chapter_03/EpsMinMMD.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[28 <./pics/Chapter_03/GreenGrass_Emiss_vs_BrightTemp-eps-converted-to.pdf> <./
+[23 <./pics/Chapter_03/GreenGrass_Emiss_vs_BrightTemp-eps-converted-to.pdf> <./
 pics/Chapter_03/FineSandyLoam_Emiss_vs_BrightTemp-eps-converted-to.pdf> <./pics
 /Chapter_03/AlteredVolcanicTuff_Emiss_vs_BrightTemp-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pics/Chapter_03/GreenGrass_Emiss2BrightTem
@@ -1745,7 +1749,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29 <./pics/Chapter_03/GreenGrass_Emiss2BrightTemp-eps-converted-to.pdf> <./pic
+[24 <./pics/Chapter_03/GreenGrass_Emiss2BrightTemp-eps-converted-to.pdf> <./pic
 s/Chapter_03/FineSandyLoam_Emiss2BrightTemp-eps-converted-to.pdf> <./pics/Chapt
 er_03/AlteredVolcanicTuff_Emiss2BrightTemp-eps-converted-to.pdf>])
 
@@ -1754,19 +1758,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30 <./pics/Chapter_03/pseudo_code.pdf>]
+[25 <./pics/Chapter_03/pseudo_code.pdf>]
 
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
-ss on input line 247.
+ss on input line 275.
 
 
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
-ss on input line 247.
+ss on input line 275.
 
 (./05_Chapter_4_OSTES_valid.tex
 Chapter 4.
 
-<pics/Chapter_04/response_functions_all.pdf, id=598, 417.4031pt x 432.78828pt>
+<pics/Chapter_04/response_functions_all.pdf, id=599, 417.4031pt x 432.78828pt>
 File: pics/Chapter_04/response_functions_all.pdf Graphic file (type pdf)
 
 <use pics/Chapter_04/response_functions_all.pdf>
@@ -1778,7 +1782,7 @@ ut line 22.
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
 ss on input line 33.
 
-[31
+[26
 
 
 ]
@@ -1788,7 +1792,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[32 <./pics/Chapter_04/response_functions_all.pdf>]
+[27 <./pics/Chapter_04/response_functions_all.pdf>]
 Package epstopdf Info: Source file: <pics/Chapter_04/Simulated_data_ASTER.eps>
 (epstopdf)                    date: 2016-08-25 13:22:26
 (epstopdf)                    size: 237630 bytes
@@ -1801,7 +1805,7 @@ data_ASTER-eps-converted-to.pdf pics/Chapter_04/Simulated_data_ASTER.eps>
 (epstopdf)             \includegraphics on input line 66.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_04/Simulated_data_ASTER-eps-converted-to.pdf, id=682, 117.3485pt 
+<pics/Chapter_04/Simulated_data_ASTER-eps-converted-to.pdf, id=683, 117.3485pt 
 x 131.01062pt>
 File: pics/Chapter_04/Simulated_data_ASTER-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -1821,7 +1825,7 @@ data_AHS-eps-converted-to.pdf pics/Chapter_04/Simulated_data_AHS.eps>
 (epstopdf)             \includegraphics on input line 72.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_04/Simulated_data_AHS-eps-converted-to.pdf, id=683, 123.5337pt x 
+<pics/Chapter_04/Simulated_data_AHS-eps-converted-to.pdf, id=684, 123.5337pt x 
 131.01062pt>
 File: pics/Chapter_04/Simulated_data_AHS-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1841,7 +1845,7 @@ data_TASI-eps-converted-to.pdf pics/Chapter_04/Simulated_data_TASI.eps>
 (epstopdf)             \includegraphics on input line 78.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_04/Simulated_data_TASI-eps-converted-to.pdf, id=684, 123.5337pt x
+<pics/Chapter_04/Simulated_data_TASI-eps-converted-to.pdf, id=685, 123.5337pt x
  131.01062pt>
 File: pics/Chapter_04/Simulated_data_TASI-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -1856,14 +1860,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[33]
+[28]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[34 <./pics/Chapter_04/Simulated_data_ASTER-eps-converted-to.pdf> <./pics/Chapt
+[29 <./pics/Chapter_04/Simulated_data_ASTER-eps-converted-to.pdf> <./pics/Chapt
 er_04/Simulated_data_AHS-eps-converted-to.pdf
 
 pdfTeX warning: /Library/Tex/texbin/pdflatex (file ./pics/Chapter_04/Simulated_
@@ -1879,14 +1883,14 @@ Overfull \hbox (1.17395pt too wide) in paragraph at lines 122--122
  []\OT1/cmr/m/n/10 Precipitable 
  []
 
-<pics/Chapter_04/Caspian.pdf, id=849, 461.78871pt x 298.87279pt>
+<pics/Chapter_04/Caspian.pdf, id=850, 461.78871pt x 298.87279pt>
 File: pics/Chapter_04/Caspian.pdf Graphic file (type pdf)
 
 <use pics/Chapter_04/Caspian.pdf>
 Package pdftex.def Info: pics/Chapter_04/Caspian.pdf used on input line 146.
 (pdftex.def)             Requested size: 446.13725pt x 288.74335pt.
 
-<pics/Chapter_04/Baikal.pdf, id=850, 428.80528pt x 703.43129pt>
+<pics/Chapter_04/Baikal.pdf, id=851, 428.80528pt x 703.43129pt>
 File: pics/Chapter_04/Baikal.pdf Graphic file (type pdf)
 
 <use pics/Chapter_04/Baikal.pdf>
@@ -1902,16 +1906,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[35]
+[30]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36 <./pics/Chapter_04/Caspian.pdf>]
+[31 <./pics/Chapter_04/Caspian.pdf>]
 
-LaTeX Warning: Text page 37 contains only floats.
+LaTeX Warning: Text page 32 contains only floats.
 
 
 Overfull \vbox (5.54529pt too high) has occurred while \output is active []
@@ -1923,8 +1927,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[37 <./pics/Chapter_04/Baikal.pdf>]
-<pics/Chapter_04/Brno.pdf, id=912, 299.94229pt x 657.12407pt>
+[32 <./pics/Chapter_04/Baikal.pdf>]
+<pics/Chapter_04/Brno.pdf, id=913, 299.94229pt x 657.12407pt>
 File: pics/Chapter_04/Brno.pdf Graphic file (type pdf)
 
 <use pics/Chapter_04/Brno.pdf>
@@ -1937,9 +1941,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38]
+[33]
 
-LaTeX Warning: Text page 39 contains only floats.
+LaTeX Warning: Text page 34 contains only floats.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1947,7 +1951,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[39 <./pics/Chapter_04/Brno.pdf>]
+[34 <./pics/Chapter_04/Brno.pdf>]
 Package epstopdf Info: Source file: <pics/Chapter_04/OSTES_processing_chain.eps
 >
 (epstopdf)                    date: 2016-11-13 15:06:34
@@ -1961,7 +1965,7 @@ essing_chain-eps-converted-to.pdf pics/Chapter_04/OSTES_processing_chain.eps>
 (epstopdf)             \includegraphics on input line 200.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_04/OSTES_processing_chain-eps-converted-to.pdf, id=966, 451.6875p
+<pics/Chapter_04/OSTES_processing_chain-eps-converted-to.pdf, id=965, 451.6875p
 t x 275.0275pt>
 File: pics/Chapter_04/OSTES_processing_chain-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -1977,8 +1981,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[40]
-<pics/Chapter_04/Brno-Emissivity-Comparison.pdf, id=985, 461.78871pt x 298.8727
+[35]
+<pics/Chapter_04/Brno-Emissivity-Comparison.pdf, id=984, 461.78871pt x 298.8727
 9pt>
 File: pics/Chapter_04/Brno-Emissivity-Comparison.pdf Graphic file (type pdf)
  <use pics/Chapter_04/Brno-Emissivity-Comparison.pdf>
@@ -1992,29 +1996,29 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41 <./pics/Chapter_04/OSTES_processing_chain-eps-converted-to.pdf>]
+[36 <./pics/Chapter_04/OSTES_processing_chain-eps-converted-to.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[42 <./pics/Chapter_04/Brno-Emissivity-Comparison.pdf>]
+[37 <./pics/Chapter_04/Brno-Emissivity-Comparison.pdf>]
 
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
-ss on input line 256.
+ss on input line 284.
 
 
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
-ss on input line 256.
+ss on input line 284.
 
 (./07_Chapter_6_Conclusion.tex
 Chapter 5.
 
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
-ss on input line 10.
+ss on input line 14.
 
-[43
+[38
 
 
 ])
@@ -2024,21 +2028,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[44]
+[39]
 
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
-ss on input line 261.
+ss on input line 289.
 
 
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
-ss on input line 261.
+ss on input line 289.
 
 (./10_Appendix_B_Library.tex
 
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
 ss on input line 1.
 
-[45
+[40
 
 
 ]
@@ -2047,9 +2051,9 @@ Dodatek A.
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
 ss on input line 17.
 
-[46
+[41
 
-] <pics/Chapter_05/map.pdf, id=1315, 415.189pt x 146.49414pt>
+] <pics/Chapter_05/map.pdf, id=1318, 415.189pt x 146.49414pt>
 File: pics/Chapter_05/map.pdf Graphic file (type pdf)
 
 <use pics/Chapter_05/map.pdf>
@@ -2062,7 +2066,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[47 <./pics/Chapter_05/map.pdf>]
+[42 <./pics/Chapter_05/map.pdf>]
 Package epstopdf Info: Source file: <pics/Chapter_05/Sample_no_11.eps>
 (epstopdf)                    date: 2016-11-02 18:27:44
 (epstopdf)                    size: 225231 bytes
@@ -2075,7 +2079,7 @@ Package epstopdf Info: Source file: <pics/Chapter_05/Sample_no_11.eps>
 (epstopdf)             \includegraphics on input line 37.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_05/Sample_no_11-eps-converted-to.pdf, id=6785, 144.54pt x 132.495
+<pics/Chapter_05/Sample_no_11-eps-converted-to.pdf, id=6788, 144.54pt x 132.495
 pt>
 File: pics/Chapter_05/Sample_no_11-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2100,7 +2104,7 @@ Package epstopdf Info: Source file: <pics/Chapter_05/Sample_no_12.eps>
 (epstopdf)             \includegraphics on input line 43.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_05/Sample_no_12-eps-converted-to.pdf, id=6786, 144.54pt x 132.495
+<pics/Chapter_05/Sample_no_12-eps-converted-to.pdf, id=6789, 144.54pt x 132.495
 pt>
 File: pics/Chapter_05/Sample_no_12-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2125,7 +2129,7 @@ Package epstopdf Info: Source file: <pics/Chapter_05/Sample_no_19.eps>
 (epstopdf)             \includegraphics on input line 49.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_05/Sample_no_19-eps-converted-to.pdf, id=6787, 144.54pt x 132.495
+<pics/Chapter_05/Sample_no_19-eps-converted-to.pdf, id=6790, 144.54pt x 132.495
 pt>
 File: pics/Chapter_05/Sample_no_19-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2144,7 +2148,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[48 <./pics/Chapter_05/Sample_no_11-eps-converted-to.pdf> <./pics/Chapter_05/Sa
+[43 <./pics/Chapter_05/Sample_no_11-eps-converted-to.pdf> <./pics/Chapter_05/Sa
 mple_no_12-eps-converted-to.pdf> <./pics/Chapter_05/Sample_no_19-eps-converted-
 to.pdf>]
 
@@ -2153,7 +2157,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[49]
+[44]
 Package epstopdf Info: Source file: <pics/Chapter_05/Sample_no_02.eps>
 (epstopdf)                    date: 2016-11-04 13:13:39
 (epstopdf)                    size: 186007 bytes
@@ -2166,7 +2170,7 @@ Package epstopdf Info: Source file: <pics/Chapter_05/Sample_no_02.eps>
 (epstopdf)             \includegraphics on input line 81.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_05/Sample_no_02-eps-converted-to.pdf, id=6822, 143.53625pt x 118.
+<pics/Chapter_05/Sample_no_02-eps-converted-to.pdf, id=6825, 143.53625pt x 118.
 4425pt>
 File: pics/Chapter_05/Sample_no_02-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2191,7 +2195,7 @@ Package epstopdf Info: Source file: <pics/Chapter_05/Sample_no_06.eps>
 (epstopdf)             \includegraphics on input line 87.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_05/Sample_no_06-eps-converted-to.pdf, id=6823, 143.53625pt x 118.
+<pics/Chapter_05/Sample_no_06-eps-converted-to.pdf, id=6826, 143.53625pt x 118.
 4425pt>
 File: pics/Chapter_05/Sample_no_06-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2216,7 +2220,7 @@ Package epstopdf Info: Source file: <pics/Chapter_05/Sample_no_33.eps>
 (epstopdf)             \includegraphics on input line 93.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_05/Sample_no_33-eps-converted-to.pdf, id=6824, 113.42375pt x 118.
+<pics/Chapter_05/Sample_no_33-eps-converted-to.pdf, id=6827, 113.42375pt x 118.
 4425pt>
 File: pics/Chapter_05/Sample_no_33-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2231,7 +2235,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[50 <./pics/Chapter_05/Sample_no_02-eps-converted-to.pdf> <./pics/Chapter_05/Sa
+[45 <./pics/Chapter_05/Sample_no_02-eps-converted-to.pdf> <./pics/Chapter_05/Sa
 mple_no_06-eps-converted-to.pdf> <./pics/Chapter_05/Sample_no_33-eps-converted-
 to.pdf>]
 
@@ -2240,7 +2244,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[51]
+[46]
 Package epstopdf Info: Source file: <pics/Chapter_05/spectral_library_pt1.eps>
 (epstopdf)                    date: 2016-11-04 14:07:05
 (epstopdf)                    size: 2776514 bytes
@@ -2253,7 +2257,7 @@ ibrary_pt1-eps-converted-to.pdf pics/Chapter_05/spectral_library_pt1.eps>
 (epstopdf)             \includegraphics on input line 146.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_05/spectral_library_pt1-eps-converted-to.pdf, id=6870, 447.6725pt
+<pics/Chapter_05/spectral_library_pt1-eps-converted-to.pdf, id=6873, 447.6725pt
  x 577.15625pt>
 File: pics/Chapter_05/spectral_library_pt1-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2274,7 +2278,7 @@ ibrary_pt2-eps-converted-to.pdf pics/Chapter_05/spectral_library_pt2.eps>
 (epstopdf)             \includegraphics on input line 154.
 Package epstopdf Info: Output file is already uptodate.
 
-<pics/Chapter_05/spectral_library_pt2-eps-converted-to.pdf, id=6871, 447.6725pt
+<pics/Chapter_05/spectral_library_pt2-eps-converted-to.pdf, id=6874, 447.6725pt
  x 577.15625pt>
 File: pics/Chapter_05/spectral_library_pt2-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2291,27 +2295,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[52]
+[47]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[53 <./pics/Chapter_05/spectral_library_pt1-eps-converted-to.pdf>]
+[48 <./pics/Chapter_05/spectral_library_pt1-eps-converted-to.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[54 <./pics/Chapter_05/spectral_library_pt2-eps-converted-to.pdf>]
+[49 <./pics/Chapter_05/spectral_library_pt2-eps-converted-to.pdf>]
 Dodatek B.
 
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
 ss on input line 17.
 
-[55
+[50
 
 ]
 
@@ -2320,14 +2324,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[56] <pics/Appendix_B/Transect_1.pdf, id=6913, 496.49872pt x 613.63948pt>
+[51] <pics/Appendix_B/Transect_1.pdf, id=6916, 496.49872pt x 613.63948pt>
 File: pics/Appendix_B/Transect_1.pdf Graphic file (type pdf)
 
 <use pics/Appendix_B/Transect_1.pdf>
 Package pdftex.def Info: pics/Appendix_B/Transect_1.pdf used on input line 31.
 (pdftex.def)             Requested size: 455.24408pt x 562.68251pt.
 
-<pics/Appendix_B/Transect_2.pdf, id=6914, 496.9045pt x 613.55396pt>
+<pics/Appendix_B/Transect_2.pdf, id=6917, 496.9045pt x 613.55396pt>
 File: pics/Appendix_B/Transect_2.pdf Graphic file (type pdf)
 
 <use pics/Appendix_B/Transect_2.pdf>
@@ -2340,32 +2344,32 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[57 <./pics/Appendix_B/Transect_1.pdf>]
+[52 <./pics/Appendix_B/Transect_1.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[58 <./pics/Appendix_B/Transect_2.pdf>]
+[53 <./pics/Appendix_B/Transect_2.pdf>]
 
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
-ss on input line 270.
+ss on input line 298.
 
 
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
-ss on input line 270.
+ss on input line 298.
 
 (./08_References.tex
 
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
-ss on input line 59.
+ss on input line 39.
 
-[59
+[54
 
 
 ]
-Underfull \hbox (badness 2809) in paragraph at lines 66--67
+Underfull \hbox (badness 2809) in paragraph at lines 47--48
 \OT1/cmr/m/n/12 proved ini-tial-iza-tion in-ver-sion method: a high res-o-lu-ti
 on phys-i-cal method
  []
@@ -2376,45 +2380,45 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[60]
+[55]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[61]
-Underfull \hbox (badness 4120) in paragraph at lines 106--107
+[56]
+Underfull \hbox (badness 4120) in paragraph at lines 87--88
 []\OT1/cmr/m/n/12 HULLEY, G. and HOOK, S.J. \OT1/cmr/m/it/12 HyspIRI Level-2 Th
 er-mal In-frared (TIR)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 \OT1/cmr/m/it/12 Land Sur-face Tem-per-a-ture and Emis-siv-ity Al-go-rithm The-
 o-ret-i-cal Ba-
  []
 
 
-Underfull \hbox (badness 5189) in paragraph at lines 106--107
+Underfull \hbox (badness 5189) in paragraph at lines 87--88
 \OT1/cmr/m/it/12 sis Doc-u-ment \OT1/cmr/m/n/12 [on-line]. Pasadena, Cal-i-for-
 nia: Jet Propul-sion Lab-o-ra-tory,
  []
 
 
-Underfull \hbox (badness 6944) in paragraph at lines 106--107
+Underfull \hbox (badness 6944) in paragraph at lines 87--88
 \OT1/cmr/m/n/12 Cal-i-for-nia In-sti-tute of Tech-nol-ogy, 2011. [cit. 2016-01-
 19]. Avail-able at:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 \OT1/cmr/m/n/12 https://hyspiri.jpl.nasa.gov/downloads/Algorithm[]Theoretical[]
 Basis/HyspIRI[]L2
  []
 
 
-Underfull \hbox (badness 3471) in paragraph at lines 114--115
+Underfull \hbox (badness 3471) in paragraph at lines 95--96
 []\OT1/cmr/m/n/12 JIM[]ENEZ-MU[]NOZ, J.C., CRISTO-BAL, J., SO-BRINO, J.A., SO-R
 IA, G.,
  []
@@ -2425,15 +2429,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[62]
+[57]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[63]
-Underfull \hbox (badness 2245) in paragraph at lines 156--157
+[58]
+Underfull \hbox (badness 2245) in paragraph at lines 139--140
 \OT1/cmr/m/n/12 F. Sur-face emis-siv-ity re-trieval from Dig-i-tal Air-borne Im
 ag-ing Spec-trom-e-ter
  []
@@ -2444,15 +2448,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[64]
+[59]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[65])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 278.
+[60])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 306.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2460,30 +2464,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[66]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 278.
+[61]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 306.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 278.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 278.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 306.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 306.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 29C94869BEA777511C952209F2BBCD8C;1660.
+(rerunfilecheck)             Checksum: DF46BE4C81F7E6C943E4AD5B90D761E6;1660.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 15.12pt have occurred.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 278.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 306.
  ) 
 Here is how much of TeX's memory you used:
- 21031 strings out of 493089
- 386277 string characters out of 6134842
- 445434 words of memory out of 5000000
+ 21022 strings out of 493089
+ 386317 string characters out of 6134842
+ 446694 words of memory out of 5000000
  23918 multiletter control sequences out of 15000+600000
  29874 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2515,10 +2516,10 @@ public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
 blic/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-su
 per/sfrm1200.pfb>
-Output written on main.pdf (66 pages, 17781328 bytes).
+Output written on main.pdf (61 pages, 17782211 bytes).
 PDF statistics:
- 7222 PDF objects out of 7423 (max. 8388607)
+ 7217 PDF objects out of 7423 (max. 8388607)
  4993 compressed objects within 50 object streams
- 235 named destinations out of 1000 (max. 500000)
+ 226 named destinations out of 1000 (max. 500000)
  428 words of extra memory for PDF output out of 10000 (max. 10000000)
 
