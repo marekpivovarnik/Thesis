@@ -1,24 +1,25 @@
 \BOOKMARK [0][-]{chapter*.2}{Introduction}{}% 1
-\BOOKMARK [0][-]{chapter.1}{Theoretical Background on Thermal Radiation}{}% 2
-\BOOKMARK [0][-]{chapter.2}{Airborne Thermal Hyperspectral Data Properties}{}% 3
-\BOOKMARK [1][-]{section.2.1}{Instrument Technical Specifications}{chapter.2}% 4
-\BOOKMARK [1][-]{section.2.2}{Image Data Pre-processing}{chapter.2}% 5
-\BOOKMARK [0][-]{chapter.3}{Temperature and Emissivity Separation}{}% 6
+\BOOKMARK [0][-]{chapter.1}{Theoretical background on thermal radiation}{}% 2
+\BOOKMARK [0][-]{chapter.2}{Airborne thermal hyperspectral data properties}{}% 3
+\BOOKMARK [1][-]{section.2.1}{Instrument technical specifications}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.2}{Image data pre-processing}{chapter.2}% 5
+\BOOKMARK [0][-]{chapter.3}{Temperature and emissivity separation}{}% 6
 \BOOKMARK [1][-]{section.3.1}{Available approaches}{chapter.3}% 7
 \BOOKMARK [1][-]{section.3.2}{Temperature and emissivity separation algorithm \(TES\)}{chapter.3}% 8
-\BOOKMARK [1][-]{section.3.3}{TES Algorithm Improvement}{chapter.3}% 9
-\BOOKMARK [0][-]{chapter.4}{OSTES Validation}{}% 10
-\BOOKMARK [1][-]{section.4.1}{Synthetic Data}{chapter.4}% 11
+\BOOKMARK [1][-]{section.3.3}{TES algorithm improvement}{chapter.3}% 9
+\BOOKMARK [0][-]{chapter.4}{OSTES validation}{}% 10
+\BOOKMARK [1][-]{section.4.1}{Synthetic data}{chapter.4}% 11
 \BOOKMARK [1][-]{section.4.2}{Comparison with ASTER standard products}{chapter.4}% 12
-\BOOKMARK [1][-]{section.4.3}{Application to TASI Image Data}{chapter.4}% 13
+\BOOKMARK [1][-]{section.4.3}{Application to TASI image data}{chapter.4}% 13
 \BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 14
-\BOOKMARK [0][-]{Dodatek.1.A}{Spectral Emissivity Library of Spoil Substrates}{}% 15
+\BOOKMARK [0][-]{Dodatek.1.A}{Spectral emissivity library of spoil substrates}{}% 15
 \BOOKMARK [1][-]{section.1.A.1}{Introduction}{Dodatek.1.A}% 16
 \BOOKMARK [1][-]{section.1.A.2}{Methods}{Dodatek.1.A}% 17
-\BOOKMARK [1][-]{section.1.A.3}{Data Properties}{Dodatek.1.A}% 18
-\BOOKMARK [1][-]{section.1.A.4}{Data Description}{Dodatek.1.A}% 19
-\BOOKMARK [0][-]{Dodatek.1.B}{Dependencies Between City Structure and Thermal Behaviour in Brno}{}% 20
+\BOOKMARK [1][-]{section.1.A.3}{Data properties}{Dodatek.1.A}% 18
+\BOOKMARK [1][-]{section.1.A.4}{Data description}{Dodatek.1.A}% 19
+\BOOKMARK [0][-]{Dodatek.1.B}{Dependencies between city structure and thermal behaviour in Brno}{}% 20
 \BOOKMARK [1][-]{section.1.B.1}{Methods}{Dodatek.1.B}% 21
 \BOOKMARK [1][-]{section.1.B.2}{Results}{Dodatek.1.B}% 22
 \BOOKMARK [1][-]{section.1.B.3}{Conclusion}{Dodatek.1.B}% 23
 \BOOKMARK [0][-]{chapter*.31}{Bibliography}{}% 24
+\BOOKMARK [0][-]{chapter*.32}{List of used abbreviations}{}% 25

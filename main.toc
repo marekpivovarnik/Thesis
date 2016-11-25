@@ -1,27 +1,28 @@
 \select@language {english}
-\contentsline {chapter}{Introduction}{6}{chapter*.2}
-\contentsline {chapter}{\numberline {1}Theoretical Background on Thermal Radiation}{8}{chapter.1}
-\contentsline {chapter}{\numberline {2}Airborne Thermal Hyperspectral Data Properties}{11}{chapter.2}
-\contentsline {section}{\numberline {2.1}Instrument Technical Specifications}{11}{section.2.1}
-\contentsline {section}{\numberline {2.2}Image Data Pre-processing}{12}{section.2.2}
-\contentsline {chapter}{\numberline {3}Temperature and Emissivity Separation}{19}{chapter.3}
-\contentsline {section}{\numberline {3.1}Available approaches}{19}{section.3.1}
-\contentsline {section}{\numberline {3.2}Temperature and emissivity separation algorithm (TES)}{21}{section.3.2}
-\contentsline {section}{\numberline {3.3}TES Algorithm Improvement}{22}{section.3.3}
-\contentsline {chapter}{\numberline {4}OSTES Validation}{26}{chapter.4}
-\contentsline {section}{\numberline {4.1}Synthetic Data}{26}{section.4.1}
-\contentsline {section}{\numberline {4.2}Comparison with ASTER standard products}{29}{section.4.2}
-\contentsline {section}{\numberline {4.3}Application to TASI Image Data}{33}{section.4.3}
-\contentsline {chapter}{\numberline {5}Conclusion}{38}{chapter.5}
-\contentsline {chapter}{\numberline {A}Spectral Emissivity Library of Spoil Substrates}{41}{Dodatek.1.A}
-\contentsline {section}{\numberline {A.1}Introduction}{41}{section.1.A.1}
-\contentsline {section}{\numberline {A.2}Methods}{43}{section.1.A.2}
-\contentsline {section}{\numberline {A.3}Data Properties}{45}{section.1.A.3}
-\contentsline {section}{\numberline {A.4}Data Description}{45}{section.1.A.4}
-\contentsline {subsection}{\numberline {A.4.1}Header}{45}{subsection.1.A.4.1}
-\contentsline {subsection}{\numberline {A.4.2}Spectral Emissivity}{47}{subsection.1.A.4.2}
-\contentsline {chapter}{\numberline {B}Dependencies Between City Structure and Thermal Behaviour in Brno}{50}{Dodatek.1.B}
-\contentsline {section}{\numberline {B.1}Methods}{50}{section.1.B.1}
-\contentsline {section}{\numberline {B.2}Results}{51}{section.1.B.2}
-\contentsline {section}{\numberline {B.3}Conclusion}{51}{section.1.B.3}
-\contentsline {chapter}{Bibliography}{54}{chapter*.31}
+\contentsline {chapter}{Introduction}{7}{chapter*.2}
+\contentsline {chapter}{\numberline {1}Theoretical background on thermal radiation}{9}{chapter.1}
+\contentsline {chapter}{\numberline {2}Airborne thermal hyperspectral data properties}{12}{chapter.2}
+\contentsline {section}{\numberline {2.1}Instrument technical specifications}{12}{section.2.1}
+\contentsline {section}{\numberline {2.2}Image data pre-processing}{13}{section.2.2}
+\contentsline {chapter}{\numberline {3}Temperature and emissivity separation}{20}{chapter.3}
+\contentsline {section}{\numberline {3.1}Available approaches}{20}{section.3.1}
+\contentsline {section}{\numberline {3.2}Temperature and~emissivity separation algorithm (TES)}{22}{section.3.2}
+\contentsline {section}{\numberline {3.3}TES algorithm improvement}{23}{section.3.3}
+\contentsline {chapter}{\numberline {4}OSTES validation}{27}{chapter.4}
+\contentsline {section}{\numberline {4.1}Synthetic data}{27}{section.4.1}
+\contentsline {section}{\numberline {4.2}Comparison with ASTER standard products}{30}{section.4.2}
+\contentsline {section}{\numberline {4.3}Application to TASI image data}{34}{section.4.3}
+\contentsline {chapter}{\numberline {5}Conclusion}{39}{chapter.5}
+\contentsline {chapter}{\numberline {A}Spectral emissivity library of spoil substrates}{42}{Dodatek.1.A}
+\contentsline {section}{\numberline {A.1}Introduction}{42}{section.1.A.1}
+\contentsline {section}{\numberline {A.2}Methods}{44}{section.1.A.2}
+\contentsline {section}{\numberline {A.3}Data properties}{46}{section.1.A.3}
+\contentsline {section}{\numberline {A.4}Data description}{46}{section.1.A.4}
+\contentsline {subsection}{\numberline {A.4.1}Header}{46}{subsection.1.A.4.1}
+\contentsline {subsection}{\numberline {A.4.2}Spectral emissivity}{48}{subsection.1.A.4.2}
+\contentsline {chapter}{\numberline {B}Dependencies between city structure and thermal behaviour in Brno}{51}{Dodatek.1.B}
+\contentsline {section}{\numberline {B.1}Methods}{51}{section.1.B.1}
+\contentsline {section}{\numberline {B.2}Results}{52}{section.1.B.2}
+\contentsline {section}{\numberline {B.3}Conclusion}{52}{section.1.B.3}
+\contentsline {chapter}{Bibliography}{55}{chapter*.31}
+\contentsline {chapter}{List of used abbreviations}{63}{chapter*.32}
